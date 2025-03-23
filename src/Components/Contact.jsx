@@ -9,7 +9,6 @@ import CustomButton from "./CustomButton";
 export default function Contact({ id, closeContact, style }) {
   const backdropRef = useRef(null);
   const modalRef = useRef(null);
-
   useEffect(() => {
     // Entry animations
     gsap.to(backdropRef.current, {
