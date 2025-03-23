@@ -1,0 +1,48 @@
+@import "../../global.css";
+
+#header-outer {
+  height: 60vh;
+  background-image: url("../../../public/assets/projects-main-cropped.png");
+  background-size: cover;
+  /* Ensures the image fits inside */
+  background-repeat: no-repeat;
+  /* Prevents repeating the image */
+  background-position: center;
+}
+
+#header-inner,
+#header-media-outer,
+#header-overlay {
+  height: 100%;
+}
+
+#header-overlay {
+  display: flex;
+  flex-direction: column;
+  color: #fbfaf6;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-text-wrapper {
+  max-width: 550px;
+  text-align: center;
+}
+
+.header-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  font-family: Mandioca, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.header-description {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 350 !important;
+  font-family: p22-mackinac-pro;
+  margin-top: 20px;
+  letter-spacing: 0.2px;
+}

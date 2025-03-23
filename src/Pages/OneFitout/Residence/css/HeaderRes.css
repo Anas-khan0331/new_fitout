@@ -1,0 +1,67 @@
+@import '../../../../global.css';
+
+#headerres-outer {
+    position: absolute;
+}
+
+#headerres-inner {
+    width: 103.125rem;
+    height: 69.8125rem;
+    position: absolute;
+    z-index: 0;
+}
+
+#headerres-inner>img {
+    width: inherit;
+    height: inherit;
+}
+
+#headerres-overlay {
+    position: absolute;
+    width: 100%;
+    height: 69.8125rem;
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+#headerres-overlay-inner {
+    width: 100%;
+    height: 22.5rem;
+    padding-left: 4.875rem;
+    padding-top: 7.625rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+#headerres-title {
+    width: 34.375rem;
+    height: 6rem;
+    color: #fbfaf6;
+    text-transform: uppercase;
+    font-family: Mandioca, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 2%;
+    margin-bottom: 1.5625rem;
+}
+
+#headerres-blurb {
+    width: 34.375rem;
+    height: 4.125rem;
+    color: #fbfaf6;
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 350;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    letter-spacing: 2%;
+}
+
+#res-dots {
+    width: 3.875rem;
+    height: 0.875rem;
+    position: absolute;
+    bottom: 3.5625rem;
+    right: 3.125rem;
+    z-index: 2;
+}

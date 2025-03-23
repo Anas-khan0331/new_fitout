@@ -1,0 +1,453 @@
+.visit-section-img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../../../public/assets/about-header.png");
+  background-size: cover;
+  background-position: 15% -4%;
+  overflow: hidden;
+}
+
+#about-us-studio-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.about-us-visit-section-img {
+  width: 100%;
+}
+
+.about-us-visit-section-img img {
+  width: 100%;
+}
+
+#about-us-studio {
+  margin-top: 100px;
+}
+
+#about-us-studio-right h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0b1215;
+  line-height: 48px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#about-us-bold-text {
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  font-family: p22-mackinac-pro;
+  margin-top: 20px;
+}
+
+#about-us-remaining-p p {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: p22-mackinac-pro;
+  margin-top: 20px;
+  letter-spacing: 0.02em;
+}
+
+.about-us-btn {
+  border: 1px solid #b51f29;
+  color: #b51f29;
+  background-color: transparent;
+  height: 48px;
+  padding: 1px 15px;
+  margin-top: 50px;
+}
+
+#about-us-visit {
+  margin-top: 75px;
+  padding-top: 75px;
+  border-top: 1px solid #eaeaea;
+}
+
+#visit-left-col h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0b1215;
+  line-height: 48px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#address {
+  margin-top: 20px;
+}
+
+.about-us-address span {
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  /* text-transform: uppercase; */
+}
+
+#about-us-location {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-top: 50px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+#about-us-opening-title {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  margin-top: 28px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+#about-us-opening-day {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+#about-us-opening-time {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #b51f29;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+#scroller {
+  width: 95vw;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 100px;
+  border-top: 1px solid #eaeaea;
+}
+
+#scroller-inner {
+  display: flex;
+  align-items: center;
+  height: 6.25rem;
+  overflow: hidden;
+  /* Ensure nothing overflows */
+  position: relative;
+}
+
+.scroll-content {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  animation: scroll 30s linear infinite;
+}
+
+.ticker {
+  padding-right: 4.375rem;
+  /* 70px */
+}
+
+.scroll-content img {
+  max-width: 100px;
+  /* Ensure images don’t overflow */
+  height: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+    /* Scroll halfway for a seamless loop */
+  }
+}
+
+#about-us-middle-inner {
+  width: 100%;
+  margin-top: 100px;
+}
+
+#about-us-quote {
+  width: 100vw;
+  max-width: 100%;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#about-us-quote-caption {
+  display: block;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: p22-mackinac-pro;
+  max-width: 100%;
+}
+
+#about-us-quote-caption span {
+  color: #b51f29;
+}
+
+#about-us-quote-by {
+  margin-top: 60px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+#about-us-middle-inner img {
+  width: 100%;
+  height: 778px;
+}
+
+#about-us-client-div {
+  margin-top: 100px;
+}
+
+.about-us-client-img {
+  width: 100%;
+  height: 510px;
+}
+
+.about-us-client-img img {
+  width: 100%;
+  height: 510px;
+  object-fit: cover;
+}
+
+#about-us-client-left {
+  margin-top: 30px;
+  width: 100%;
+}
+
+#about-us-client-left img {
+  width: 100%;
+  height: 510px;
+  object-fit: cover;
+}
+
+#about-us-middle-inner {
+  width: 100%;
+  height: 778px;
+}
+
+#about-us-realisation-list-inner {
+  margin-top: 100px;
+}
+
+#about-us-realisation-list-inner p {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+#about-us-realisation-list-div {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+#about-us-realisation-list-div ul {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+#about-us-realisation-list-div ul:first-child {
+  margin-right: 60px;
+}
+
+.about-us-getintouch {
+  margin-top: 50px;
+  padding-top: 50px;
+  border-top: 1px solid #eaeaea;
+  padding-bottom: 150px;
+}
+
+#about-us-client-right h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0b1215;
+  line-height: 48px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#about-us-client-right-p {
+  margin-top: 40px;
+}
+
+#about-us-client-right-p p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: p22-mackinac-pro;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px !important;
+}
+
+.about-us-discription #disc-overlay-flex {
+  width: auto;
+}
+
+.about-us-discription #disc {
+  height: auto;
+}
+
+.about-us-discription #disc-overlay,
+.about-us-discription #disc-inner,
+.about-us-discription #disc-disclaimer {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+  #scroller {
+    width: 92vw;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+  .about_mobile_div {
+    display: none !important;
+  }
+
+  #about-us-middle-inner {
+    display: none !important;
+  }
+
+  .about_mobile_slider .slider_comp_container {
+    padding-bottom: 0px !important;
+    border: none !important;
+    padding-top: 0px !important;
+  }
+
+  #about-us-studio {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #about-us-quote {
+    display: none;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width:2560px) {
+  .about_mobile_slider {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  #scroller {
+    width: 92vw;
+  }
+
+  .navbar-button {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+
+
+  #about-us-studio-right,
+  #visit-left-col,
+  #about-us-client-right {
+    margin-bottom: 50px;
+  }
+
+  #about-us-quote {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #about-us-middle-inner {
+    height: 690px;
+  }
+
+  #about-us-middle-inner img {
+    height: 690px;
+  }
+
+  #about-us-studio-right {
+    margin-top: 0px;
+  }
+
+  .about-us-discription {
+    display: none;
+  }
+
+  .about-us-getintouch {
+    padding-bottom: unset;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  #about-us-quote-caption,
+  #about-us-quote-by {
+    display: none;
+  }
+
+  #about-us-realisation-list-div ul:first-child {
+    margin-right: 10px;
+  }
+
+  #about-us-studio-right h1,
+  #visit-left-col h1 {
+    font-size: 38px;
+  }
+
+  #about-us-studio {
+    margin-top: 60px;
+  }
+
+  .about-us-visit-section-img img {
+    height: 295px;
+  }
+
+  #scroller {
+    border-top: none;
+    margin-top: 0px;
+  }
+
+  #about-us-client-div {
+    margin-top: 60px;
+  }
+
+  #about-us-middle-inner img,
+  #about-us-middle-inner {
+    height: 295px;
+  }
+
+  #about-us-studio-inner img {
+    height: 300px;
+  }
+
+  #about-us-realisation-div {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  #about-us-studio-inner img {
+    width: 100%;
+    height: 686px;
+  }
+}
+
+@media (max-width: 768px) {
+  #about-us-realisation-list {
+    display: none;
+  }
+}

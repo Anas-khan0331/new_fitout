@@ -1,0 +1,363 @@
+@import "../../../../global.css";
+
+.residential-navbar #nav-outer {
+  /* position: relative; */
+  z-index: 2;
+}
+
+#residential-outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#residential-inner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#residential-col {
+  display: flex;
+  flex-direction: column;
+}
+
+#res-col-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
+
+#residential-main {
+  width: 103.125rem;
+  height: 30.5625rem;
+  position: static;
+  margin-top: 64.8125rem;
+  display: block;
+  border: 0.0625rem solid #eaeaea;
+  padding-left: 4.875rem;
+  padding-right: 8.3125rem;
+  padding-top: 6.25rem;
+  padding-bottom: 9.375rem;
+}
+
+#res-main-p {
+  width: 89.9375rem;
+  height: 15rem;
+  color: #0b1215;
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 350;
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+}
+
+#res-main-p>span {
+  color: #b51429;
+}
+
+#featured-services {
+  width: 103.125rem;
+  height: 44.75rem;
+  padding-left: 4.875rem;
+  padding-top: 3.75rem;
+  padding-right: 5rem;
+  border-right: 0.0625rem solid #eaeaea;
+  border-left: 0.0625rem solid #eaeaea;
+}
+
+#services-one,
+#services-two,
+#services-three {
+  width: 30.25rem;
+  height: 28.1875rem;
+}
+
+#services-heading {
+  width: 14.375rem;
+  height: 1.0625rem;
+  text-transform: uppercase;
+  color: #0b1215;
+  font-family: Mandioca, sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+  letter-spacing: 10%;
+  text-align: left;
+  margin-bottom: 2.5rem;
+}
+
+.services-img {
+  width: 30.25rem;
+  height: 20rem;
+  margin-bottom: 1.25rem;
+}
+
+.services-title {
+  color: #0b1215;
+  text-transform: capitalize;
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 350;
+  font-size: 1.75rem;
+  line-height: 2.1875rem;
+  letter-spacing: 2%;
+  margin-bottom: 0.625rem;
+}
+
+#services-one>.services-title {
+  width: 9.3125rem;
+  height: 2.1875rem;
+}
+
+#services-two>.services-title {
+  width: 16.125rem;
+  height: 2.1875rem;
+}
+
+#services-three>.services-title {
+  width: 7.5625rem;
+  height: 2.1875rem;
+}
+
+.services-p {
+  width: 30.25rem;
+  height: 4.125rem;
+  color: #0b1215;
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 350px;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+#services-div {
+  display: flex;
+  gap: 1.25rem;
+}
+
+#middle-section {
+  width: 103.125rem;
+  height: 77.0625rem;
+  padding-top: 6.25rem;
+  padding-left: 4.875rem;
+  padding-right: 5rem;
+  background-color: #0b1215;
+}
+
+#middle-title-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.125rem;
+}
+
+#middle-title-left {
+  text-transform: uppercase;
+  width: 40.6875rem;
+  height: 1.0625rem;
+  color: #fbfaf6;
+  text-align: left;
+  font-family: Mandioca, sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+  letter-spacing: 10%;
+}
+
+#middle-title-right {
+  display: flex;
+  gap: 1.5625rem;
+}
+
+#middle-kitchen {
+  width: 6.25rem;
+  height: 1.0625rem;
+  text-align: right;
+  text-transform: uppercase;
+  color: #b51429;
+  font-family: Mandioca, sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+  letter-spacing: 10%;
+  text-decoration: solid underline;
+  text-decoration-skip-ink: none;
+}
+
+#middle-bathroom {
+  width: 7.25rem;
+  height: 1.0625rem;
+  text-transform: uppercase;
+  text-align: right;
+  color: #fbfaf6;
+  font-family: Mandioca, sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+  letter-spacing: 10%;
+}
+
+#middle-img-div>img {
+  width: 93.25rem;
+  height: 53.125rem;
+  margin-bottom: 3.125rem;
+}
+
+#middle-img-div {
+  position: relative;
+}
+
+.residential-popups {
+  position: absolute;
+  top: 0;
+}
+
+#res-popup1 {
+  left: 24%;
+  top: 30%;
+}
+
+#res-popup2 {
+  left: 40%;
+  top: 48%;
+}
+
+#res-popup3 {
+  left: 62.5%;
+  top: 78%;
+}
+
+.residential-popups img {
+  width: 4.0625rem;
+  height: 4.0625rem;
+}
+
+#middle-footer {
+  display: flex;
+  justify-content: right;
+}
+
+#middle-footer>p {
+  width: 30.25rem;
+  height: 4.125rem;
+  color: #fbfaf6;
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 350;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+#other-services {
+  width: 103.125rem;
+  height: 58.9375rem;
+  padding-left: 4.875rem;
+  padding-top: 6.25rem;
+  padding-right: 5rem;
+  border-left: 0.0625rem solid #eaeaea;
+  border-right: 0.0625rem solid #eaeaea;
+  border-bottom: 0.0625rem solid #eaeaea;
+}
+
+#o-services-title {
+  width: 14.375rem;
+  height: 1.0625rem;
+  text-align: left;
+  text-transform: uppercase;
+  color: #0b1215;
+  font-family: Mandioca, sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+  letter-spacing: 10%;
+  margin-bottom: 2.5rem;
+}
+
+#o-services-main {
+  display: flex;
+  gap: 9rem;
+}
+
+#o-services-left {
+  width: 48.5rem;
+  height: 32.3125rem;
+}
+
+#o-services-heading {
+  height: 3rem;
+  color: #0b1215;
+  text-transform: capitalize;
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 350;
+  font-size: 2.5rem;
+  line-height: 2.975rem;
+  letter-spacing: 2%;
+  display: flex;
+  align-items: start;
+  margin-bottom: 0.9375rem;
+}
+
+#o-services-left>p {
+  width: 31.25rem;
+  height: 4.125rem;
+  color: #0b1215;
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 350;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 2%;
+  margin-bottom: 1.5625rem;
+}
+
+.o-services-other {
+  height: 3rem;
+  display: flex;
+  align-items: start;
+  color: rgb(11, 18, 21, 0.5);
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 350;
+  font-size: 2.5rem;
+  line-height: 2.975rem;
+  letter-spacing: 2%;
+  margin-bottom: 0.9375rem;
+}
+
+#o-services-right {
+  width: 35.75rem;
+  height: 42.875rem;
+}
+
+.residential-git #git-overlay {
+  box-shadow: unset;
+  margin-left: -1px;
+  margin-right: -3px;
+  border-left: 0.0625rem solid #eaeaea;
+  border-right: 0.0625rem solid #eaeaea;
+}
+
+.residential-copyright #copyright-inner {
+  box-shadow: unset;
+}
+
+.residential-disc #disc-inner {
+  box-shadow: unset;
+}
+
+.residential-footer #footer-contact {
+  box-shadow: unset;
+}
+
+.about_section_div {
+  margin-top: 50px !important;
+}
+
+
+
+/*  */
+@media screen and (min-width: 1441px) and (max-width: 1728px) {
+  .about_section_div {
+    padding: 80px 0px 140px 0px;
+  }
+
+}

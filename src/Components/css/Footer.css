@@ -1,0 +1,112 @@
+@import '../../global.css';
+
+#footer-overlay-flex{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#footer-inner{
+    width: 108rem;
+}
+
+#footer-contact{
+    display: flex;
+    padding-top: 3.75rem;
+    padding-left: 4.875rem;
+    padding-right: 4.875rem;
+    height: 23.125rem;
+    background-color: #0b1215;
+    box-shadow: -0.0625rem 0 0 #0b1215
+}
+
+#footer-git{
+    color: #fbfaf6;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(8.1875rem);
+}
+
+#footer-git span{
+    display: block;
+}
+
+#footer-git-cinfo{
+    padding-top: 1.875rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer-title{
+    font-family: Mandioca,sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    letter-spacing: 6%;
+    text-transform:uppercase;
+    color: #fbfaf6;
+}
+
+#footer-git #footer-git-cinfo, #footer-git #footer-git-address {
+    font-family: Mandioca,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.125rem;
+    color: #fbfaf6;
+}
+
+#footer-service{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(17.375rem);
+}
+
+#footer-service span{
+    display: block;
+}
+
+#footer-service #footer-service-links{
+    font-family: Mandioca,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.125rem;
+    color: #fbfaf6;
+    padding-top: 1.875rem;
+}
+
+/* #footer-service-links{
+    width: 17.75rem;
+} */
+
+#footer-connect{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(27.1875rem);
+}
+
+#fc-logo-parent{
+    padding-top: 1.875rem;
+    display: inline-flex;
+    gap: 0.9375rem;
+}
+
+#logo-rounded{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.0625rem solid #fbfaf6;
+    border-radius: 50%;
+    width: 2.75rem;
+    height: 2.75rem;
+}
+
+#about-us{
+    cursor: pointer;
+}
+
+#contact-us{
+    cursor: pointer;
+}

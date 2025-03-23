@@ -1,0 +1,85 @@
+@import '../../../../global.css';
+
+#phil-overlay-flex{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+#phil-overlay{
+    width: 103.125rem;
+    height: 55.375rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+    padding-left: 4.875rem;
+    padding-right: 4.5rem;
+    box-shadow: 0 0 0 1px rgba(128,128,128,0.2);
+    transform: translateX(-2.40%);
+}
+
+#phil-inner{
+    display: flex;
+    justify-content: space-between;
+    gap: 28.5rem;
+}
+
+#phil-image{
+    width: 35.75rem;
+    height: 42.875rem;
+}
+
+#phil-left{
+    display: flex;
+    flex-direction: column;
+    width: 29.5rem;
+    align-items: start;
+    justify-content: center;
+}
+
+#phil-title{
+    margin-bottom: 2.5rem;
+    height: 3rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 2%;
+    font-weight: 700;
+    font-family: Mandioca,sans-serif;
+    text-transform: uppercase;
+}
+
+#phil-para{
+    height: 9.625rem;
+    margin-bottom: 5rem;
+}
+
+#phil-para1{
+    font-size: 1rem;
+    line-height: 1.375rem;
+    letter-spacing: 2%;
+    font-weight: 350;
+    font-family: p22-mackinac-pro, serif;
+    color: #0b1215;
+    padding-bottom: 1.5625rem;
+}
+
+#phil-para2{
+    font-size: 1rem;
+    line-height: 1.375rem;
+    letter-spacing: 2%;
+    font-weight: 350;
+    font-family: p22-mackinac-pro, serif;
+    color: #0b1215;
+}
+
+#phil-button{
+    width: 129px;
+    height: 42px;
+    background-color: transparent;
+    border: 1px solid #b51f29;
+    color: #b51f29;
+    padding-top: 0.5rem;
+    padding-bottom: 0.625rem;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    text-transform: uppercase;
+}

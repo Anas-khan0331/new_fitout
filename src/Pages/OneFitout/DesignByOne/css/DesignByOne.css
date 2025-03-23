@@ -1,0 +1,376 @@
+@font-face {
+    font-family: Mandioca-semibold;
+    src: url("/fonts/Mandioca-SemiBold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mandioca-medium;
+    src: url("/fonts/Mandioca-Medium.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+.designResidance_container {
+    background-color: #f5efe8;
+    padding: 150px 100px;
+}
+
+.design_residance_description p {
+    font-size: 50px;
+    font-weight: 350;
+    line-height: 50px;
+    color: #0B1215;
+}
+
+/*  */
+/* Main container */
+.designbyone-slider-component {
+    width: 100% !important;
+    position: relative !important;
+    min-height: 500px !important;
+    z-index: 1 !important;
+    overflow: hidden !important;
+}
+
+/* Swiper container */
+.designbyone-slider-component .swiper {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+}
+
+/* Swiper wrapper */
+.designbyone-slider-component .swiper-wrapper {
+    min-height: 200px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+/* Slide styles */
+.designbyone-slider-component .swiper-slide {
+    width: 100% !important;
+    min-height: 200px !important;
+    background: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Individual slide container */
+.designbyone-slider-component .design-slide {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background: none !important;
+    position: relative !important;
+}
+
+/* Image wrapper */
+.designbyone-slider-component .design-slide__image-wrapper {
+    width: 100% !important;
+    min-height: 400px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    background: #fff !important;
+}
+
+/* Image styles */
+.designbyone-slider-component .design-slide__image {
+    width: 100% !important;
+    min-height: 400px !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Content container */
+.designbyone-slider-component .design-slide__content {
+    padding: 20px 0px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    background: none !important;
+    position: relative !important;
+    display: flex;
+    justify-content: end;
+}
+
+/* Description text */
+.designbyone-slider-component .design-slide__description {
+    max-width: 430px !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    font-family: p22-mackinac-pro;
+    font-weight: 350 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: 0.2 !important;
+}
+
+/* Navigation arrows */
+.designbyone-slider-component .swiper-button-next,
+.designbyone-slider-component .swiper-button-prev {
+    width: 48px !important;
+    height: 48px !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 50% !important;
+    color: #333 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: all 0.3s ease !important;
+    position: absolute !important;
+    top: 45% !important;
+    transform: translateY(-50%) !important;
+    z-index: 10 !important;
+}
+
+.designbyone-slider-component .swiper-button-next {
+    right: 0px;
+}
+
+.designbyone-slider-component .swiper-button-prev {
+    left: 0px;
+}
+
+/* Navigation arrow hover states */
+.designbyone-slider-component .swiper-button-next:hover,
+.designbyone-slider-component .swiper-button-prev:hover {
+    background: white !important;
+    transform: translateY(-50%) scale(1.1) !important;
+}
+
+/* Navigation arrow icons */
+.designbyone-slider-component .swiper-button-next::after,
+.designbyone-slider-component .swiper-button-prev::after {
+    font-size: 18px !important;
+    font-weight: light !important;
+    color: #333 !important;
+}
+
+/* Hide scrollbar */
+.designbyone-slider-component .swiper-scrollbar {
+    display: none !important;
+}
+
+/* Reset unwanted styles */
+.designbyone-slider-component .swiper-container {
+    padding-bottom: 0 !important;
+}
+
+.designbyone-slider-component .swiper-slide img {
+    padding-right: 0 !important;
+}
+
+/* Ensure content below slider is visible */
+.about_section_div,
+.residental_slider_container {
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .designbyone-slider-component .design-slide__content {
+        padding: 20px 40px !important;
+    }
+
+    .designbyone-slider-component .design-slide__description {
+        max-width: 500px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .designbyone-slider-component .design-slide__image-wrapper {
+        min-height: 400px !important;
+    }
+
+    .designbyone-slider-component .design-slide__content {
+        padding: 15px 20px !important;
+    }
+
+    .designbyone-slider-component .design-slide__description {
+        font-size: 14px !important;
+        max-width: 100% !important;
+    }
+
+    .designbyone-slider-component .swiper-button-next,
+    .designbyone-slider-component .swiper-button-prev {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .designbyone-slider-component .swiper-button-next::after,
+    .designbyone-slider-component .swiper-button-prev::after {
+        font-size: 16px !important;
+    }
+
+    .designbyone-slider-component .design-slide__image-wrapper {
+        min-height: 400px !important;
+    }
+
+    .designbyone-slider-component .swiper {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        position: relative !important;
+    }
+
+    /* Swiper wrapper */
+    .designbyone-slider-component .swiper-wrapper {
+        min-height: 300px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        position: relative !important;
+        z-index: 1 !important;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .designbyone-slider-component .design-slide__content {
+        padding: 10px 15px !important;
+    }
+
+    .designbyone-slider-component .design-slide__description {
+        font-size: 16px !important;
+        line-height: 1.4 !important;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) {
+
+    .designbyone-slider-component .swiper-button-next:hover,
+    .designbyone-slider-component .swiper-button-prev:hover {
+        transform: translateY(-50%) !important;
+    }
+}
+
+/* Performance optimizations */
+.designbyone-slider-component .swiper-wrapper {
+    will-change: transform !important;
+    -webkit-backface-visibility: hidden !important;
+    -moz-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+}
+
+/* Ensure proper stacking context */
+.designbyone-slider-component * {
+    box-sizing: border-box !important;
+}
+
+/* Fix for Safari */
+@supports (-webkit-touch-callout: none) {
+    .designbyone-slider-component .design-slide__image-wrapper {
+        height: -webkit-fill-available !important;
+    }
+}
+
+/* Add these to your existing CSS */
+
+.designbyone-slider-loading {
+    width: 100% !important;
+    height: 80vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 18px !important;
+    color: #333 !important;
+    background: #f5f5f5 !important;
+}
+
+/* Optional: Add a loading animation */
+@keyframes loadingPulse {
+    0% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
+}
+
+.designbyone-slider-loading {
+    animation: loadingPulse 1.5s infinite ease-in-out !important;
+}
+
+.designbyone-slider-error {
+    width: 100% !important;
+    height: 80vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 18px !important;
+    color: #721c24 !important;
+    background: #f8d7da !important;
+    padding: 20px !important;
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+
+    .designResidance_container {
+        padding: 50px 20px;
+    }
+
+    .design_residance_description p {
+        font-size: 35px !important;
+        line-height: 47px !important;
+    }
+
+    .sliderSection_main_wrapper {
+        padding: 50px 0px 0px 0px !important;
+        margin-top: 100px;
+    }
+}
+
+/* For Medium and Mobile Devices */
+@media (max-width: 992px) {
+    .project-inner-wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .project-inner-img-wrapper {
+        flex-basis: auto;
+        height: auto;
+        /* Allow image to resize naturally */
+        width: 100%;
+        /* Ensure full width */
+    }
+
+    .project-inner-img {
+        width: 100%;
+        height: auto;
+        /* Maintain aspect ratio */
+        object-fit: cover;
+    }
+
+    .project-inner-right-wrapper {
+        flex-basis: auto;
+        height: auto;
+        /* Allow text to resize naturally */
+        width: 100%;
+        /* Ensure full width */
+        padding: 1rem;
+        /* Add padding for better spacing */
+    }
+
+    .project-inner-right-text-wrapper {
+        padding: 1rem;
+        text-align: center;
+    }
+}

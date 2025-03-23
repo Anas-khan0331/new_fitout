@@ -1,0 +1,66 @@
+@import "../../global.css";
+
+#nav-outer {
+  /* position: absolute; */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  z-index: 3;
+}
+
+#nav-inner {
+  /* width: 103.125rem; */
+  /* height: 4.875rem; */
+  padding-left: 1.875rem;
+  padding-right: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar-links {
+  width: 41.25rem;
+  height: 1.0625rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 2.5rem;
+  cursor: pointer;
+}
+
+#navbar-links span {
+  font-family: Mandioca, sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+}
+
+#vert-bar {
+  width: 17px;
+  border: 1px solid var(--text-color);
+  background-color: var(--text-color);
+  transform: rotate(-90deg);
+}
+
+#designby1 {
+  white-space: nowrap;
+}
+
+#navbar-button {
+  width: 128px;
+  height: 42px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.625rem;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+  background-color: transparent;
+  border: 0.0625rem solid var(--button-ol);
+  color: var(--button-ol);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.links {
+  text-decoration: none;
+  color: var(--text-color);
+}

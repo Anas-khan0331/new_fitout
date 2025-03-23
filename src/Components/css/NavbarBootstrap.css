@@ -1,0 +1,197 @@
+@font-face {
+  font-family: Mandioca-semibold;
+  src: url("/fonts/Mandioca-SemiBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Mandioca-medium;
+  src: url("/fonts/Mandioca-Medium.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.sticky-navbar {
+  position: fixed !important;
+  /* Fixed instead of sticky */
+  top: 0;
+  width: 100%;
+  z-index: 6;
+  /* Keep this low */
+  background-color: #fff;
+  color: #0b1215 !important;
+  transition: all 0.1s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Add subtle shadow when sticky */
+}
+
+.absolute-navbar {
+  position: absolute !important;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 5 !important;
+  /* Keep this low */
+}
+
+.sticky-navbar .navbar-links .nav-link .links {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #0b1215 !important;
+  font-family: Mandioca-medium, sans-serif;
+  text-decoration: none;
+}
+
+.sticky-navbar .navbar-links .nav-link {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #0b1215 !important;
+  font-family: Mandioca-medium, sans-serif;
+}
+
+.absolute-navbar .navbar-links .nav-link .links {
+  margin-right: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Mandioca-medium, sans-serif;
+}
+
+.navbar-bootstrap {
+  padding: 0px !important;
+}
+
+.navbar-bootstrap .navbar-links .nav-link {
+  letter-spacing: 1px;
+  font-family: Mandioca-medium, sans-serif;
+}
+
+.sticky-navbar .vertical-bar-wrapper .vertical-bar {
+  background-color: #0b1215 !important;
+}
+
+.sticky-navbar .navbar-button {
+  border: 1px solid #b51f29 !important;
+  background-color: transparent !important;
+  color: #b51f29 !important;
+  margin-right: 140px !important;
+}
+
+.navbarr-containerr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px !important;
+}
+
+.navbar-logo {
+  margin-left: 30px;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+}
+
+/* Links Section */
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  /* Center the links in the available space */
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.vertical-bar-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Vertical Bar Between Links */
+
+.navbar-button {
+  width: 135px;
+  height: 42px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 0px !important;
+  background-color: transparent !important;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.navbar-button:hover {
+  background-color: #b51f29 !important;
+  color: #fff !important;
+  border: transparent !important;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1099px) {
+  .navbar-bootstrap .navbar-links .nav-link {
+    margin-right: 1px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-bootstrap {
+    padding: 0px !important;
+  }
+
+  /* #mbm-header {
+    height: 6.75rem !important;
+  } */
+  .sticky-navbar .navbar-toggler img {
+    filter: invert(1);
+  }
+
+  .navbar-brand {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .navbarr-containerr {
+    padding: 0px 10px 0 0 !important;
+  }
+
+  .navbar-toggler {
+    border: none !important;
+  }
+
+  .navbar-collapse {
+    padding-left: 15px;
+  }
+
+  .vertical-bar-wrapper {
+    display: none;
+  }
+
+  #mbm-footer span {
+    margin-bottom: 3px;
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 4400px) {
+  .navbar-bootstrap .navbar-links .nav-link {
+    font-size: 24px;
+  }
+}
+
+.navbar-button:hover {
+  background-color: #b51f29 !important;
+  color: #fff !important;
+  border: 1px solid #b51f29 !important;
+  /* Keep the border width consistent */
+}
+
+.sticky-navbar .navbar-links .nav-link,
+.absolute-navbar .navbar-links .nav-link {
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-family: Mandioca-medium, sans-serif;
+}

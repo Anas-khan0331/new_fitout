@@ -1,0 +1,97 @@
+@import '../../../../global.css';
+
+#whoweare-overlay-flex {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+#whoweare-overlay {
+    width: 103.125rem; /* 1650px */
+    height: 35.125rem; /* 562px */
+    padding-left: 4.875rem; /* 78px */
+    padding-top: 7.5rem; /* 120px */
+    padding-bottom: 6.25rem; /* 100px */
+    box-shadow: 0 0 0 0.0625rem rgba(128, 128, 128, 0.2); /* 1px */
+    transform: translateX(-2.40%);
+}
+
+#whoweare-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 18.8125rem; /* 301px */
+}
+
+#wwr-inner-left {
+    width: 14.375rem; /* 230px */
+    height: 21.3125rem; /* 341px */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#wwr-inner-right {
+    width: 65.0625rem; /* 1041px */
+    height: 21.375rem; /* 342px */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#wwr-title {
+    width: 14.375rem; /* 230px */
+    height: 1.0625rem; /* 17px */
+    font-family: Mandioca, sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.05rem; /* 16.8px */
+    letter-spacing: 2%;
+    color: #0b1215;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 0.0625rem; /* 1px */
+}
+
+#wwr-detail {
+    width: 14.375rem; /* 230px */
+    height: 4.25rem; /* 68px */
+    font-size: 0.875rem; /* 14px */
+    font-weight: 600;
+    line-height: 1.05rem; /* 16.8px */
+    letter-spacing: 2%;
+    color: #0b1215;
+    opacity: 50%;
+    font-family: Mandioca, sans-serif;
+    display: flex;
+    align-items: end;
+}
+
+#wwr-tagline {
+    width: 65.0625rem; /* 1041px */
+    height: 11.25rem; /* 180px */
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 350;
+    font-size: 3.125rem; /* 50px */
+    line-height: 3.75rem; /* 60px */
+    color: #0b1215;
+}
+
+#wwr-tagline span {
+    color: #b51f29;
+}
+
+#wwr-tagline-button {
+    width: 149px; /* 149px */
+    height: 42px; /* 42px */
+    padding-top: 0.5rem; /* 8px */
+    padding-bottom: 0.625rem; /* 10px */
+    padding-right: 0.9375rem; /* 15px */
+    padding-left: 0.9375rem; /* 15px */
+    background-color: transparent;
+    border: 0.0625rem solid #b51429; /* 1px */
+    color: #b51429;
+    text-transform: uppercase;
+
+}

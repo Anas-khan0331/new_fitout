@@ -1,0 +1,22 @@
+[
+  {
+    "image": "/assets/service1.1.png",
+    "label": "RESIDENTIAL FITOUTS",
+    "title": "Transforming homes with precision, whether full renovations or integrated space upgrades, to create uniquely personal and inviting spaces."
+  },
+  {
+    "image": "/assets/service2.2.png",
+    "label": "COMMERCIAL FITOUTS",
+    "title": "Designing functional, brand-aligned professional spaces, from offices to retail, to enhance productivity and create lasting impressions."
+  },
+  {
+    "image": "/assets/service3.3.png",
+    "label": "KITCHEN FITOUTS",
+    "title": "We create stylish, functional kitchens with custom cabinetry and innovative layouts, blending aesthetics and practicality seamlessly."
+  },
+  {
+    "image": "/assets/service4.4.4.jpg",
+    "label": "INTERIOR DESIGN",
+    "title": "Crafting bespoke interiors that reflect personal style, ensuring harmony and timeless elegance from concept to execution."
+  }
+]

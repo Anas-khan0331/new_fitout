@@ -1,0 +1,22 @@
+[
+  {
+    "image": "/assets/offices_image.png",
+    "title": "Creating productive, inspiring workspaces that enhance collaboration, comfort, and efficiency while reflecting your company’s brand identity.",
+    "label": "OFFICES"
+  },
+  {
+    "image": "/assets/retuarants_image.png",
+    "label": "RESTAURANTS",
+    "title": "Designing stylish and functional dining spaces that elevate the guest experience with seamless flow and unique ambiance."
+  },
+  {
+    "image": "/assets/retail_store.png",
+    "label": "RETAIL STORE",
+    "title": "Crafting captivating retail environments that engage customers, showcase products, and create memorable brand experiences."
+  },
+  {
+    "image": "/assets/salon_img.jpg",
+    "label": "SALONS",
+    "title": "Transforming salon spaces into luxurious, relaxing environments that enhance client experiences with elegant design and functional layouts."
+  }
+]

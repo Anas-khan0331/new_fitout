@@ -1,0 +1,51 @@
+@import '../../global.css';
+
+#copyright-overlay-flex{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#copyright-inner{
+    width: 108rem;
+    box-shadow: -0.0625rem 0 0 #b51f29
+}
+
+#copyright-main{
+    height: 2.5rem;
+    padding-left: 4.875rem;
+    padding-right: 4.875rem;
+    background-color: #b51f29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fbfaf6;
+}
+
+#copyright-main p{
+    text-transform: uppercase;
+}
+
+#made-by{
+    font-family: Mandioca,sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    letter-spacing: 2%;
+}
+
+#copyright{
+    font-family: Mandioca,sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    letter-spacing: 2%;
+}
+
+#license{
+    font-family: Mandioca,sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.05rem;
+    letter-spacing: 2%;
+}

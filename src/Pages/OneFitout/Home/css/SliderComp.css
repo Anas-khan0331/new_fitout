@@ -1,0 +1,146 @@
+@import '../../../../global.css';
+
+#slider-overlay {
+    width: 1650px;
+    height: 756px !important;
+    box-shadow: 0 0 0 1px rgba(128, 128, 128, 0.2);
+}
+
+#slider-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 78px;
+    padding-right: 92px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+#slider-content {
+    display: flex;
+    gap: 20px;
+    width: 1650px;
+    height: 568px;
+    padding-left: 78px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scrollbar-color: transparent;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, #b51f29 558px, transparent 0%) 1;
+
+}
+
+
+#slider-content::-webkit-scrollbar {
+    display: hidden;
+}
+
+
+#slider-title-row-title {
+    width: 386px;
+    height: 48px;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: Mandioca, sans-serif;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+}
+
+#slider-title-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    color: #B51429;
+    border: 1px solid #B51429 !important;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 600;
+    letter-spacing: 6%;
+    font-family: Mandioca, sans-serif;
+    text-transform: uppercase;
+
+}
+
+#slider-content-card {
+    width: 480px;
+    height: 468px;
+
+}
+
+#slider-section {
+    width: 208px;
+    height: 14px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+#slider-category {
+    text-align: start;
+    width: 104px;
+    height: 14px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    color: #0b1215;
+    opacity: 80%;
+    font-family: Mandioca, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 6%;
+}
+
+#slider-date {
+    text-align: end;
+    width: 104px;
+    height: 14px;
+    border-left: 1px solid grey;
+    padding-left: 20px;
+    color: #0b1215;
+    opacity: 80%;
+    font-family: Mandioca, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 6%;
+}
+
+#slider-image {
+    width: 480px;
+    height: 320px;
+    position: relative;
+}
+
+#slider-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 34px;
+    border: 1px solid #b51f29;
+    background-color: #b51f29;
+    color: #fbfaf6;
+    font-size: 12px;
+    font-family: Mandioca, sans-serif;
+    line-height: 14.4px;
+    letter-spacing: 6%;
+    font-weight: 600;
+    transform: translate(10%, -1350%);
+    text-transform: uppercase;
+}
+
+#slider-title {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 350;
+    font-size: 28px;
+    line-height: 33.32px;
+    letter-spacing: 2%;
+}

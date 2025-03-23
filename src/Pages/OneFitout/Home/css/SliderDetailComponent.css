@@ -1,0 +1,165 @@
+.main-wrapper {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-wrapper-inner {
+    width: 90%;
+    /* leaves 5% margin on each side */
+    height: 80vh;
+    /* 80% of viewport height */
+    /* background-color: #fbfaf6; */
+    background-color: #fff !important;
+    padding: 2.5rem 1.5rem 0 5rem;
+    /* retain your original padding */
+    overflow-y: auto;
+}
+
+.img_oneSection {
+    display: none;
+}
+.img_oneSection .col-1{ text-align: end;}
+.header-section {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 3.5625rem;
+    /* 57px / 16 */
+}
+
+.readmore-title-slider {
+    color: #0b1215;
+    font-family: Mandioca, sans-serif;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    /* 12px / 16 */
+    line-height: 0.9rem;
+    /* 14.4px / 16 */
+    letter-spacing: 0.02em;
+    margin-bottom: 5px !important;
+    /* unchanged as it was a percentage */
+    /* text-transform: uppercase; */
+}
+
+.readmore-subtitle-slider {
+    color: #0b1215;
+    text-transform: capitalize;
+    font-family: Mandioca, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    /* 16px / 16 */
+    line-height: 1.2rem;
+    /* 19.2px / 16 */
+    letter-spacing: 2%;
+    /* unchanged as it was a percentage */
+}
+
+.readmore-main-slider-p {
+    /* margin-top: 100px; */
+    margin-bottom: 2.5rem;
+    /* 40px / 16 */
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 350;
+    font-size: 28px;
+    margin-bottom: 30px !important;
+    /* 16px / 16 */
+    line-height: 1.375rem;
+    /* 22px / 16 */
+    letter-spacing: 0.02em;
+    /* unchanged as it was a percentage */
+    color: #0b1215;
+}
+
+.readmore-title-slider-desc {
+    margin-bottom: 1.25rem !important;
+    /* 20px / 16 */
+    color: #0B1215 !important;
+    font-family: p22-mackinac-pro, serif;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+    /* 28px / 16 */
+    line-height: 22px !important;
+    /* 33.32px / 16 */
+    letter-spacing: 0.02rem;
+    /* unchanged as it was a percentage */
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 992px) {
+    .img_oneSection {
+        display: block;
+    }
+
+    .main-wrapper {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        z-index: 999;
+    }
+
+    .readmore-main-slider-p {
+        /* margin-top: 100px; */
+        margin-bottom: 20px !important;
+        /* 40px / 16 */
+        font-family: p22-mackinac-pro, serif;
+        font-weight: 350;
+        font-size: 28px !important;
+        /* 16px / 16 */
+        line-height: 35px;
+        /* 22px / 16 */
+        letter-spacing: 0.2px;
+        /* unchanged as it was a percentage */
+        color: #0b1215;
+    }
+
+    .readmore-title-slider-desc {
+        margin-bottom: 1.25rem !important;
+        /* 20px / 16 */
+        color: #0b1215;
+        font-family: p22-mackinac-pro, serif;
+        font-weight: 500;
+        font-size: 16px !important;
+        /* 28px / 16 */
+        line-height: 22px !important;
+        /* 33.32px / 16 */
+        letter-spacing: 0.2px;
+        /* unchanged as it was a percentage */
+    }
+
+    .header-section {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 30px;
+    }
+
+    .main-wrapper-inner {
+        width: 100%;
+        height: 100vh !important;
+        /* Set full viewport height */
+        background-color: #fff !important;
+        padding: 0;
+        overflow-y: auto;
+    }
+
+    .readmore-main-slider {
+        padding: 10px 20px;
+    }
+
+    .mobile_view_type_details {
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Mandioca-medium;
+  src: url("/fonts/Mandioca-Medium.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+#projectgrid-section {
+  margin-top: 15px;
+  margin-bottom: 15px !important;
+}
+
+#projectgrid-type,
+#projectgrid-area {
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-family: Mandioca-medium !important;
+  letter-spacing: 0.6px;
+}
+
+.projectgrid-community {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}

@@ -1,0 +1,382 @@
+[
+  {
+    "serial": "001",
+    "image": "/assets/project1.png",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "RESIDENTIAL FITOUTS"
+  },
+  {
+    "serial": "002",
+    "image": "/assets/project2.png",
+    "type": "renovation",
+    "community": "The Reserve, Al Barari, Dubai",
+    "area": "- villa",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "COMMERCIAL FITOUTS"
+  },
+  {
+    "serial": "003",
+    "image": "/assets/project6.png",
+    "type": "renovation",
+    "community": "Frond A, The Palm, Dubai",
+    "area": "- kitchens",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "KITCHEN FITOUTS"
+  },
+  {
+    "serial": "004",
+    "image": "/assets/project7.png",
+    "type": "renovation",
+    "community": "Saheel,Arabian Ranches, Dubai",
+    "area": "- kitchens",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "INTERIOR DESIGN"
+  },
+  {
+    "serial": "005",
+    "image": "/assets/project8.png",
+    "type": "renovation",
+    "area": "- Living Room",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen"
+  },
+  {
+    "serial": "006",
+    "image": "/assets/kitchen1.jpeg",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen"
+  },
+  {
+    "serial": "007",
+    "image": "/assets/project6.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Frond A, The Palm, Dubai",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen"
+  },
+  {
+    "serial": "008",
+    "image": "/assets/project7.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Saheel, Arabian Ranches, Dubai",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen"
+  },
+  {
+    "serial": "009",
+    "image": "/assets/project8.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen"
+  },
+  {
+    "serial": "010",
+    "image": "/assets/project9.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Frond A, The Palm, Dubai",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen"
+  },
+  {
+    "serial": "011",
+    "image": "/assets/project10.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Saheel, Arabian Ranches, Dubai",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen"
+  },
+  {
+    "serial": "012",
+    "image": "/assets/project11.png",
+    "type": "renovation",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen",
+    "area": "- kitchens",
+    "community": "Savannah, Emirates Hills, Dubai"
+  },
+  {
+    "serial": "013",
+    "image": "/assets/blog1.png",
+    "category": "Renovation",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "014",
+    "image": "/assets/blog2.png",
+    "category": "Architecture",
+    "date": "24/09/2024",
+    "title": "Antolini’s commitment to craftsmanship and eco-responsibility",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "015",
+    "image": "/assets/blog3.png",
+    "category": "interior",
+    "date": "24/09/2024",
+    "title": "An exclusive hospitality destination in the vibrant heart of Msheireb Downtown Doha",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "016",
+    "image": "/assets/blog4.png",
+    "category": "interior",
+    "date": "24/09/2024",
+    "title": "Their bespoke lamps are as impressive as their standalone products",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "017",
+    "image": "/assets/blog1.png",
+    "category": "Renovation",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "018",
+    "image": "/assets/blog2.png",
+    "category": "Architecture",
+    "date": "24/09/2024",
+    "title": "Antolini’s commitment to craftsmanship and eco-responsibility",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "019",
+    "image": "/assets/blog3.png",
+    "category": "interior",
+    "date": "24/09/2024",
+    "title": "An exclusive hospitality destination in the vibrant heart of Msheireb Downtown Doha",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "020",
+    "image": "/assets/blog4.png",
+    "category": "interior",
+    "date": "24/09/2024",
+    "title": "Their bespoke lamps are as impressive as their standalone products",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "021",
+    "image": "/assets/blog1.png",
+    "category": "Renovation",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "022",
+    "image": "/assets/blog2.png",
+    "category": "Architecture",
+    "date": "24/09/2024",
+    "title": "Antolini’s commitment to craftsmanship and eco-responsibility",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "023",
+    "image": "/assets/blog3.png",
+    "category": "interior",
+    "date": "24/09/2024",
+    "title": "An exclusive hospitality destination in the vibrant heart of Msheireb Downtown Doha",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "024",
+    "image": "/assets/blog4.png",
+    "category": "interior",
+    "date": "24/09/2024",
+    "title": "Their bespoke lamps are as impressive as their standalone products",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "025",
+    "image": "/assets/blog1.png",
+    "category": "Renovation",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "026",
+    "image": "/assets/blog2.png",
+    "category": "Architecture",
+    "date": "24/09/2024",
+    "title": "Antolini’s commitment to craftsmanship and eco-responsibility",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "027",
+    "image": "/assets/blog4.png",
+    "category": "interior",
+    "date": "24/09/2024",
+    "title": "Their bespoke lamps are as impressive as their standalone products",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "028",
+    "image": "/assets/blog1.png",
+    "category": "Renovation",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "029",
+    "image": "/assets/blog2.png",
+    "category": "Architecture",
+    "date": "24/09/2024",
+    "title": "Antolini’s commitment to craftsmanship and eco-responsibility",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "030",
+    "image": "/assets/blog3.png",
+    "category": "interior",
+    "date": "24/09/2024",
+    "title": "An exclusive hospitality destination in the vibrant heart of Msheireb Downtown Doha",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "031",
+    "image": "/assets/blog4.png",
+    "category": "interior",
+    "date": "24/09/2024",
+    "title": "Their bespoke lamps are as impressive as their standalone products",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "032",
+    "image": "/assets/blog1.png",
+    "category": "Renovation",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "033",
+    "image": "/assets/blog1.png",
+    "category": "Renovation",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "label": "Kitchen",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "034",
+    "image": "/assets/project1.png",
+    "date": "24/09/2024",
+    "title": "Grecian elegance makes a modern sanctuary in Archeda’s Tulle collection",
+    "type": "renovation",
+    "community": "Frond A, The Palm, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "035",
+    "image": "/assets/project2.png",
+    "date": "24/09/2024",
+    "title": "Antolini’s commitment to craftsmanship and eco-responsibility",
+    "type": "renovation",
+    "community": "The Reserve, Al Barari, Dubai",
+    "area": "- villa"
+  },
+  {
+    "serial": "036",
+    "image": "/assets/project6.png",
+    "category": "interior",
+    "date": "24/09/2024",
+    "title": "An exclusive hospitality destination in the vibrant heart of Msheireb Downtown Doha",
+    "label": "Journal",
+    "type": "renovation",
+    "community": "Savannah, Emirates Hills, Dubai",
+    "area": "- kitchens"
+  }
+]

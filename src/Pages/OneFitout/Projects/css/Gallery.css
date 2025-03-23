@@ -1,0 +1,236 @@
+@import '../../../../global.css';
+
+#gallery-outer{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+#gallery-inner{
+    width: 108rem !important;
+    height: fit-content;
+    border-left: 0.0625rem solid #eaeaea;
+    border-right: 0.0625rem solid #eaeaea;
+    border-bottom: 0.0625rem solid #eaeaea;
+}
+#gallery-header{
+    width: 108rem;
+    padding-right: 2.25rem;
+    height: 3.75rem;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+#gallery-logo{
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-left: -1px;
+}
+
+#gallery-close{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#gallery-title{
+    width: 15.3125rem;
+    height: 1.0625rem;
+    text-transform: capitalize;
+    font-family: Mandioca, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.05rem;
+    letter-spacing: 10%;
+    text-align: center;
+}
+
+#gallery-main{
+    width: 108rem;
+    padding-top: 2.0625rem;
+    display: flex;
+    gap: 2.25rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.g-popups{
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+.g-popups img{
+    width: 4.0625rem;
+    height: 4.0625rem;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+#gallery-main > button{
+    text-transform: uppercase;
+    font-family: Mandioca, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    letter-spacing: 6%;
+    color: #b51f29;
+    cursor: pointer;
+
+}
+
+#g-selected-i{
+    width: 87.5rem;
+    height: 49.1875rem;
+}
+
+#gallery-details{
+    display: flex;
+    padding-left: 11.125rem;
+    padding-right: 9.25rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5625rem;
+    justify-content: space-between;
+}
+
+#gallery-details > #gd-one{
+    width: 17.375rem;
+    height: 0.875rem;
+}
+
+#selected-title{
+    text-transform: uppercase;
+    font-family: Mandioca, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    letter-spacing: 6%;
+    color: #0b1215;
+}
+
+#selected-area{
+    text-transform: uppercase;
+    font-family: Mandioca, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    letter-spacing: 6%;
+    color: #0b1215;
+}
+
+#selected-title::after{
+    content: "-";
+    font-family: Mandioca, sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    letter-spacing: 6%;
+    padding-left: 0.3125rem;
+    padding-right: 0.3125rem;
+    color: #0b1215;
+}
+
+#selected-img-count{
+    width: 11.75rem;
+    height: 0.875rem;
+    color: rgba(11, 18, 21,0.5);
+    text-transform: uppercase;
+    font-family: Mandioca, sans-serif;
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    letter-spacing: 6%;
+    text-align: right;
+
+}
+
+#gallery-bottom{
+    border-top: 0.0625rem solid #eaeaea;
+    position: relative;
+}
+
+#gallery-thumbnail-view{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.images-thumb{
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-right: 0.0625rem solid #eaeaea;
+}
+
+.thumb-selected{
+    background-color: rgb(231, 214, 198,0.4);
+}
+
+.images-thumb > img{
+    height: 6.25rem;
+    object-fit: contain;
+}
+
+#g-thumbnail-button-f-div{
+    width: fit-content;
+    padding-right: 2.5rem;
+    height: 8.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0 ;
+    z-index: 2;
+}
+
+#gt-button-f{
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 1.875rem;
+    padding: 1.125rem;
+    background-color: #fbfaf6;
+    box-shadow: 0px 0.125rem 0.375rem 0px #0000001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#gt-button-f > image{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#g-thumbnail-button-b-div{
+    width: fit-content;
+    padding-left: 2.5rem;
+    height: 8.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    z-index: 2;
+}
+
+#gt-button-b{
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 1.875rem;
+    padding: 1.125rem;
+    background-color: #fbfaf6;
+    box-shadow: 0px 0.125rem 0.375rem 0px #0000001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#gt-button-b > image{
+    width: 1.5rem;
+    height: 1.5rem;
+}

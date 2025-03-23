@@ -1,0 +1,161 @@
+{
+  "allProjects": [
+    {
+      "id": 1,
+      "image": "/assets/novelia1.jpg",
+      "type": "Residential",
+      "area": "Victory Heights",
+      "community": "Novelia, Victory Heights",
+      "renovate_by": "One Fitout",
+      "images": [
+        "/assets/novelia2.jpg",
+        "/assets/novelia3.jpg",
+        "/assets/novelia4.jpg",
+        "/assets/novelia5.jpg",
+        "/assets/novelia6.jpg",
+        "/assets/novelia7.jpg",
+        "/assets/novelia8.jpg",
+        "/assets/novelia9.jpg",
+        "/assets/novelia10.jpg",
+        "/assets/novelia11.jpg",
+        "/assets/novelia12.jpg",
+        "/assets/novelia13.jpg",
+        "/assets/novelia14.jpg",
+        "/assets/novelia15.jpg",
+        "/assets/novelia16.jpg"
+      ],
+      "body": "This luxurious villa in Victory Heights’ Novelia community underwent a full-scale renovation, transforming it into a sophisticated and contemporary home. The project included extensive extension works to enhance space and functionality. A standout feature of this villa is the underground spiral wine cellar, a stunning addition that exudes elegance and craftsmanship. The master bathroom boasts state-of-the-art finishes, offering a spa-like retreat, while the fully customized kitchen, designed for both style and practicality, serves as the heart of the home. Every detail of this renovation reflects a seamless blend of luxury, innovation, and comfort."
+    },
+    {
+      "renovate_by": "Design by 1",
+      "id": 2,
+      "image": "/assets/mirodor2.jpg",
+      "type": "Residential",
+      "area": "Arabian Ranches",
+      "community": "Mirador, Arabian Ranches",
+      "images": [
+        "/assets/mirodor2.jpg",
+        "/assets/mirodor3.jpg",
+        "/assets/mirodor4.jpg",
+        "/assets/mirodor5.jpg",
+        "/assets/mirodor6.jpg",
+        "/assets/mirodor7.jpg",
+        "/assets/mirodor8.jpg",
+        "/assets/mirodor9.jpg",
+        "/assets/mirodor10.jpg",
+        "/assets/mirodor1.jpg"
+      ],
+      "body": "Situated in the prestigious Esmeralda community of Victory Heights, this villa underwent a full-scale renovation, blending modern sophistication with timeless elegance. The transformation introduced a refined yet welcoming atmosphere, with beautifully curated interiors and bespoke detailing. The kitchen stands out as a true masterpiece, combining style and functionality with premium finishes and meticulous craftsmanship. Another highlight of this home is the seamlessly designed living spaces, where every element is thoughtfully selected to enhance both comfort and luxury. This renovation perfectly balances contemporary design with warmth, creating a home that is as visually stunning as it is practical."
+    },
+    {
+      "renovate_by": "1Kitchen",
+      "id": 3,
+      "image": "/assets/esmerelda1.jpg",
+      "type": "Residential",
+      "area": "Victory Heights",
+      "community": "Esmerelda, Victory Heights",
+      "images": [
+        "/assets/esmerelda1.jpg",
+        "/assets/esmerelda2.jpg",
+        "/assets/esmerelda3.jpg",
+        "/assets/esmerelda4.jpg",
+        "/assets/esmerelda5.jpg",
+        "/assets/esmerelda6.jpg",
+        "/assets/esmerelda7.jpg",
+        "/assets/esmerelda8.jpg",
+        "/assets/esmerelda9.jpg",
+        "/assets/esmerelda10.jpg",
+        "/assets/esmerelda11.jpg",
+        "/assets/esmerelda12.jpg",
+        "/assets/esmerelda13.jpg",
+        "/assets/esmerelda14.jpg"
+      ],
+      "body": "Situated in the prestigious Esmeralda community of Victory Heights, this villa underwent a full-scale renovation, blending modern sophistication with timeless elegance. The transformation introduced a refined yet welcoming atmosphere, with beautifully curated interiors and bespoke detailing. The kitchen stands out as a true masterpiece, combining style and functionality with premium finishes and meticulous craftsmanship. Another highlight of this home is the seamlessly designed living spaces, where every element is thoughtfully selected to enhance both comfort and luxury. This renovation perfectly balances contemporary design with warmth, creating a home that is as visually stunning as it is practical."
+    },
+    {
+      "renovate_by": "Design by 1",
+      "id": 4,
+      "image": "/assets/rosa1.jpg",
+      "type": "Residential",
+      "area": "Arabian Ranches",
+      "community": "Rosa, Arabian Ranches",
+      "images": [
+        "/assets/rosa1.jpg",
+        "/assets/rosa2.jpg",
+        "/assets/rosa3.jpg",
+        "/assets/rosa4.jpg",
+        "/assets/rosa5.jpg",
+        "/assets/rosa6.jpg",
+        "/assets/rosa7.jpg",
+        "/assets/rosa8.jpg",
+        "/assets/rosa9.jpg",
+        "/assets/rosa10.jpg",
+        "/assets/rosa11.jpg",
+        "/assets/rosa12.jpg",
+        "/assets/rosa13.jpg",
+        "/assets/rosa14.jpg",
+        "/assets/rosa15.jpg",
+        "/assets/rosa16.jpg",
+        "/assets/rosa17.jpg",
+        "/assets/rosa18.jpg",
+        "/assets/rosa19.jpg",
+        "/assets/rosa20.jpg"
+      ],
+      "body": "Nestled in the serene Rosa community of Arabian Ranches, this villa underwent a complete transformation, redefining luxury and comfort. The full home renovation introduced a breathtaking new aesthetic, with a carefully curated color palette that enhances the villa's elegance. The heart of the home is its beautifully designed kitchen, where style meets functionality in perfect harmony. Every detail, from the refined finishes to the thoughtfully selected materials, contributes to a space that feels both sophisticated and inviting. This renovation seamlessly blends modern design with timeless charm, creating a home that is as stunning as it is functional."
+    },
+    {
+      "renovate_by": "1Kitchen",
+      "id": 5,
+      "image": "/assets/savannah1.jpg",
+      "type": "Residential",
+      "area": "Arabian Ranches",
+      "community": "Savannah, Arabian Ranches",
+      "images": [
+        "/assets/savannah1.jpg",
+        "/assets/savannah2.jpg",
+        "/assets/savannah3.jpg",
+        "/assets/savannah4.jpg",
+        "/assets/savannah5.jpg",
+        "/assets/savannah7.jpg",
+        "/assets/savannah8.jpg",
+        "/assets/savannah9.jpg",
+        "/assets/savannah10.jpg",
+        "/assets/savannah11.jpg",
+        "/assets/savannah12.jpg",
+        "/assets/savannah13.jpg",
+        "/assets/savannah14.jpg",
+        "/assets/savannah15.jpg",
+        "/assets/savannah16.jpg"
+      ],
+      "body": "Located in the charming Savannah community of Arabian Ranches, this villa embodies the elegance of a British country home with a refined, timeless appeal. The full home renovation introduced warm, classic elements that blend sophistication with comfort. The heart of the villa is its breathtaking kitchen, featuring exquisite craftsmanship and a design that feels both luxurious and inviting. Another standout feature is the custom-made TV unit, a beautifully designed focal point that enhances the living space with understated elegance. This renovation captures the essence of British-inspired charm while delivering modern functionality, creating a home that feels effortlessly graceful and welcoming."
+    },
+    {
+      "renovate_by": "Design by 1",
+      "id": 6,
+      "image": "/assets/savannah1.jpg",
+      "type": "Residential",
+      "area": "Jumeirah Golf Estate",
+      "community": "Savannah, Arabian Ranches",
+      "images": [
+        "/assets/savannah1.jpg",
+        "/assets/savannah2.jpg",
+        "/assets/savannah3.jpg"
+      ],
+      "body": "Located in the charming Savannah community of Arabian Ranches, this villa embodies the elegance of a British country home with a refined, timeless appeal. The full home renovation introduced warm, classic elements that blend sophistication with comfort. The heart of the villa is its breathtaking kitchen, featuring exquisite craftsmanship and a design that feels both luxurious and inviting. Another standout feature is the custom-made TV unit, a beautifully designed focal point that enhances the living space with understated elegance. This renovation captures the essence of British-inspired charm while delivering modern functionality, creating a home that feels effortlessly graceful and welcoming."
+    },
+    {
+      "renovate_by": "One Fitout",
+      "id": 5,
+      "image": "/assets/savannah1.jpg",
+      "type": "Residential",
+      "area": "Arabian Ranches",
+      "community": "Testing Project 111, Sharjah",
+      "images": [
+        "/assets/savannah1.jpg",
+        "/assets/savannah2.jpg",
+        "/assets/savannah3.jpg"
+      ],
+      "body": "Located in the charming Savannah community of Arabian Ranches, this villa embodies the elegance of a British country home with a refined, timeless appeal. The full home renovation introduced warm, classic elements that blend sophistication with comfort. The heart of the villa is its breathtaking kitchen, featuring exquisite craftsmanship and a design that feels both luxurious and inviting. Another standout feature is the custom-made TV unit, a beautifully designed focal point that enhances the living space with understated elegance. This renovation captures the essence of British-inspired charm while delivering modern functionality, creating a home that feels effortlessly graceful and welcoming."
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+@import "../../global.css";
+
+/* Add these new styles at the top of your Contact.css */
+body>.contact-modal-wrapper {
+  position: fixed;
+  z-index: 999999998 !important;
+}
+
+body>.contact-modal-wrapper #contact-outer {
+  position: fixed;
+  z-index: 999999999 !important;
+}
+
+body>.contact-modal-wrapper #contact-inner {
+  position: relative;
+  z-index: 1000000000 !important;
+}
+
+#contact-outer {
+  width: 100%;
+  backdrop-filter: blur(0.3125rem);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999999 !important;
+  overflow-y: auto !important;
+  height: 100%;
+  min-height: 100vh;
+  color: #0b1215;
+  isolation: isolate;
+  /* Creates a new stacking context */
+}
+
+#contact-inner {
+  width: 100%;
+  height: auto !important;
+  padding-top: 2.5rem;
+  background-color: #fbfaf6;
+  box-shadow: 0rem -0.1875rem 0.75rem 0rem #00000014;
+  position: relative;
+  overflow-y: auto !important;
+  z-index: 1000000000;
+  min-height: 100vh;
+  isolation: isolate;
+  /* Creates a new stacking context */
+}
+
+.mobile-contact-header-section {
+  display: none;
+  align-items: center;
+}
+
+.contact_us_data_container {
+  margin-bottom: 20px;
+}
+
+.contact_us_data_img_container {
+  margin-top: 40px;
+}
+
+.contact_us_data_heading {
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 2px !important;
+}
+
+.contact_us_data_right_sectionContainer_text_container {
+  margin-top: 30px;
+}
+
+.contact_us_data_right_sectionContainer_text_container h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  margin-bottom: 10px;
+  font-family: p22-mackinac-pro;
+}
+
+.contact_us_data_right_sectionContainer_text_lines p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+.contact_us_data_right_sectionContainer_text_lines {
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.contact_us_btn_1 {
+  height: 46px;
+  width: 147px;
+  border-radius: 0px !important;
+  background: transparent !important;
+  border-color: #b51f29 !important;
+  color: #b51f29 !important;
+  margin-right: 15px;
+  font-weight: 500 !important;
+  white-space: nowrap;
+  padding: 8px 15px 9px 15px;
+  letter-spacing: 0.7px;
+
+  font-size: 12px;
+}
+
+.contact_us_btn_1:hover {
+  background-color: #b51f29 !important;
+  color: #fff !important;
+  border: 1px solid #b51f29;
+}
+
+.contact_us_btn_2:hover {
+  background-color: #b51f29 !important;
+  color: #fff !important;
+  border: 1px solid #b51f29;
+}
+
+.contact_us_btn_2 {
+  height: 46px;
+  width: 147px;
+  border-radius: 0px !important;
+  background: transparent !important;
+  border-color: #b51f29 !important;
+  color: #b51f29 !important;
+  margin-right: 15px;
+  font-weight: 500 !important;
+  white-space: nowrap;
+  padding: 8px 15px 9px 15px;
+  letter-spacing: 0.7px;
+
+  font-size: 12px;
+}
+
+.contact_us_data_right_sectionContainer_btn {
+  margin-top: 20px;
+}
+
+.contact_us_data_right_sectionContainer_text_container p {
+  font-size: 16px;
+  font-weight: 350 !important;
+  line-height: 22px;
+  letter-spacing: 1px;
+  font-family: p22-mackinac-pro;
+}
+
+.desktop-contact-close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.desktop-contact-close #contact-close {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 2.25rem;
+}
+
+#contact-main {
+  padding-left: 8.75rem;
+  display: flex;
+  height: 52.9375rem;
+  gap: 24.5rem;
+}
+
+#contact-left {
+  width: 13.9375rem;
+}
+
+#c-enquiries-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  margin-bottom: 1.5625rem;
+}
+
+#c-retail-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  margin-bottom: 1.25rem;
+}
+
+#c-phone-div {
+  border-top: 0.0625rem solid #eaeaea;
+  padding-top: 1.5625rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  margin-bottom: 1.5625rem;
+}
+
+#c-mobile-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  margin-bottom: 3.25rem;
+}
+
+#contact-design-logo {
+  display: none;
+  width: 10.6875rem;
+  height: 4rem;
+}
+
+.c-label {
+  font-family: Mandioca, sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 0.9rem;
+  letter-spacing: 6%;
+  color: #0b1215;
+  text-transform: uppercase;
+}
+
+.c-detail {
+  width: 12.5625rem;
+  font-family: Mandioca, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 2%;
+  color: #0b1215;
+}
+
+#contact-right {
+  width: 34.375rem;
+}
+
+#contact-logo {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+#contact-logo-div {
+  margin-bottom: 1.875rem;
+}
+
+#contact-title {
+  height: 3rem;
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 2.975rem;
+  letter-spacing: 2%;
+  color: #0b1215;
+  margin-bottom: 1.25rem;
+}
+
+#contact-blurb {
+  height: 5.5rem;
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 350;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 2%;
+  color: #0b1215;
+  margin-bottom: 2.5rem;
+}
+
+#contact-address {
+  height: 5.5rem;
+  font-family: Mandioca, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 2%;
+  color: #0b1215;
+}
+
+#contact-button-div {
+  margin-top: 1.75rem;
+  display: flex;
+  gap: 0.625rem;
+}
+
+#contact-button-div>button {
+  text-transform: capitalize;
+  background-color: transparent;
+  outline: 0.0625rem solid #b51f29;
+  padding-top: 0.5rem;
+  padding-bottom: 0.625rem;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+  color: #b51f29;
+}
+
+#contact-whatsapp-div {
+  position: absolute;
+  right: 2.5rem;
+  bottom: 5.3125rem;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border-radius: 0.3125rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25d366;
+}
+
+#contact-whatsapp-div>img {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+#contact-footer {
+  width: 100%;
+  height: 3.125rem;
+  overflow-x: hidden;
+  position: absolute !important;
+  bottom: 0px !important;
+  display: flex;
+  background-color: rgb(231, 215, 198, 0.4);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.contact-footer-inner {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: scroll 150s linear infinite;
+}
+
+.ticker-words {
+  padding-right: 2.5rem;
+}
+
+.whats_app_img_container {
+  position: absolute;
+  background: #25d366;
+  width: 35px;
+  border-radius: 4px;
+  height: 35px;
+  bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 20px;
+}
+
+/* Contact us Responsive Style */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .reverse-row {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+
+  .contact_us_data_right_sectionContainer_text_container h3 {
+    font-size: 28px;
+    font-weight: 350;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+
+  .contact_us_data_right_sectionContainer_btn {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .contact_us_data_img_container {
+    display: none;
+  }
+
+  .contact_us_btn_1,
+  .contact_us_btn_2 {
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .contact_us_data {
+    margin-top: 20px;
+    margin-bottom: 140px;
+  }
+
+  .whats_app_img_container {
+    position: absolute;
+    background: #25d366;
+    width: 35px;
+    border-radius: 4px;
+    height: 35px;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+  .contact_us_btn_1,
+  .contact_us_btn_2 {
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .contact_us_data_right_sectionContainer_btn {
+    margin-bottom: 20px;
+  }
+
+  .contact_us_data {
+    margin-bottom: 170px;
+  }
+
+  .whats_app_img_container {
+    position: absolute;
+    background: #25d366;
+    width: 35px;
+    border-radius: 4px;
+    height: 35px;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+  }
+
+  .contact_us_data_img_container {
+    display: none;
+  }
+
+  .reverse-row {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .whats_app_img_container {
+    position: absolute;
+    background: #25d366;
+    width: 35px;
+    border-radius: 4px;
+    height: 35px;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+  }
+
+  .reverse-row {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+
+  .contact_us_data_right_sectionContainer_btn {
+    margin-bottom: 20px;
+  }
+
+  .contact_us_data {
+    margin-bottom: 140px;
+  }
+
+  .contact_us_btn_2 {
+    width: auto;
+    height: 40px;
+    white-space: nowrap;
+  }
+
+  .contact_us_btn_1 {
+    width: auto;
+    height: 40px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact_us_data_right_sectionContainer_btn button {
+    flex: 1;
+  }
+
+  .contact_us_data_right_sectionContainer img {
+    display: none;
+  }
+
+  .contact-header-section img {
+    display: flex;
+  }
+
+  .mobile-contact-header-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktop-contact-close {
+    display: none;
+  }
+
+  #contact-inner {
+    padding-top: 0px;
+  }
+
+  .mobile-contact-header-section #contact-close {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+  #contact-logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2500px) {
+  .contact_us_btn_1 {
+    width: auto !important;
+  }
+
+  .contact_us_btn_2 {
+    width: auto !important;
+  }
+}
+
+.contact-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999998;
+}
+
+body.contact-open {
+  overflow: hidden;
+}
+
+/* Add this to ensure the contact component is always on top */
+.contact-active {
+  position: relative;
+  z-index: 999999999;
+}
+
+/* Add to your global CSS */
+.navbar-bootstrap {
+  position: relative;
+  z-index: 6 !important;
+}
+
+/* Ensure modals are always on top */
+.modal-open .contact-active {
+  z-index: 999999999 !important;
+}
+
+/* Add to your global CSS */
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure modals are always on top */
+body>.contact-modal-wrapper {
+  position: fixed !important;
+  z-index: 999999998 !important;
+}

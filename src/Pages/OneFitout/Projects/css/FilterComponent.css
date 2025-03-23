@@ -1,0 +1,145 @@
+/* --- Dropdown Styling --- */
+.styled-select .react-dropdown-select-dropdown {
+    overflow: initial;
+}
+
+.react-dropdown-select.styled-select {
+    border-radius: 18px;
+    padding: 5px 15px;
+    width: 300px;
+}
+
+.react-dropdown-select.styled-select:focus {
+    box-shadow: none;
+    border: 1px solid #B51F29 !important;
+}
+
+.css-1o5fdv0-ReactDropdownSelect:hover,
+.css-1o5fdv0-ReactDropdownSelect:focus-within {
+    box-shadow: none !important;
+}
+
+/* --- Dropdown Arrow Styling --- */
+.css-13lhtxh-DropdownHandleComponent svg,
+.css-1kgs3nr-DropdownHandleComponent svg {
+    width: 22px !important;
+    height: 22px !important;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Change arrow color on focus */
+.react-dropdown-select.styled-select:focus .css-13lhtxh-DropdownHandleComponent svg path,
+.react-dropdown-select.styled-select:focus .css-1kgs3nr-DropdownHandleComponent svg path {
+    stroke: #B51F29 !important;
+    fill: #B51F29 !important;
+}
+
+/* Rotate arrow when dropdown is open */
+.react-dropdown-select.styled-select[aria-expanded="true"] .css-13lhtxh-DropdownHandleComponent svg,
+.react-dropdown-select.styled-select[aria-expanded="true"] .css-1kgs3nr-DropdownHandleComponent svg {
+    transform: rotate(180deg);
+}
+
+/* Default state - arrow not rotated */
+.react-dropdown-select.styled-select[aria-expanded="false"] .css-13lhtxh-DropdownHandleComponent svg,
+.react-dropdown-select.styled-select[aria-expanded="false"] .css-1kgs3nr-DropdownHandleComponent svg {
+    transform: rotate(0deg);
+}
+
+/* --- Search Bar Styling --- */
+.search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+}
+
+/* --- Items Container --- */
+.items {
+    overflow: auto;
+    min-height: 100px;
+    max-height: 130px;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+}
+
+/* WebKit Scrollbar Styling */
+.items::-webkit-scrollbar {
+    width: 6px;
+}
+
+.items::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+.items::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: none;
+}
+
+/* Hide scrollbar buttons */
+.items::-webkit-scrollbar-button {
+    display: none !important;
+    height: 0 !important;
+    width: 0 !important;
+}
+
+
+
+/* --- Individual Item Styling --- */
+.item {
+    display: flex;
+    padding: 6px;
+    align-items: center;
+}
+
+.item:hover {
+    background-color: #FBF4F4;
+    color: #000;
+}
+
+.item.disabled {
+    text-decoration: line-through;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.item-label {
+    margin: 5px 10px;
+}
+
+/* --- Checkbox Styling --- */
+.item input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+/* Change checkbox background when checked */
+.item input[type="checkbox"]:checked {
+    background-color: #B51F29;
+    border-color: #B51F29;
+}
+
+/* Add checkmark when checked */
+.item input[type="checkbox"]:checked::after {
+    content: "✔";
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

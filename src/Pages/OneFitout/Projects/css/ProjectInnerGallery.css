@@ -1,0 +1,433 @@
+.gallery-page-wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+}
+
+/* ----- HEADER ----- */
+.header-bar {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: 60px !important;
+  background-color: #fff !important;
+  flex-shrink: 0 !important;
+}
+
+.header-left,
+.header-center,
+.header-right {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.gallery-page-wrapper .logo-img {
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: contain !important;
+}
+
+.header-center h2 {
+  margin: 0 !important;
+  text-align: center !important;
+  font-family: Mandioca, sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 0.875rem !important;
+  /* 14px */
+  /* line-height: 1.125rem; */
+  /* 18px */
+  letter-spacing: 0.1em !important;
+}
+
+.close-btn {
+  font-size: 18px !important;
+  background: none !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 5px 10px !important;
+}
+
+/* ----- MAIN SLIDER SECTION ----- */
+.main-slider-container {
+  flex: 1 0 auto !important;
+  /* fill leftover vertical space */
+  display: flex !important;
+  justify-content: center !important;
+  /* center horizontally */
+  align-items: center !important;
+  /* center vertically if needed */
+  position: relative !important;
+  width: 100% !important;
+  background: #fff !important;
+  z-index: 1 !important;
+}
+
+.main-slider-wrapper {
+  width: 80% !important;
+  max-width: 1600px !important;
+  margin: 0 auto !important;
+  /* ensures centering in its container */
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.slick-slider.slick-initialized {
+  position: static !important;
+}
+
+.main-slide {
+  width: 100% !important;
+  height: calc(73vh - 66px) !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.main-slide-img {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+}
+
+.below-main-info {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  width: 80% !important;
+  max-width: 1600px !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 0 10px 0 0 !important;
+  color: #0b1215 !important;
+}
+
+.info-left p,
+.info-right p {
+  margin: 0 !important;
+  /* padding: 5px 8px; */
+  border-radius: 4px !important;
+  font-family: Mandioca, sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 0.775rem !important;
+  /* 14px */
+  /* line-height: 1.125rem; */
+  /* 18px */
+  letter-spacing: 0.1em !important;
+}
+
+.info-right p {
+  color: #0b121580 !important;
+}
+
+/* ----- TEXT-BASED NAV BUTTONS FOR MAIN SLIDER ----- */
+.text-nav-btn {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 10 !important;
+  background: none !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+.gallery-prev {
+  left: -20px !important;
+}
+
+.gallery-next {
+  right: -20px !important;
+}
+
+/* ----- GALLERY SLIDER (FULL WIDTH) ----- */
+.gallery-slider-container {
+  width: 100% !important;
+  background: #f8f8f8 !important;
+  padding: 10px 0 !important;
+  flex-shrink: 0 !important;
+  position: relative !important;
+}
+
+.gallery-thumb-slide {
+  width: 200px !important;
+  /* set your desired width */
+  height: 110px !important;
+  /* set your desired height */
+  padding: 0 15px !important;
+  overflow: hidden !important;
+  cursor: pointer !important;
+}
+
+.gallery-thumb-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+  transition: transform 0.2s !important;
+  border: 2px solid transparent !important;
+}
+
+.gallery-thumb-img {
+  filter: brightness(0.6) !important;
+  transition: filter 0.3s !important;
+}
+
+/* Highlight the selected thumbnail */
+.gallery-thumb-slide.selected .gallery-thumb-img {
+  filter: brightness(1) !important;
+}
+
+.gallery-thumb-img:hover {
+  transform: scale(1.02) !important;
+  border-color: #ccc !important;
+}
+
+/* GALLERY NAV BUTTONS */
+.gallery-prev {
+  left: 10px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  color: #0b1215 !important;
+  font-size: 40px !important;
+  background-color: #f8f8f8 !important;
+  border-radius: 100% !important;
+  font-weight: 400 !important;
+  width: 50px !important;
+  height: 50px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.gallery-next {
+  right: 10px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  color: #0b1215 !important;
+  font-size: 40px !important;
+  font-weight: 400 !important;
+  background-color: #f8f8f8 !important;
+  border-radius: 100% !important;
+  width: 50px !important;
+  height: 50px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slick-slide img {
+  padding-right: 0 !important;
+}
+
+/* .cursor-left {
+  cursor: url('../../../../../public/assets/arrow-left.svg') 25 25, w-resize;
+}
+
+.cursor-right {
+  cursor: url('../../../../../public/assets/arrow-right.svg') 25 25, e-resize;
+} */
+
+/* If you want the arrow icons as an <img> in the middle: */
+.slide-arrow {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 5 !important;
+  width: 30px !important;
+  height: auto !important;
+  pointer-events: none !important;
+  /* so clicks go "through" the arrow to the underlying slider */
+}
+
+.slide-arrow-left {
+  left: 50% !important;
+  transform: translate(-200%, -50%) !important;
+  /* shift to left if you want it more leftward */
+}
+
+.slide-arrow-right {
+  right: 50% !important;
+  transform: translate(200%, -50%) !important;
+  /* shift to right */
+}
+
+.cursor-left {
+  cursor: none !important;
+  position: relative !important;
+}
+
+.cursor-left::before {
+  content: '' !important;
+  position: fixed !important;
+  width: 28px !important;
+  height: 9px !important;
+  background: url('../../../../../public/assets/svg/arrow-left.svg') no-repeat center center !important;
+  background-size: contain !important;
+  pointer-events: none !important;
+  z-index: 1000 !important;
+  transform: translate(-50%, -50%) !important;
+  left: var(--cursor-x) !important;
+  top: var(--cursor-y) !important;
+}
+
+.cursor-right {
+  cursor: none !important;
+  position: relative !important;
+}
+
+.cursor-right::before {
+  content: '' !important;
+  position: fixed !important;
+  width: 28px !important;
+  height: 9px !important;
+  background: url('../../../../../public/assets/svg/arrow-right.svg') no-repeat center center !important;
+  background-size: contain !important;
+  pointer-events: none !important;
+  z-index: 1000 !important;
+  transform: translate(-50%, -50%) !important;
+  left: var(--cursor-x) !important;
+  top: var(--cursor-y) !important;
+}
+
+/* Remove all main slider navigation arrows */
+.slick-prev,
+.slick-next,
+.main-prev,
+.main-next {
+  display: none !important;
+}
+
+/* Add cursor position tracking */
+.main-slider-container {
+  position: relative !important;
+}
+
+.main-slider-container {
+  position: relative !important;
+}
+
+.main-slide-img {
+  will-change: transform, opacity !important;
+}
+
+/* Remove only main slider nav buttons */
+.main-prev,
+.main-next {
+  display: none !important;
+}
+
+/* .header-bar,
+.below-main-info,
+.gallery-slider-container {
+  cursor: auto !important;
+} */
+
+@media screen and (min-width: 1920px) {
+  .slick-slider.slick-initialized {
+    position: relative !important;
+  }
+
+  .main-prev,
+  .main-next {
+    font-size: 22px !important;
+  }
+
+  .main-next {
+    right: 10px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .gallery-page-wrapper .header-bar {
+    padding-left: 0px !important;
+    padding-right: 10px !important;
+  }
+
+  .gallery-page-wrapper .header-bar .logo-img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+
+/* Hide custom cursors under 992px (iPad Pro widths) */
+@media screen and (max-width: 992px) {
+
+  .main-slider-container.cursor-left::before,
+  .main-slider-container.cursor-right::before {
+    display: none !important;
+  }
+
+  /* revert to default cursor so user sees the normal pointer */
+  .main-slider-container.cursor-left,
+  .main-slider-container.cursor-right {
+    cursor: auto !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .info-left p,
+  .info-right p {
+    font-size: 12px !important;
+  }
+
+  .info-right p {
+    margin-right: -5px !important;
+    display: none !important;
+  }
+
+  .below-main-info {
+    justify-content: center !important;
+  }
+
+  .info-left p {
+    text-align: center !important;
+    /* margin-left: -10px; */
+  }
+
+  .main-next {
+    right: 0px !important;
+    display: none !important;
+  }
+
+  .main-prev {
+    display: none !important;
+  }
+
+  .slick-slide img {
+    padding-right: 0px !important;
+  }
+
+  .gallery-prev {
+    display: none !important;
+  }
+
+  .gallery-next {
+    display: none !important;
+  }
+
+  .main-slide {
+    height: auto !important;
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+  }
+
+  /* .main-slide img {
+    width: 422px;
+    height: 225px;
+  } */
+
+  .gallery-page-wrapper .header-bar .logo-img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .gallery-page-wrapper .header-bar {
+    padding-left: 0px !important;
+    padding-right: 10px !important;
+  }
+}

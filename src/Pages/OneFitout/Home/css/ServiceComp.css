@@ -1,0 +1,98 @@
+@import '../../../../global.css';
+
+#service-overlay-flex{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+#service-overlay{
+    width: 103.125rem;
+    height: 47.25rem;
+    box-shadow: 0 0 0 1px rgba(128,128,128,0.2);
+    border-bottom: 0.25rem solid;
+    border-image: linear-gradient(to right, #b51429 34.875rem, transparent 0%) 1;
+    transform: translateX(-2.40%);
+}
+
+#service-inner{
+    padding-top: 6.25rem;
+    padding-bottom: 6.0625rem;
+}
+
+#service-title-row{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5.75rem;
+    padding-left: 4.875rem;
+    margin-bottom: 2.5rem;
+}
+
+#service-title-row-title{
+    width: 24.125rem;
+    font-family: Mandioca,sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 2%;
+    color: #0b1215;
+    text-transform: uppercase;
+}
+
+#service-title-button{
+    width: 7.6875rem;
+    height: 2.625rem;
+    background-color: transparent;
+    border:1px solid #b51f29;
+    color: #b51429;
+    padding-top: 0.5rem;
+    padding-bottom: 0.625rem;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+}
+
+#service-content{
+    height: 29.4375rem;
+    padding-left: 4.875rem;
+    display: flex;
+    gap: 1.25rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    scrollbar-color: transparent;
+}
+
+#service-content::-webkit-scrollbar{
+    display: hidden;
+}
+
+#service-image{
+    width: 30rem;
+    height: 20rem;
+    position: relative;
+}
+
+#service-title{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Mandioca, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 2%;
+    color: #0b1215;
+    padding-top: 1.5625rem;
+    padding-bottom: 1.5625rem;
+}
+
+#service-description{
+    width: 26.875rem;
+    height: 4.125rem;
+    font-family: 'P22-Mackinac-Pro',serif;
+    font-weight: 350;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    letter-spacing: 2%;
+    color: #0b1215;
+}

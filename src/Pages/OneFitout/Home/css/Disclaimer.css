@@ -1,0 +1,38 @@
+@import '../../../../global.css';
+
+#disc-overlay-flex{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#disc-overlay{
+    width: 108rem;
+}
+
+#disc-inner{
+    width: 108rem;
+    box-shadow: -0.0625rem 0 0 #0b1215;
+}
+
+#disc{
+    height: 6.375rem;
+    border-bottom: 0.0625rem solid #fbfaf6;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    padding-left: 4.875rem;
+    padding-right: 4.875rem;
+    background-color: #0b1215;
+}
+
+#disc-disclaimer{
+    width: 98.25rem;
+    height: 2.625rem;
+    color: #fbfaf6 !important;
+    font-family: Mandioca,sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    letter-spacing: 6%;
+}

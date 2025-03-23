@@ -1,0 +1,57 @@
+@import '../../../../global.css';
+
+#git-overlay-flex{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+#git-overlay{
+    width: 103.125rem;
+    height: 36.8125rem;
+    /* box-shadow: 1px 0 0 rgba(128, 128, 128, 0.2); */
+    box-shadow: 0 0 0 1px rgba(128,128,128,0.2);
+    transform: translateX(-2.40%);
+}
+
+#git-inner{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12.5rem;
+    padding-left: 21.4375rem;
+    padding-right: 16.625rem;
+    padding-bottom: 10.4375rem;
+}
+
+#git-caption{
+    width: 65.0625rem;
+    height: 7.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 350;
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    font-family: p22-mackinac-pro, serif;
+    color: #0b1215;
+    margin-bottom: 3.75rem;
+}
+
+#git-caption span{
+    color: #b51429;
+}
+
+#git-button{
+    width: 129px;
+    height: 42px;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    padding-bottom: 0.625rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    color: #b51f29;
+    border: 1px solid #b51f29;
+}

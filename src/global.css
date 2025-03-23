@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Mandioca;
+  src: url("/fonts/Mandioca-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Mandioca;
+  src: url("/fonts/Mandioca-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Mandioca-semibold;
+  src: url("/fonts/Mandioca-SemiBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Mandioca-medium;
+  src: url("/fonts/Mandioca-Medium.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: p22-mackinac-pro;
+  src: url("/fonts/P22Mackinac-Book_13.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Mandioca-semibold;
+  src: url("/fonts/Mandioca-SemiBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Mandioca-medium;
+  src: url("/fonts/Mandioca-Medium.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: Mandioca, sans-serif !important;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1728px) {
+  html {
+    font-size: clamp(7.44px, 0.0608px + 0.9224vw, 16px);
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 440px) {
+  html {
+    /* font-size: clamp(10.912px, 0.0096px + 3.6343vw, 16px); */
+    font-size: clamp(7.264px, -0.016px + 3.64vw, 16px);
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}

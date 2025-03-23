@@ -1,0 +1,118 @@
+@import "../../../../global.css";
+
+#popup-inner {
+  height: 5.0625rem; /* 81px */
+  display: flex;
+  gap: 0.625rem; /* 10px */
+  align-items: center;
+}
+
+#popup-button {
+  width: 1.5rem; /* 28px */
+  height: 1.5rem; /* 28px */
+  border: 0.125rem solid #fbfaf6; /* 2px */
+  background-color: rgba(11, 18, 21, 0.2);
+  border-radius: 50%;
+  padding: 0.3125rem; /* 5px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0.0625rem 0.0625rem 0.25rem 0rem #00000040; /* 1px 1px 4px 0px */
+}
+
+#popup-button:hover {
+  cursor: pointer;
+}
+
+.active #popup-button {
+  border: 0.125rem solid #b51f29; /* 2px */
+  background-color: rgba(191, 31, 41, 0.2);
+}
+
+#popup-button-inner {
+  width: 0.5rem; /* 10px */
+  height: 0.5rem; /* 10px */
+  border-radius: 50%;
+  border: 0.0625rem solid #fbfaf6; /* 1px */
+  background-color: #fbfaf6;
+}
+
+.active #popup-button-inner {
+  border: 0.0625rem solid #b51f29; /* 1px */
+  background-color: #b51f29;
+}
+
+#popup-main {
+  width: auto; /* 243px */
+  height: 5.0625rem; /* 81px */
+  background-color: #fbfaf6;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem #00000040; /* 0px 4px 4px 0px */
+}
+
+img #popup-img {
+  width: 4.0625rem; /* 65px */
+  height: 4.0625rem; /* 65px */
+}
+
+#popup-main {
+  display: flex;
+  gap: 0.625rem; /* 10px */
+  padding: 0.5rem; /* 8px */
+  z-index: 1;
+}
+
+#popup-section span {
+  display: block;
+}
+
+#popup-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem; /* 6px */
+}
+
+#popup-heading {
+  width: 9.375rem; /* 150px */
+  height: 0.875rem; /* 14px */
+  font-family: Mandioca, sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem; /* 12px */
+  line-height: 0.9rem; /* 14.4px */
+  letter-spacing: 6%;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+#popup-text {
+  width: 9.375rem; /* 150px */
+  height: 1.625rem; /* 26px */
+  font-family: Mandioca, sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem; /* 12px */
+  line-height: 0.9rem; /* 14.4px */
+  color: #000000;
+}
+#popup-section {
+  text-wrap: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  #popup-button {
+    width: 1rem;
+    height: 1rem;
+  }
+  #popup-button-inner {
+    width: 0.2rem;
+    height: 0.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  #popup-button {
+    width: 1rem;
+    height: 1rem;
+  }
+  #popup-button-inner {
+    width: 0.2rem;
+    height: 0.2rem;
+  }
+}

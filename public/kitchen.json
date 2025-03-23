@@ -1,0 +1,86 @@
+[
+  {
+    "serial": "001",
+    "image": "/assets/project1.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Savannah, Emirates Hills, Dubai"
+  },
+  {
+    "serial": "002",
+    "image": "/assets/project2.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "The Reserve, Al Barari, Dubai"
+  },
+  {
+    "serial": "003",
+    "image": "/assets/project3.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Frond A, The Palm, Dubai"
+  },
+  {
+    "serial": "004",
+    "image": "/assets/project4.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Saheel, Arabian Ranches, Dubai"
+  },
+  {
+    "serial": "005",
+    "image": "/assets/project5.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Savannah, Emirates Hills, Dubai"
+  },
+  {
+    "serial": "006",
+    "image": "/assets/kitchen1.jpeg",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Savannah, Emirates Hills, Dubai"
+  },
+  {
+    "serial": "007",
+    "image": "/assets/project6.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Frond A, The Palm, Dubai"
+  },
+  {
+    "serial": "008",
+    "image": "/assets/project7.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Saheel, Arabian Ranches, Dubai"
+  },
+  {
+    "serial": "009",
+    "image": "/assets/project8.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Savannah, Emirates Hills, Dubai"
+  },
+  {
+    "serial": "010",
+    "image": "/assets/project9.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Frond A, The Palm, Dubai"
+  },
+  {
+    "serial": "011",
+    "image": "/assets/project10.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Saheel, Arabian Ranches, Dubai"
+  },
+  {
+    "serial": "012",
+    "image": "/assets/project11.png",
+    "type": "renovation",
+    "area": "- kitchens",
+    "community": "Savannah, Emirates Hills, Dubai"
+  }
+]

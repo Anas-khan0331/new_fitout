@@ -1,0 +1,21 @@
+{
+  "designSlider": {
+    "slides": [
+      {
+        "id": 1,
+        "image": "/assets/db1-slider1.png",
+        "description": "Elevate your bathroom experience with sleek, modern designs that blend luxury and practicality."
+      },
+      {
+        "id": 2,
+        "image": "/assets/db1-banner.png",
+        "description": "Elegant bathroom renovation with marble finishes, freestanding bath, and custom vanity."
+      },
+      {
+        "id": 3,
+        "image": "/assets/db1-slider1.png",
+        "description": "Seamlessly integrated living and dining areas with natural light and custom joinery."
+      }
+    ]
+  }
+}

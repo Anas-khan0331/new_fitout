@@ -1,0 +1,941 @@
+@font-face {
+  font-family: Mandioca-semibold;
+  src: url("/fonts/Mandioca-SemiBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Mandioca-medium;
+  src: url("/fonts/Mandioca-Medium.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.home-banner-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.heading-container {
+  max-width: 500px;
+}
+
+.video-heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.savanahImage_div p {
+  font-size: 12px !important;
+}
+
+.renovation_text_large p {
+  font-size: 32px !important;
+  line-height: 40px !important;
+}
+
+.renovation_kitchen_text_spacing_class {
+  letter-spacing: 0px !important;
+}
+
+.renovation_Btn button {
+  font-size: 12px;
+}
+
+.savannahImg_container img {
+  height: 90vh !important;
+  object-fit: cover;
+}
+
+.knowUs_container_div p {
+  font-size: 14px;
+  text-transform: uppercase !important;
+  font-weight: 500;
+  letter-spacing: 1.6px !important;
+  font-family: Mandioca-semibold, sans-serif;
+
+}
+
+.knowUs_container_text_gray p {
+  font-size: 14px;
+  font-family: Mandioca-medium, sans-serif;
+}
+
+.get_to_know_us_text h1 {
+  font-size: 50px !important;
+  line-height: 50px !important;
+  font-family: p22-mackinac-pro;
+  font-weight: 350 !important;
+}
+
+.get_to_know_btn button {
+  background-color: transparent;
+  border: none;
+  height: 48px;
+  color: #eaeaea;
+  border: 1px solid#B51F29;
+  border-radius: 0px;
+  color: #b51f29;
+  font-size: 12px !important;
+  padding: 8px 15px;
+  font-weight: 500;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* Fixed height for desktop screens */
+}
+
+.slider_btn_mobile {
+  display: none !important;
+}
+
+.responsive-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+}
+
+.fitout_text_container {
+  margin-top: 20px;
+}
+
+.fitout_text_div p {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin: 0;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.fitout_text_div span {
+  color: #b51f29;
+}
+
+.video-heading {
+  color: #ffffff;
+}
+
+.heading_container {
+  max-width: 400px;
+}
+
+.fitout_text_div {
+  max-width: 500px !important;
+}
+
+.fitout_text_container {
+  padding: 100px 0px;
+  background-color: #070b0c;
+}
+
+.fitout_text_div p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #eaeaea;
+}
+
+.fitout_text_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.savanahImage_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.savanahImage_div p {
+  color: #eaeaea;
+}
+
+.renovation_text p {
+  color: #eaeaea;
+}
+
+.renovation_text_small p {
+  color: #eaeaea;
+  font-size: 11px;
+  margin-bottom: 10px;
+  letter-spacing: 1px !important;
+  line-height: 16px;
+  font-family: Mandioca-medium, sans-serif;
+
+}
+
+.knowUs_container_div p {
+  color: #0b1215;
+  font-weight: 500;
+  padding-top: 6px;
+}
+
+.knowUs_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.get_to_know_us_text h1 {
+  font-size: 32px;
+  font-weight: 350;
+  line-height: 38px;
+  margin-bottom: 50px;
+}
+
+.knowUs_container_text_gray p {
+  color: #0b121580;
+  opacity: 0.9;
+  font-weight: 500;
+  padding-right: 4px;
+  line-height: 18px;
+  letter-spacing: 1px
+}
+
+.renovation_Btn button {
+  background-color: transparent;
+  border: none;
+  color: #eaeaea;
+  border: 1px solid#B51F29;
+  border-radius: 0px;
+  margin-top: 20px;
+  color: #b51f29;
+  width: 125px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  padding: 8px 15px 10px 15px;
+}
+
+.renovation_Btn button:hover {
+  background-color: #b51f29 !important;
+  color: #fff !important;
+  border: 1px solid#B51F29;
+}
+
+.get_to_know_btn button:hover {
+  background-color: #b51f29 !important;
+  color: #fff !important;
+  border: 1px solid#B51F29;
+}
+
+.renovation_text_large p {
+  font-size: 30px;
+}
+
+.philosophy_text_container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.philosophy_text_heading h2 {
+  font-size: 40px;
+  font-weight: 700 !important;
+  margin-bottom: 30px;
+  line-height: 48px;
+  letter-spacing: 0.24px;
+}
+
+.philosphy_section_main {
+  padding-top: 220px !important;
+  padding-bottom: 50px !important;
+}
+
+.philosophy_text2 {
+  font-size: 16px;
+  margin-top: 25px;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+
+}
+
+.philosophy_text1 {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+
+}
+
+.text_grey_block {
+  display: none !important;
+}
+
+.philosophy_text_btn button {
+  margin-top: 40px;
+  background-color: transparent;
+  border: none;
+  color: #eaeaea;
+  border: 1px solid#B51F29;
+  border-radius: 0px;
+  color: #b51f29;
+  height: 48px;
+  padding: 6px 15px;
+  font-weight: 500;
+}
+
+.philosophy_text_btn button:hover {
+  background-color: #b51f29 !important;
+  color: #fff !important;
+  border: 1px solid#B51F29;
+}
+
+.philosophyImg_container {
+  height: 90vh !important;
+}
+
+.getInTouch_custom_btn {
+  border: 1px solid #B51F29 !important;
+  background: #fff !important;
+  color: #B51F29 !important;
+  border-radius: 0px !important;
+  font-weight: 500 !important;
+  padding: 9px 13px !important;
+  margin-top: 80px;
+  transition: background-color 0.3s ease, color 0.3s ease !important;
+  /* font-family: Mandioca, sans-serif */
+}
+
+.getInTouch_custom_btn:hover {
+  background-color: #b51f29 !important;
+  color: #fff !important;
+  border: 1px solid #B51F29;
+}
+
+.about_text p {
+  font-size: 12px;
+  color: #fbfaf6;
+  line-height: 14.4px;
+}
+
+.get_in_touch_class {
+  font-size: 38px !important;
+  font-family: p22-mackinac-pro;
+}
+
+.get_in_touch_btn {
+  font-size: 12px !important;
+  height: 48px;
+  padding: 8px 15px;
+}
+
+.reverse_text_class {
+  margin-bottom: 30px;
+  display: none;
+}
+
+.banner_container {
+  padding-top: 100px !important;
+}
+
+.home_get_intouch_section_div {
+  border-top: 1px solid #eaeaea;
+  margin-top: 130px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .get_touch_blog_details_section {
+    margin-top: 20px !important;
+  }
+
+  .home_get_intouch_section_div {
+    /* margin-top: 270px !important; */
+    margin-top: 150px !important;
+  }
+
+  .getInTouch_custom_btn {
+    margin-top: 40px !important;
+  }
+
+  .slider_title_container {
+    align-items: start !important;
+  }
+
+  .btn_block_btn {
+    display: none !important;
+  }
+
+  .slider_btn_mobile {
+    display: block !important;
+  }
+
+  .progress-bar {
+    display: none !important;
+  }
+
+  .slider_btn_mobile {
+    margin-top: 30px !important;
+  }
+
+  .slider_comp_container {
+    padding-bottom: 20px;
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 850px !important;
+  }
+
+  .responsive-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .video-heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .fitout_text_div {
+    max-width: 330px !important;
+  }
+
+  .fitout_text_div p {
+    font-size: 14px !important;
+  }
+
+  .featured_kitchen_section_main_div {
+    padding: 50px 20px !important;
+  }
+
+  .reverse_text_class {
+    display: block;
+  }
+
+  .renovation_text_small_hidden_class {
+    display: none !important;
+  }
+
+  .hover_btn_class button:hover {
+    background-color: #B51F29 !important;
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+  }
+
+  .featured_kitchen_section_main_div .reverse-row {
+    flex-direction: column-reverse !important;
+  }
+
+  .savannahImg_container {
+    margin-bottom: 40px;
+  }
+
+  .savannahImg_container img {
+    height: 55vh !important;
+    object-fit: cover;
+  }
+
+  .renovation_text_small p {
+    font-size: 12px;
+    margin-bottom: 20px !important;
+    font-family: Mandioca, sans-serif;
+  }
+
+  .renovation_text_large p {
+    font-size: 25px !important;
+    line-height: 35px !important;
+  }
+
+  .renovation_Btn {
+    margin-top: 10px;
+  }
+
+  .knowUs_container_div {
+    margin-bottom: 40px;
+  }
+
+  .knowUs_container_div p {
+    font-size: 14px !important;
+  }
+
+  .text_grey_hidden {
+    display: none !important;
+  }
+
+  .text_grey_block {
+    display: block !important;
+    margin-bottom: 30px;
+  }
+
+  .get_to_know_btn {
+    width: 100%;
+  }
+
+  .get_to_know_btn button {
+    width: 100% !important;
+    font-size: 12px !important;
+    font-weight: 600;
+  }
+
+  .get_to_know_us_text h1 {
+    font-size: 35px !important;
+    line-height: 47px !important;
+  }
+
+  .philosphy_section_main .reverse-row {
+    flex-direction: column-reverse !important;
+  }
+
+  .philosphy_section_main {
+    margin-top: 230px !important;
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    border-top: 1px solid #eaeaea;
+  }
+
+  .philosophyImg_container {
+    height: 480px !important;
+    margin-bottom: 40px;
+  }
+
+  .get_in_touch_class {
+    padding: 0px 10px !important;
+    font-size: 28px !important;
+    line-height: 35px !important;
+    font-weight: 350 !important;
+    letter-spacing: 0.24px !important;
+  }
+
+  .philosophy_text_heading h2 {
+    font-size: 32px !important;
+  }
+
+  .renovation_Btn button {
+    height: 42px;
+    width: 140px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .slider_title_container {
+    flex-direction: column !important;
+  }
+
+  .slider-btn {
+    margin-top: 20px;
+  }
+
+  .slider_btn_container button {
+    width: 100% !important;
+  }
+
+  .slider-btn {
+    width: auto !important;
+    font-size: 12px !important;
+  }
+
+  .about_section_container {
+    display: none;
+  }
+
+
+}
+
+/* @media screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-btn {
+    width: auto !important;
+    font-size: 12px !important;
+  }
+
+  .renovation_text_small_hidden_class {
+    display: none !important;
+  }
+
+  .renovation_text {
+    margin-top: 50px;
+  }
+
+  .text_grey_hidden {
+    display: none !important;
+  }
+
+  .reverse_text_class p {
+    display: none !important;
+  }
+
+  .text_grey_block {
+    margin-bottom: 20px;
+  }
+
+  .knowUs_container_div {
+    margin-bottom: 50px;
+  }
+
+  .get_to_know_us_text h1 {
+    margin-bottom: 30px;
+  }
+
+  .renovation_Btn {
+    margin-bottom: 30px !important;
+  }
+
+  .philosophy_text_btn {
+    margin-bottom: 20px !important;
+  }
+
+  .philosophyImg_container img {
+    height: 430px !important;
+  }
+} */
+
+@media screen and (min-width: 992px) and (max-width: 1141px) {
+  .text_grey_hidden {
+    display: block !important;
+  }
+
+  .text_grey_block p {
+    display: none !important;
+  }
+
+  .savannahImg_container img {
+    height: auto !important;
+    object-fit: cover;
+  }
+
+  .philosophyImg_container {
+    height: auto !important;
+  }
+
+  .renovation_text_small_hidden_class {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .text_grey_hidden {
+    display: none !important;
+  }
+
+  .renovation_text {
+    margin-top: 50px;
+  }
+
+  .philosophy_text_btn button {
+    font-size: 12px;
+  }
+
+  .slider-btn {
+    width: auto !important;
+    font-size: 12px !important;
+  }
+
+  .reverse_text_class p {
+    display: none !important;
+  }
+
+  .renovation_Btn {
+    margin-bottom: 30px;
+  }
+
+  .savannahImg_container img {
+    height: 60vh !important;
+    object-fit: cover;
+  }
+
+  .philosophyImg_container {
+    height: 65vh !important;
+    object-fit: cover !important;
+  }
+
+  .text_grey_block {
+    margin-bottom: 30px;
+  }
+
+  .knowUs_container_div {
+    margin-bottom: 70px;
+  }
+
+  .philosophy_text_btn {
+    margin-bottom: 30px !important;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1728px) {
+  .navbar-button {
+    width: auto !important;
+  }
+
+  .home_get_intouch_section_div {
+    padding: 100px 0px !important;
+  }
+
+  .slider-btn {
+    width: auto !important;
+    font-size: 12px !important;
+  }
+
+  .heading-container {
+    max-width: 800px;
+  }
+
+  .video-heading {
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .fitout_text_div {
+    max-width: 700px;
+  }
+
+  .fitout_text_div p {
+    font-size: 16px;
+  }
+
+  .savannahImg_container img {
+    height: 80vh !important;
+    object-fit: cover;
+  }
+
+  .savanahImage_div p {
+    font-size: 16px;
+  }
+
+  .renovation_Btn button {
+    font-size: 12px;
+  }
+
+  .knowUs_container_div p {
+    font-size: 16px;
+  }
+
+  .knowUs_container_text_gray p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .get_to_know_us_text h1 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 70px;
+  }
+
+  .get_to_know_btn button {
+    font-size: 12px;
+  }
+
+  .featured_kitchen_section_main_div {
+    padding-top: 50px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .philosophy_text_heading h2 {
+    font-size: 40px;
+    line-height: 48px !important;
+    letter-spacing: 0.2px;
+
+  }
+
+  .philosophy_text1 {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    font-weight: 350;
+  }
+
+  .philosophy_text2 {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    font-weight: 350;
+  }
+
+  .philosophy_text_btn button {
+    font-size: 12px !important;
+  }
+
+  .get_in_touch_btn {
+    font-size: 12px !important;
+  }
+
+  .philosphy_section_main {
+    padding-top: 200px !important;
+    height: auto;
+  }
+
+  .philosophyImg_container img {
+    height: 686px !important;
+  }
+
+  .philosophyImg_container {
+    height: 100% !important;
+  }
+
+  .about_text p {
+    font-size: 14px;
+  }
+
+  .knowUs_container_div p {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px !important;
+    font-weight: 500;
+  }
+
+  .knowUs_container_text_gray p {
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.5px !important;
+  }
+
+  .renovation_text_small p {
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 12px !important;
+  }
+
+  .renovation_text_large p {
+    font-size: 40px !important;
+    line-height: 47px !important;
+    letter-spacing: 0.2px;
+  }
+
+  .get_in_touch_class {
+    font-size: 50px !important;
+    font-family: p22-mackinac-pro;
+    line-height: 50px;
+  }
+
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1781px) {
+  .slider-btn {
+    width: auto !important;
+    font-size: 14px !important;
+  }
+
+  .heading-container {
+    max-width: 800px;
+  }
+
+  .video-heading {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .fitout_text_div {
+    max-width: 900px;
+  }
+
+  .fitout_text_div p {
+    font-size: 18px !important;
+  }
+
+  .savannahImg_container img {
+    height: 85vh !important;
+    object-fit: cover;
+  }
+
+  .savanahImage_div p {
+    font-size: 18px;
+  }
+
+  .renovation_text_small p {
+    font-size: 16px;
+  }
+
+  .renovation_text_large p {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .renovation_Btn button {
+    font-size: 14px;
+  }
+
+  .knowUs_container_div p {
+    font-size: 18px;
+  }
+
+  .knowUs_container_text_gray p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .get_to_know_us_text h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .get_to_know_btn button {
+    font-size: 14px;
+  }
+
+  .featured_kitchen_section_main_div {
+    padding-top: 70px !important;
+    padding-bottom: 100px !important;
+  }
+
+  .philosophy_text_heading h2 {
+    font-size: 60px;
+  }
+
+  .philosophy_text1 {
+    font-size: 20px;
+  }
+
+  .philosophy_text2 {
+    font-size: 20px;
+  }
+
+  .philosophy_text_btn button {
+    font-size: 14px !important;
+  }
+
+  .get_in_touch_btn {
+    font-size: 14px !important;
+  }
+
+  .philosphy_section_main {
+    padding-top: 250px !important;
+    height: auto;
+  }
+
+  .philosophyImg_container img {
+    height: 686px !important;
+  }
+
+  .about_text p {
+    font-size: 16px;
+  }
+
+  .navbar-button {
+    width: auto !important;
+  }
+
+}

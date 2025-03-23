@@ -1,0 +1,48 @@
+@import "../../../../global.css";
+
+
+.kitchen-wrapper {
+  margin-top: 120px;
+}
+
+#splash-outer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfaf6;
+}
+
+#splash-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+}
+
+#splash-heading {
+  text-transform: capitalize;
+  font-family: p22-mackinac-pro, serif;
+  font-weight: 350;
+  font-size: 6.25rem;
+  line-height: 6.25rem;
+  text-align: center;
+}
+
+#splash-text {
+  text-transform: uppercase;
+  font-family: Mandioca, sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+  letter-spacing: 2%;
+  text-align: center;
+  align-self: center;
+  color: #b51f29;
+}
+
+@media screen and (max-width: 992px) {
+  .kitchen-wrapper .navbar-bootstrap .navbar-toggler.collapsed img {
+    filter: invert(1);
+  }
+}

@@ -1,0 +1,50 @@
+@import "../../../../global.css";
+
+#modal-outer {
+  width: auto;
+  height: 99%;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 6.25rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5%);
+  z-index: 1000;
+  transition: background-color 0.9s ease-in, backdrop-filter 0.9s ease-in-out;
+}
+
+#modal-inner {
+  max-width: 35.5rem;
+  max-height: 100%;
+  background-color: #fbfaf6;
+  z-index: 1001;
+}
+
+#modal-titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+  border: 0.0625rem solid #eaeaea;
+}
+
+#modal-title {
+  font-family: Mandioca, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 2%;
+  text-transform: capitalize;
+}
+
+#modal-close:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.footer-bootstrap {
+  background-color: #0b1215;
+  color: #fbfaf6;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  line-height: 22px;
+}
+.footer-heading {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+.footer-digital-info {
+  margin-top: 20px;
+}
+.footer-address {
+  margin-top: 20px;
+}
+.footer-social-icons {
+  margin-top: 20px;
+}
+.footer-social-icons img {
+  margin-right: 10px;
+  border: 1px solid #fbfaf6;
+  border-radius: 100%;
+  padding: 7px;
+  width: 33px;
+  height: 33px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-bootstrap {
+    padding-bottom: 0px;
+  }
+}

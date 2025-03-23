@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/assets/project3.png",
+    "title": "Frond A,",
+    "label": "RENOVATION — KITCHENS",
+    "area": "The Palm, Dubai"
+  },
+  {
+    "image": "/assets/project4.png",
+    "label": "RENOVATION — KITCHENS",
+    "title": "Saheel,",
+    "area": "Arabian Ranches, Dubai"
+  },
+  {
+    "image": "/assets/project5.png",
+    "label": "RENOVATION — Living room",
+    "title": "Savannah,",
+    "area": "Emirates Hills, Dubai"
+  }
+]
