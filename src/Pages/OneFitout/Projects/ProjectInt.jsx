@@ -1363,6 +1363,7 @@ export default function ProjectInt() {
                     flexDirection: "column",
                     justifyContent: "space-between",
                     height: "calc(100vh - 65px)",
+                    overflowY: "auto",
                   }}
                 >
                   <div
