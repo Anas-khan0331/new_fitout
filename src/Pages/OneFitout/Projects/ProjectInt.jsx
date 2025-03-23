@@ -1362,6 +1362,7 @@ export default function ProjectInt() {
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",
+                    height: "calc(100vh - 65px)",
                   }}
                 >
                   <div
