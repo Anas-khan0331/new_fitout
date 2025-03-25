@@ -109,7 +109,7 @@ export default function ProjectInt() {
       // Animate backdrop
       gsap.to(backdropRef.current, {
         opacity: 1,
-        duration: 0.6,
+        duration: 1.2,
         ease: "power2.inOut",
       });
 
@@ -123,7 +123,7 @@ export default function ProjectInt() {
         {
           opacity: 1,
           y: 0,
-          duration: 0.6,
+          duration: 1.2,
           ease: "power3.inOut",
         }
       );
@@ -164,37 +164,53 @@ export default function ProjectInt() {
       />
       <Layout sidebarBg="#FBFAF6" sidenarHeight="90vh">
         <div className="project-inner-wrapper">
-          <div className="project-header">
-            <h1>{sliceString(Project?.community)}</h1>
-            <p>{remainingString(Project?.community)}</p>
-          </div>
-
-          <div className="project-body">
-            <p>{Project?.body || "No description available."}</p>
-          </div>
-
-          <div className="project-buttons">
-            <CustomButton
-              borderRadius="30px"
-              btnTxt={"Read More"}
-              padding="10px 15px"
-              onClick={readMore}
-              border="1px solid #1c1c1c"
-              color="#0b1215"
+          <div className="project-inner-img-wrapper">
+            cur{" "}
+            <img
+              src={Project?.image || "/assets/placeholder.jpg"}
+              className="project-inner-img"
             />
           </div>
 
-          <div className="sticky-footer">
-            <Link to={`${pathname}/gallery`}>
-              <CustomButton
-                borderRadius="1.875rem"
-                Icon={IoGrid}
-                isIcon={true}
-                btnTxt="Gallery"
-                border="0.0625rem solid #1c1c1c"
-                color="#0b1215"
-              />
-            </Link>
+          <div className="project-inner-right-wrapper">
+            <div className="project-inner-right-text-wrapper">
+              <p
+                className="project-inner-right-text-wrapper_text"
+                style={{ textTransform: "uppercase" }}
+              >
+                <span id="pint-type">{Project?.type}</span>
+                <span id="pint-area">{Project?.area}</span>
+              </p>
+              <h1 id="pint-community">
+                {sliceString(Project?.community)}
+                <br />
+                {remainingString(Project?.community)}
+              </h1>
+              <div id="projectint-buttons">
+                <CustomButton
+                  borderRadius="30px"
+                  btnTxt={"Read More"}
+                  padding="10px 15px"
+                  onClick={readMore}
+                  border="1px solid #1c1c1c"
+                  color="#0b1215"
+                />
+                <Link
+                  style={{ textDecoration: "none" }}
+                  to={`${pathname}/gallery`}
+                >
+                  <CustomButton
+                    borderRadius="30px"
+                    Icon={IoGrid}
+                    isIcon={true}
+                    btnTxt="Gallery"
+                    padding="10px 15px"
+                    border="1px solid #1c1c1c"
+                    color="#0b1215"
+                  />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </Layout>
