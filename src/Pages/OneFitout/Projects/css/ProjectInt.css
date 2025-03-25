@@ -484,12 +484,12 @@
   }
 
   #readmore-inner {
-    height: 100vh !important;
+    /* height: 100vh !important; */
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
     justify-content: flex-start;
-    position: relative;
+    /* position: relative; */
   }
 
   #readmore-footer {
