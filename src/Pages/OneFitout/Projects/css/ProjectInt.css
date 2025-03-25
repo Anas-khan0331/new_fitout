@@ -233,16 +233,12 @@
 
 #readmore-title {
   margin-bottom: 1.25rem !important;
-  /* 20px / 16 */
   color: #0b1215;
   font-family: p22-mackinac-pro, serif;
   font-weight: 500;
   font-size: 1.75rem;
-  /* 28px / 16 */
   line-height: 2.0825rem;
-  /* 33.32px / 16 */
-  letter-spacing: 0.02rem;
-  /* unchanged as it was a percentage */
+  letter-spacing: .02rem;
 }
 
 #readmore-main-p {
@@ -511,13 +507,17 @@
 
 
   #readmore-details {
-    padding-left: 20px;
-    padding-right: 20px;
     margin-top: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+    gap: 0px;
   }
 
   #readmore-main {
-    width: auto;
+    width: auto !important;
   }
 
   #readmore-title {

@@ -854,119 +854,34 @@ export default function ProjectInt() {
                   <img id="readmore-close" src="/assets/filter-close.png" />
                 </div>
                 {/* Scrollable content area */}
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "space-between",
-                    height: "calc(100vh - 65px)",
-                  }}
-                >
+                <div>
                   <div
                     style={{
                       padding: "40px 20px 0px 20px",
                     }}
                   >
-                    <p
-                      style={{
-                        fontSize: "28px",
-                        fontWeight: "500",
-                        lineHeight: "35px",
-                        fontFamily: "p22-mackinac-pro, serif",
-                      }}
-                    >
-                      {Project.community}
-                    </p>
-                    <p
-                      style={{
-                        fontSize: "16px",
-                        lineHeight: "22px",
-                        marginBottom: "24px",
-                        marginTop: "20px",
-                        fontFamily: "p22-mackinac-pro, serif",
-                      }}
-                    >
-                      {Project?.body || "No description available."}
-                    </p>
-
-                    <div style={{ marginTop: "32px" }}>
-                      <div style={{ marginBottom: "16px" }}>
-                        <div
-                          style={{
-                            fontSize: "12px",
-                            lineHeight: "16px",
-                            fontWeight: "500",
-                            textTransform: "uppercase",
-                            marginBottom: "4px",
-                          }}
-                        >
-                          Type
-                        </div>
-                        <div
-                          style={{
-                            fontSize: "16px",
-                            lineHeight: "22px",
-                            fontWeight: "400",
-                          }}
-                        >
-                          {Project?.type || "Unknown Type"}
-                        </div>
-                      </div>
-                      <div style={{ marginBottom: "16px" }}>
-                        <div
-                          style={{
-                            fontSize: "12px",
-                            lineHeight: "16px",
-                            fontWeight: "500",
-                            textTransform: "uppercase",
-                            marginBottom: "4px",
-                          }}
-                        >
-                          Location
-                        </div>
-                        <div
-                          style={{
-                            fontSize: "16px",
-                            lineHeight: "22px",
-                            fontWeight: "400",
-                          }}
-                        >
-                          {Project?.area || "Unknown Location"}
-                        </div>
-                      </div>
-                      <div style={{ marginBottom: "16px" }}>
-                        <div
-                          style={{
-                            fontSize: "12px",
-                            lineHeight: "16px",
-                            fontWeight: "500",
-                            textTransform: "uppercase",
-                            marginBottom: "4px",
-                          }}
-                        >
-                          Year
-                        </div>
-                        <div
-                          style={{
-                            fontSize: "16px",
-                            lineHeight: "22px",
-                            fontWeight: "400",
-                          }}
-                        >
-                          2023
-                        </div>
-                      </div>
+                    <div id="readmore-main">
+                      <p id="readmore-title">{Project.community}</p>
+                      <p id="readmore-main-p">
+                        {Project?.body || "No description available."}
+                      </p>
                     </div>
                   </div>
-
-                  {/* Button container */}
-                  <div
-                    style={{
-                      background: "#FBFAF6",
-                      padding: "20px",
-                      paddingBottom: "calc(20px + env(safe-area-inset-bottom))",
-                    }}
-                  >
+                  <div id="readmore-details">
+                    <div style={{ marginTop: "32px" }}>
+                      <div style={{ marginBottom: "16px" }}>
+                        <div>Type</div>
+                        <div>{Project?.type || "Unknown Type"}</div>
+                      </div>
+                      <div style={{ marginBottom: "16px" }}>
+                        <div>Location</div>
+                        <div>{Project?.area || "Unknown Location"}</div>
+                      </div>
+                      <div style={{ marginBottom: "16px" }}>
+                        <div>Year</div>
+                        <div>2023</div>
+                      </div>
+                    </div>
                     <Link
                       style={{
                         textDecoration: "none",
