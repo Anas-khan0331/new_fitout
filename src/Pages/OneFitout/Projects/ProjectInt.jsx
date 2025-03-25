@@ -854,7 +854,15 @@ export default function ProjectInt() {
                   <img id="readmore-close" src="/assets/filter-close.png" />
                 </div>
                 {/* Scrollable content area */}
-                <div>
+                <div
+                  style={{
+                    height: "100%",
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                  }}
+                >
                   <div
                     style={{
                       padding: "40px 20px 0px 20px",
