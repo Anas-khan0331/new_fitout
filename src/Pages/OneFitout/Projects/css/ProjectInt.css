@@ -490,6 +490,8 @@
     background: #FBFAF6;
     padding: 1rem;
     width: 100%;
+    padding-bottom: calc(20px + env(safe-area-inset-bottom));
+    /* Account for safe area */
   }
 }
 
