@@ -109,7 +109,7 @@ export default function ProjectInt() {
       // Animate backdrop
       gsap.to(backdropRef.current, {
         opacity: 1,
-        duration: 1.2,
+        duration: 0.6,
         ease: "power2.inOut",
       });
 
@@ -123,7 +123,7 @@ export default function ProjectInt() {
         {
           opacity: 1,
           y: 0,
-          duration: 1.2,
+          duration: 0.6,
           ease: "power3.inOut",
         }
       );
