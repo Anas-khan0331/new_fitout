@@ -205,12 +205,12 @@
 }
 
 #readmore-details {
-  position: fixed !important;
-  bottom: 0px !important;
-  left: 0px !important;
-  right: 0px !important;
-  padding: 20px !important;
-  gap: 0px !important;
+  width: 12.5625rem;
+  /* 201px / 16 */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5625rem;
+  /* 25px / 16 */
 }
 
 #readmore-details>span {
@@ -511,7 +511,7 @@
 
 
   #readmore-details {
-    padding-left: 20px;
+    padding-left: 0px;
     padding-right: 20px;
     margin-top: 40px;
   }
@@ -528,16 +528,6 @@
     margin-top: 20px;
     max-width: 600px;
   }
-
-  #readmore-main-p {
-    font-family: p22-mackinac-pro, serif;
-    font-weight: 350;
-    font-size: 1rem;
-    line-height: 1.375rem;
-    letter-spacing: .02em;
-    color: #0b1215;
-  }
-
 
   #readmore-details {
     width: auto;
