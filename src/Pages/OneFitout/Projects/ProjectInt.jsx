@@ -469,7 +469,7 @@ export default function ProjectInt() {
                       position: "sticky",
                       bottom: 0,
                       width: "100%",
-                      zIndex: 5,
+                      zIndex: 1000,
                     }}
                   >
                     <Link
