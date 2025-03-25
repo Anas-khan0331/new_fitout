@@ -508,11 +508,10 @@
 
   #readmore-details {
     margin-top: 5px;
-    position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    padding: 20px;
+    padding: 10px;
     gap: 0px;
   }
 
