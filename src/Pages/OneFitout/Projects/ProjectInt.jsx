@@ -1,3 +1,4 @@
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
 import { IoGrid } from "react-icons/io5";
@@ -9,7 +10,6 @@ import NavbarBootstrap from "../../../Components/NavbarBootstrap";
 import "./css/ProjectInt.css";
 import imgOne from "/assets/logo-white-red.png";
 import logo from "/assets/onefitout-black-logo.png";
-import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 const contactUsData1 = {
   title: "Enquiries",
   contact: "enquiries@1fitout.com",
@@ -402,12 +402,11 @@ export default function ProjectInt() {
             {viewWidth <= 992 ? (
               <div
                 style={{
-                  // display: "flex",
-                  // flexDirection: "column",
-                  height: "100vh", // Full height of the viewport
+                  display: "flex",
+                  flexDirection: "column",
+                  minHeight: "100vh", // Full height of the viewport
                   // justifyContent: "space-between", // Space between content and button
                   backgroundColor: "#fbfaf6",
-                  overflowY: "auto",
                   WebkitOverflowScrolling: "touch",
                 }}
               >
@@ -426,7 +425,8 @@ export default function ProjectInt() {
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",
-                    height: "calc(100vh - 90px)",
+                    // minHeight: "calc(100vh - 70px)",
+                    flex: 1,
                   }}
                 >
                   <div
