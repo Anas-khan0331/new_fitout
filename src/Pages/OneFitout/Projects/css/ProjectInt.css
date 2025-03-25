@@ -484,12 +484,10 @@
   }
 
   #readmore-inner {
-    /* height: 100vh !important; */
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    justify-content: flex-start;
-    /* position: relative; */
+    /* Add padding to account for Safari's bottom bar */
+    padding-bottom: env(safe-area-inset-bottom);
+    min-height: -webkit-fill-available;
+    /* Helps with Safari height issues */
   }
 
   #readmore-footer {
@@ -507,6 +505,8 @@
     padding-right: 20px;
     padding-top: 50px;
     background-color: #fbfaf6;
+    /* Ensure content doesn't overlap with bottom bar */
+    padding-bottom: calc(70px + env(safe-area-inset-bottom));
   }
 
 
@@ -547,6 +547,19 @@
     align-items: center;
   }
 
+}
+
+/* Add specific iOS Safari fixes */
+@supports (-webkit-touch-callout: none) {
+  #readmore-inner {
+    /* Prevent content from going under Safari's bars */
+    height: -webkit-fill-available;
+  }
+
+  .project-inner-wrapper {
+    /* Adjust for iOS Safari */
+    min-height: -webkit-fill-available;
+  }
 }
 
 @media (min-width: 993px) {
