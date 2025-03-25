@@ -744,6 +744,7 @@ export default function ProjectInt() {
               height: viewWidth <= 992 ? "100vh" : "80vh",
               marginTop: viewWidth <= 992 ? "0" : "20vh",
               backgroundColor: viewWidth <= 992 ? "#fbfaf6" : "transparent",
+              // backgroundColor: viewWidth <= 992 ? "#e2e" : "transparent",
               zIndex: 1000,
               overflowY: "auto",
               WebkitOverflowScrolling: "touch",
@@ -839,7 +840,6 @@ export default function ProjectInt() {
                 style={{
                   // display: "flex",
                   // flexDirection: "column",
-                  height: "100vh", // Full height of the viewport
                   // justifyContent: "space-between", // Space between content and button
                   backgroundColor: "#fbfaf6",
                 }}
@@ -856,7 +856,6 @@ export default function ProjectInt() {
                 {/* Scrollable content area */}
                 <div
                   style={{
-                    height: "100%",
                     width: "100%",
                     display: "flex",
                     flexDirection: "column",
