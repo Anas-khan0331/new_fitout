@@ -9,6 +9,7 @@ import NavbarBootstrap from "../../../Components/NavbarBootstrap";
 import "./css/ProjectInt.css";
 import imgOne from "/assets/logo-white-red.png";
 import logo from "/assets/onefitout-black-logo.png";
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 const contactUsData1 = {
   title: "Enquiries",
   contact: "enquiries@1fitout.com",
@@ -50,11 +51,15 @@ export default function ProjectInt() {
   }, [contactToggle]);
 
   useEffect(() => {
-    if (readMoreToggle) {
-      document.body.style.overflowY = "hidden";
+    if (readMoreToggle && modalRef.current) {
+      // Disable background scroll and enable scrolling on modalRef only
+      disableBodyScroll(modalRef.current);
     } else {
-      document.body.style.overflowY = "";
+      // Re-enable scrolling when the modal is closed
+      enableBodyScroll(modalRef.current);
     }
+    // Clean up on unmount
+    return () => enableBodyScroll(modalRef.current);
   }, [readMoreToggle]);
 
   // Fetch projects data
