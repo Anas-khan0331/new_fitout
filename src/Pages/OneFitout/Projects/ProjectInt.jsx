@@ -868,38 +868,44 @@ export default function ProjectInt() {
                     </div>
                   </div>
                   <div id="readmore-details">
-                    <div style={{ marginTop: "32px" }}>
-                      <div style={{ marginBottom: "16px" }}>
-                        <div>Type</div>
-                        <div>{Project?.type || "Unknown Type"}</div>
-                      </div>
-                      <div style={{ marginBottom: "16px" }}>
-                        <div>Location</div>
-                        <div>{Project?.area || "Unknown Location"}</div>
-                      </div>
-                      <div style={{ marginBottom: "16px" }}>
-                        <div>Year</div>
-                        <div>2023</div>
+                    <div id="readmore-details">
+                      <span>
+                        <span className="readmore-title">TYPE</span>
+                        <span className="readmore-subtitle">
+                          {Project?.type || "Unknown Type"}
+                        </span>
+                      </span>
+                      <span>
+                        <span className="readmore-title">LOCATION</span>
+                        <span className="readmore-subtitle">
+                          {Project?.area || "Unknown Location"}
+                        </span>
+                      </span>
+                      <span>
+                        <span className="readmore-title">YEAR</span>
+                        <span className="readmore-subtitle">2023</span>
+                      </span>
+                      <div className="" style={{ marginTop: "10px" }}>
+                        <Link
+                          style={{
+                            textDecoration: "none",
+                            width: "100%",
+                            display: "block",
+                          }}
+                          to={`${pathname}/gallery`}
+                        >
+                          <CustomButton
+                            borderRadius="1.875rem"
+                            Icon={IoGrid}
+                            isIcon={true}
+                            btnTxt="Gallery"
+                            border="0.0625rem solid #1c1c1c"
+                            color="#0b1215"
+                            viewWidth={viewWidth}
+                          />
+                        </Link>
                       </div>
                     </div>
-                    <Link
-                      style={{
-                        textDecoration: "none",
-                        width: "100%",
-                        display: "block",
-                      }}
-                      to={`${pathname}/gallery`}
-                    >
-                      <CustomButton
-                        borderRadius="1.875rem"
-                        Icon={IoGrid}
-                        isIcon={true}
-                        btnTxt="Gallery"
-                        border="0.0625rem solid #1c1c1c"
-                        color="#0b1215"
-                        viewWidth={viewWidth}
-                      />
-                    </Link>
                   </div>
                 </div>
               </div>
