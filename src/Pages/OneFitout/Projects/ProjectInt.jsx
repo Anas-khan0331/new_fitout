@@ -425,7 +425,7 @@ export default function ProjectInt() {
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",
-                    minHeight: "calc(100vh - 70px)",
+                    minHeight: "calc(90vh - 70px)",
                     // flex: 1,
                   }}
                 >
