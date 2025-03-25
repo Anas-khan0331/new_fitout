@@ -840,7 +840,7 @@ export default function ProjectInt() {
                 style={{
                   // display: "flex",
                   // flexDirection: "column",
-                  height: "82vh", // Full height of the viewport
+                  height: "81vh", // Full height of the viewport
                   // justifyContent: "space-between", // Space between content and button
                   backgroundColor: "#fbfaf6",
                 }}
@@ -880,21 +880,32 @@ export default function ProjectInt() {
                     <div id="readmore-details">
                       <span>
                         <span className="readmore-title">TYPE</span>
-                        <span className="readmore-subtitle">
+                        <span
+                          style={{ marginTop: "2px" }}
+                          className="readmore-subtitle"
+                        >
                           {Project?.type || "Unknown Type"}
                         </span>
                       </span>
-                      <span>
+                      <span style={{ marginTop: "10px" }}>
                         <span className="readmore-title">LOCATION</span>
-                        <span className="readmore-subtitle">
+                        <span
+                          style={{ marginTop: "2px" }}
+                          className="readmore-subtitle"
+                        >
                           {Project?.area || "Unknown Location"}
                         </span>
                       </span>
-                      <span>
+                      <span style={{ marginTop: "5px" }}>
                         <span className="readmore-title">YEAR</span>
-                        <span className="readmore-subtitle">2023</span>
+                        <span
+                          style={{ marginTop: "2px" }}
+                          className="readmore-subtitle"
+                        >
+                          2023
+                        </span>
                       </span>
-                      <div className="" style={{ marginTop: "10px" }}>
+                      <div className="" style={{ marginTop: "30px" }}>
                         <Link
                           style={{
                             textDecoration: "none",
