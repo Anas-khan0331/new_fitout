@@ -840,6 +840,7 @@ export default function ProjectInt() {
                 style={{
                   // display: "flex",
                   // flexDirection: "column",
+                  height: "90vh", // Full height of the viewport
                   // justifyContent: "space-between", // Space between content and button
                   backgroundColor: "#fbfaf6",
                 }}
@@ -856,6 +857,7 @@ export default function ProjectInt() {
                 {/* Scrollable content area */}
                 <div
                   style={{
+                    height: "100%",
                     width: "100%",
                     display: "flex",
                     flexDirection: "column",
