@@ -156,7 +156,7 @@
   display: flex;
   justify-content: center;
   width: auto;
-  z-index: 2;
+  z-index: 1001;
   position: absolute;
   left: 30px;
   right: 100px;
@@ -183,8 +183,8 @@
 
 #readmore-close-outer {
   display: flex;
-  justify-content: end;
-  padding-bottom: 3.5625rem;
+  justify-content: space-between;
+
   /* 57px / 16 */
 }
 
@@ -262,6 +262,7 @@
 
 #readmore-button {
   background: none;
+  z-index: 1002;
 }
 
 #readmore-button>.linksInt {
@@ -430,140 +431,75 @@
 @media (max-width: 992px) {
   .project-inner-wrapper {
     flex-direction: column;
-    /* Stack items vertically */
-    height: 100vh;
-    /* Ensure it takes full screen height */
+    height: auto;
+    /* Allow content to dictate height */
   }
 
   .project-inner-img-wrapper {
-    flex-basis: 60%;
-    /* 60% height for the image */
-    height: 60%;
-    /* Explicit height for image container */
+    flex-basis: auto;
+    height: auto;
+    width: 100%;
+    /* Full width for images */
   }
 
   .project-inner-img {
-    height: 100%;
-    /* Ensure the image fills the container */
     width: 100%;
-    object-fit: cover !important;
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
   }
 
   .project-inner-right-wrapper {
-    flex-basis: 40%;
-    /* 40% height for text */
-    height: 40%;
-    /* Explicit height for text container */
-  }
-
-  .project-inner-right-text-wrapper {
+    flex-basis: auto;
+    height: auto;
     padding: 1rem;
-    /* Add some padding for smaller devices */
+    /* Add padding for readability */
     text-align: center;
-    /* Center align the text */
+    /* Center text for better mobile view */
   }
 
-  #readmore-close-outer {
-    padding-bottom: 1px;
-  }
-
-  #readmore-close-outer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #fbfaf6;
-  }
-
-  #readmore-outer {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0px;
-    z-index: 6;
+  #projectint-buttons {
+    flex-direction: column;
+    /* Stack buttons vertically */
+    gap: 0.5rem;
+    /* Adjust gap between buttons */
+    margin-top: 1rem;
+    /* Add margin for separation */
   }
 
   #readmore-inner {
-    /* Add padding to account for Safari's bottom bar */
-    padding-bottom: env(safe-area-inset-bottom);
+    padding: 1rem;
+    /* Add padding for mobile view */
     min-height: -webkit-fill-available;
-    /* Helps with Safari height issues */
-  }
-
-  #readmore-footer {
-    display: none;
-  }
-
-  #readmore-close-outer {
-    padding-right: 20px;
+    /* Ensure it fills available space */
   }
 
   #readmore-content {
-    flex-direction: column-reverse;
-    gap: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 50px;
-    background-color: #fbfaf6;
-    /* Ensure content doesn't overlap with bottom bar */
-    padding-bottom: calc(70px + env(safe-area-inset-bottom));
+    flex-direction: column;
+    gap: 1rem;
+    /* Adjust gap for readability */
+    padding: 1rem;
+    /* Add padding */
   }
 
-  /* Ensure the button container is above other elements */
   #readmore-button {
     position: sticky;
     bottom: 0;
     z-index: 1000;
     /* Ensure it's above other elements */
-  }
-
-  #readmore-details {
-    padding-left: 0px;
-    padding-right: 20px;
-    margin-top: 40px;
-  }
-
-  #readmore-main {
-    width: auto;
-  }
-
-  #readmore-title {
-    margin-bottom: 20px;
-  }
-
-  #readmore-main-p {
-    margin-top: 20px;
-    max-width: 600px;
-  }
-
-  #readmore-details {
-    width: auto;
-  }
-
-  #readmore-details {
-    padding-bottom: 10px;
-    gap: 0;
-  }
-
-  #readmore-button>.linksInt {
+    background: #FBFAF6;
+    padding: 1rem;
     width: 100%;
-  }
-
-  #readmore-close-outer .readmore-logo-one {
-    display: flex;
-    align-items: center;
   }
 }
 
 /* Add specific iOS Safari fixes */
 @supports (-webkit-touch-callout: none) {
   #readmore-inner {
-    /* Prevent content from going under Safari's bars */
     height: -webkit-fill-available;
   }
 
   .project-inner-wrapper {
-    /* Adjust for iOS Safari */
     min-height: -webkit-fill-available;
   }
 }
