@@ -264,25 +264,75 @@ const ProjectInnerGallery = () => {
     };
   }, []);
 
-  useEffect(() => {
-    const checkSliderState = () => {
-      if (nav1) {
-        // Force the slider to start at slide index 1 (second slide)
-        nav1.slickGoTo(1);
+  // useEffect(() => {
+  //   const checkSliderState = () => {
+  //     if (nav1) {
+  //       // Force the slider to start at slide index 1 (second slide)
+  //       nav1.slickGoTo(1);
 
-        // Or directly set the transform
-        const track = document.querySelector(".slick-track");
-        if (track) {
-          track.style.transform = "translate3d(-340px, 0px, 0px)";
-        }
+  //       // Or directly set the transform
+  //       const track = document.querySelector(".slick-track");
+  //       if (track) {
+  //         track.style.transform = "translate3d(-340px, 0px, 0px)";
+  //       }
+  //     }
+  //   };
+
+  //   checkSliderState();
+  //   // Check again after a short delay
+  //   setTimeout(checkSliderState, 500);
+  // }, [nav1, currentSlide]);
+
+  // useEffect(() => {
+  //   const checkSliderState = () => {
+  //     if (nav1) {
+  //       console.log("Current slide:", currentSlide);
+  //       console.log("Slider state:", nav1.innerSlider.state);
+  //       console.log(
+  //         "Track transform:",
+  //         document.querySelector(".slick-track")?.style.transform
+  //       );
+  //     }
+  //   };
+
+  //   checkSliderState();
+  //   // Check again after a short delay
+  //   setTimeout(checkSliderState, 500);
+  // }, [nav1, currentSlide]);
+
+  // asdasdadadasd
+
+  useEffect(() => {
+    const initializeSlider = () => {
+      if (!nav1 || !nav1.innerSlider) return;
+
+      // Only run this once when the slider first initializes
+      if (
+        nav1.innerSlider.state.initialized &&
+        !nav1.innerSlider.state.initialPositionSet
+      ) {
+        // Set the initial position
+        nav1.slickGoTo(1); // Go to second slide (index 1)
+
+        // Mark that we've set the initial position
+        nav1.innerSlider.state.initialPositionSet = true;
+
+        // Debug logs
+        console.log("Initialized slider at position 1");
+        console.log(
+          "Current transform:",
+          document.querySelector(".slick-track")?.style.transform
+        );
       }
     };
 
-    checkSliderState();
-    // Check again after a short delay
-    // setTimeout(checkSliderState, 500);
-  }, [nav1, currentSlide]);
+    // Try initialization immediately
+    initializeSlider();
+    // Set up an interval to keep trying until successful
+    const initInterval = setInterval(initializeSlider, 100);
 
+    return () => clearInterval(initInterval);
+  }, [nav1]);
   return (
     <div
       ref={containerRef}
