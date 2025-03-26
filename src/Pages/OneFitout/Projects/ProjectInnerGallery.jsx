@@ -83,7 +83,7 @@ const ProjectInnerGallery = () => {
     arrows: false,
     dots: false,
     fade: false, // ensure horizontal slide
-    speed: 800, // how fast Slick slides
+    speed: 0, // how fast Slick slides
     cssEase: "cubic-bezier(1, 0, 0.29, 1)", // nice easing
     beforeChange: (oldIndex, newIndex) => {
       // If you track the current slide in state:
