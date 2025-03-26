@@ -1029,7 +1029,7 @@ export default function ProjectInt() {
                 style={{
                   // display: "flex",
                   // flexDirection: "column",
-                  height: "81vh", // Full height of the viewport
+                  height: "75vh", // Full height of the viewport
                   // justifyContent: "space-between", // Space between content and button
                   backgroundColor: "#fbfaf6",
                 }}
