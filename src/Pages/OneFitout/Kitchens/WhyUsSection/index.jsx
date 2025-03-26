@@ -2,6 +2,24 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import CustomButton from "../../../../Components/CustomButton";
 
+// const handleDownload = async () => {
+//   try {
+//     const response = await fetch("/assets/OneFitout_Kitchens_Brochure.pdf");
+//     const blob = await response.blob();
+//     const url = window.URL.createObjectURL(blob);
+    
+//     const a = document.createElement("a");
+//     a.href = url;
+//     a.download = "OneFitout_Kitchens_Brochure.pdf";
+//     document.body.appendChild(a);
+//     a.click();
+//     document.body.removeChild(a);
+//     window.URL.revokeObjectURL(url);
+//   } catch (error) {
+//     console.error("Download failed:", error);
+//   }
+// };
+
 const ChooseUsSection = () => {
   return (
     <div
@@ -49,11 +67,12 @@ const ChooseUsSection = () => {
               >
                 GET IN TOUCH
               </button> */}
-            <CustomButton
-              margin={"50px 0px 0px 0px"}
-              btnTxt={"Download Brochure"}
-              //   onClick={() => setContactToggle(true)}
-            />
+           <a href="/assets/OneFitout_Kitchens_Brochure.pdf" download style={{ textDecoration: "none", color: "inherit" }}>
+              <CustomButton
+                margin={"50px 0px 0px 0px"}
+                btnTxt={"Download Brochure"}
+              />
+            </a>
           </Col>
         </Row>
       </Container>

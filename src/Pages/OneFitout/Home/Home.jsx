@@ -86,7 +86,7 @@ export default function Home() {
         openContact={setContactToggle}
       />
       <Layout
-        text={"ONE FITOUT"} //revert change
+        text={"Brands"} 
         sidebarBg={"#b51f29"}
         sidebarTextColor="#FBFAF6"
       >

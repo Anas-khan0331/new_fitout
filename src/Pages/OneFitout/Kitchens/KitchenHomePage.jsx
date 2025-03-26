@@ -85,11 +85,7 @@ const KitchenHomePage = () => {
         NavItemcolor="#fff"
         openContact={setContactToggle}
       />
-      <Layout
-        text={"1 Kitchen"}
-        sidebarBg={"#E7D6C6"}
-        sidebarTextColor="#0B1215"
-      >
+      <Layout text={"Brands"} sidebarBg={"#E7D6C6"} sidebarTextColor="#0B1215">
         <ResidancHomeBanner />
         <KitchenResindance />
         <div className="residental_slider_container">

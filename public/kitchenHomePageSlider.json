@@ -1,17 +1,32 @@
 [
   {
     "image": "/assets/kitchenslider2.png",
-    "title": "From single-room transformations to full-home renovations, we bring your vision to life with precision and care. Each detail is crafted to ensure your home becomes a sanctuary of comfort and elegance.",
+    "title": "We integrate hidden pull-out bins into your kitchen design, offering a seamless and hygienic way to manage waste. These bins help keep your kitchen tidy without compromising on style.",
     "label": "WASTE MANAGEMENT"
   },
   {
     "image": "/assets/about-client2.png",
     "label": "LARDER UNITS",
-    "title": "Transform your daily routine with a bespoke walk-in wardrobe. Thoughtfully designed to maximize space, functionality, and style, our custom wardrobes bring luxury and organization into perfect harmony."
+    "title": "Our larder units provide ample storage for dry goods, making it easy to organize and access pantry items. These sleek, functional designs off er a modern touch while optimising space."
   },
   {
     "image": "/assets/kitchenslider1.png",
     "label": "CORNER UNITS",
-    "title": "The kitchen is the heart of your home, and we specialize in creating spaces that blend beauty and practicality. From sleek modern designs to timeless classics, we deliver tailored solutions to suit your taste and lifestyle."
+    "title": "Maximise your kitchen's storage space with our cleverly designed corner units. We create effi cient solutions that make use of every inch, ensuring easy access to all your kitchen essentials."
+  },
+  {
+    "image": "/assets/kitchenslider4.png",
+    "label": "BASE UNITS",
+    "title": "Lower kitchen spaces often lack comfort, organization, and usability. One Fitout’s smart base units offer efficient storage solutions, ensuring a well-organized, user-friendly, and functional workspace."
+  },
+  {
+    "image": "/assets/kitchenslider5.png",
+    "label": "DRAWER ORGANISATION",
+    "title": "One Fitout’s drawer inserts provide quick access to daily essentials, enhancing convenience while seamlessly integrating aesthetic elements that elevate interior and furniture design standards."
+  },
+  {
+    "image": "/assets/kitchenslider6.png",
+    "label": "WALL UNITS",
+    "title": "Easy to use, more reachable storage, a clearer view, fast access. This innovative pull-down transforms a conventional wall unit into an ergonomic storage system."
   }
 ]

@@ -9,7 +9,23 @@
 // import "./css/ProjectInt.css";
 // import imgOne from "/assets/logo-white-red.png";
 // import logo from "/assets/onefitout-black-logo.png";
-
+// const contactUsData1 = {
+//   title: "Enquiries",
+//   contact: "enquiries@1fitout.com",
+// };
+// const contactUsData2 = {
+//   title: "RETAILS",
+//   contact: "retail@1fitout.com",
+// };
+// const contactUsData3 = {
+//   title: "PHONE",
+//   contact: "800-ONE-FIT-OUT",
+//   phone: "(800 663 348 688)",
+// };
+// const contactUsData4 = {
+//   title: "MOBILE",
+//   contact: "+971 50 348 6838",
+// };
 // export default function ProjectInt() {
 //   const [viewWidth, setViewWidth] = useState(window.innerWidth);
 //   const { type, area, community, id } = useParams();
@@ -52,7 +68,7 @@
 //   useEffect(() => {
 //     if (!projectsData?.allProjects) return;
 
-//     const project = projectsData.allProjects.find(
+//     const project = projectsData.allProjects?.find(
 //       (p) =>
 //         p.id == id &&
 //         p.type === decodeURIComponent(type) &&
@@ -182,9 +198,9 @@
 //                 <span id="pint-area">{Project?.area}</span>
 //               </p>
 //               <h1 id="pint-community">
-//                 {sliceString(Project?.community)}
-//                 <br />
-//                 {remainingString(Project?.community)}
+//                 {Project?.community}
+//                 {/* <br />
+//                 {remainingString(Project?.community)} */}
 //               </h1>
 //               <div id="projectint-buttons">
 //                 <CustomButton
@@ -266,24 +282,63 @@
 //               <div id="readmore-content">
 //                 {viewWidth > 992 ? (
 //                   <>
-//                     <div id="readmore-details">
-//                       <span>
-//                         <span className="readmore-title">TYPE</span>
-//                         <span className="readmore-subtitle">
-//                           {Project?.type || "Unknown Type"}
+//                     {Project?.showContactDetails ? (
+//                       <div id="readmore-details">
+//                         <span>
+//                           <span className="readmore-title">
+//                             {contactUsData1.title}
+//                           </span>
+//                           <span className="readmore-subtitle">
+//                             {contactUsData1.contact}{" "}
+//                           </span>
 //                         </span>
-//                       </span>
-//                       <span>
-//                         <span className="readmore-title">LOCATION</span>
-//                         <span className="readmore-subtitle">
-//                           {Project?.area || "Unknown Location"}
+//                         <span>
+//                           <span className="readmore-title">
+//                             {contactUsData2.title}
+//                           </span>
+//                           <span className="readmore-subtitle">
+//                             {contactUsData2.contact}
+//                           </span>
 //                         </span>
-//                       </span>
-//                       <span>
-//                         <span className="readmore-title">YEAR</span>
-//                         <span className="readmore-subtitle">2023</span>
-//                       </span>
-//                     </div>
+//                         <span>
+//                           <span className="readmore-title">
+//                             {contactUsData3.title}
+//                           </span>
+//                           <span className="readmore-subtitle">
+//                             {" "}
+//                             {contactUsData3.contact}
+//                           </span>
+//                           <span className="readmore-subtitle">
+//                             {contactUsData3.phone}{" "}
+//                           </span>
+//                         </span>
+//                         <span>
+//                           <span className="readmore-title">Location</span>
+//                           <span className="readmore-subtitle">
+//                             {Project?.area || "Unknown Type"}{" "}
+//                           </span>
+//                         </span>
+//                       </div>
+//                     ) : (
+//                       <div id="readmore-details">
+//                         <span>
+//                           <span className="readmore-title">TYPE</span>
+//                           <span className="readmore-subtitle">
+//                             {Project?.type || "Unknown Type"}
+//                           </span>
+//                         </span>
+//                         <span>
+//                           <span className="readmore-title">LOCATION</span>
+//                           <span className="readmore-subtitle">
+//                             {Project?.area || "Unknown Location"}
+//                           </span>
+//                         </span>
+//                         <span>
+//                           <span className="readmore-title">YEAR</span>
+//                           <span className="readmore-subtitle">2023</span>
+//                         </span>
+//                       </div>
+//                     )}
 
 //                     <div id="readmore-main">
 //                       <p id="readmore-title">{Project.community}</p>
@@ -356,8 +411,7 @@
 //                     display: "flex",
 //                     flexDirection: "column",
 //                     justifyContent: "space-between",
-//                     height: "calc(100vh - 65px)",
-//                     overflowY: "auto",
+//                     height: "calc(100vh - 90px)",
 //                   }}
 //                 >
 //                   <div
@@ -367,7 +421,7 @@
 //                   >
 //                     <p
 //                       style={{
-//                         fontSize: "24px",
+//                         fontSize: "28px",
 //                         fontWeight: "500",
 //                         lineHeight: "35px",
 //                         fontFamily: "p22-mackinac-pro, serif",
@@ -387,7 +441,7 @@
 //                       {Project?.body || "No description available."}
 //                     </p>
 
-//                     <div style={{ marginTop: "32px" }}>
+//                     {/* <div style={{ marginTop: "32px" }}>
 //                       <div style={{ marginBottom: "16px" }}>
 //                         <div
 //                           style={{
@@ -454,8 +508,66 @@
 //                           2023
 //                         </div>
 //                       </div>
-//                     </div>
+//                     </div> */}
+//                     {Project?.showContactDetails ? (
+//                       <div id="readmore-details">
+//                         <span>
+//                           <span className="readmore-title">
+//                             {contactUsData1.title}
+//                           </span>
+//                           <span className="readmore-subtitle">
+//                             {contactUsData1.contact}{" "}
+//                           </span>
+//                         </span>
+//                         <span>
+//                           <span className="readmore-title">
+//                             {contactUsData2.title}
+//                           </span>
+//                           <span className="readmore-subtitle">
+//                             {contactUsData2.contact}
+//                           </span>
+//                         </span>
+//                         <span>
+//                           <span className="readmore-title">
+//                             {contactUsData3.title}
+//                           </span>
+//                           <span className="readmore-subtitle">
+//                             {" "}
+//                             {contactUsData3.contact}
+//                           </span>
+//                           <span className="readmore-subtitle">
+//                             {contactUsData3.phone}{" "}
+//                           </span>
+//                         </span>
+//                         <span>
+//                           <span className="readmore-title">Location</span>
+//                           <span className="readmore-subtitle">
+//                             {Project?.area || "Unknown Type"}{" "}
+//                           </span>
+//                         </span>
+//                       </div>
+//                     ) : (
+//                       <div id="readmore-details">
+//                         <span>
+//                           <span className="readmore-title">TYPE</span>
+//                           <span className="readmore-subtitle">
+//                             {Project?.type || "Unknown Type"}
+//                           </span>
+//                         </span>
+//                         <span>
+//                           <span className="readmore-title">LOCATION</span>
+//                           <span className="readmore-subtitle">
+//                             {Project?.area || "Unknown Location"}
+//                           </span>
+//                         </span>
+//                         <span>
+//                           <span className="readmore-title">YEAR</span>
+//                           <span className="readmore-subtitle">2023</span>
+//                         </span>
+//                       </div>
+//                     )}
 //                   </div>
+
 //                   {/* Button container */}
 //                   <div
 //                     style={{
@@ -511,6 +623,26 @@ import "./css/ProjectInt.css";
 import imgOne from "/assets/logo-white-red.png";
 import logo from "/assets/onefitout-black-logo.png";
 
+const contactUsData1 = {
+  title: "Enquiries",
+  contact: "enquiries@1fitout.com",
+};
+
+const contactUsData2 = {
+  title: "RETAILS",
+  contact: "retail@1fitout.com",
+};
+
+const contactUsData3 = {
+  title: "PHONE",
+  contact: "800-ONE-FIT-OUT",
+  phone: "(800 663 348 688)",
+};
+
+const contactUsData4 = {
+  title: "MOBILE",
+  contact: "+971 50 348 6838",
+};
 export default function ProjectInt() {
   const [viewWidth, setViewWidth] = useState(window.innerWidth);
   const { type, area, community, id } = useParams();
@@ -683,9 +815,10 @@ export default function ProjectInt() {
                 <span id="pint-area">{Project?.area}</span>
               </p>
               <h1 id="pint-community">
-                {sliceString(Project?.community)}
+                {Project?.community}
+                {/* {sliceString(Project?.community)}
                 <br />
-                {remainingString(Project?.community)}
+                {remainingString(Project?.community)} */}
               </h1>
               <div id="projectint-buttons">
                 <CustomButton
@@ -744,7 +877,6 @@ export default function ProjectInt() {
               height: viewWidth <= 992 ? "100vh" : "80vh",
               marginTop: viewWidth <= 992 ? "0" : "20vh",
               backgroundColor: viewWidth <= 992 ? "#fbfaf6" : "transparent",
-              // backgroundColor: viewWidth <= 992 ? "#e2e" : "transparent",
               zIndex: 1000,
               overflowY: "auto",
               WebkitOverflowScrolling: "touch",
@@ -770,7 +902,65 @@ export default function ProjectInt() {
               <div id="readmore-content">
                 {viewWidth > 992 ? (
                   <>
-                    <div id="readmore-details">
+                    {Project?.showContactDetails ? (
+                      <div id="readmore-details">
+                        <span>
+                          <span className="readmore-title">
+                            {contactUsData1.title}
+                          </span>
+                          <span className="readmore-subtitle">
+                            {contactUsData1.contact}{" "}
+                          </span>
+                        </span>
+                        <span>
+                          <span className="readmore-title">
+                            {contactUsData2.title}
+                          </span>
+                          <span className="readmore-subtitle">
+                            {contactUsData2.contact}
+                          </span>
+                        </span>
+                        <span>
+                          <span className="readmore-title">
+                            {contactUsData3.title}
+                          </span>
+                          <span className="readmore-subtitle">
+                            {" "}
+                            {contactUsData3.contact}
+                          </span>
+                          <span className="readmore-subtitle">
+                            {contactUsData3.phone}{" "}
+                          </span>
+                        </span>
+                        <span>
+                          <span className="readmore-title">Location</span>
+                          <span className="readmore-subtitle">
+                            {Project?.area || "Unknown Type"}{" "}
+                          </span>
+                        </span>
+                      </div>
+                    ) : (
+                      <div id="readmore-details">
+                        <span>
+                          <span className="readmore-title">TYPE</span>
+                          <span className="readmore-subtitle">
+                            {Project?.type || "Unknown Type"}
+                          </span>
+                        </span>
+                        <span>
+                          <span className="readmore-title">LOCATION</span>
+                          <span className="readmore-subtitle">
+                            {Project?.area || "Unknown Location"}
+                          </span>
+                        </span>
+                        <span>
+                          <span className="readmore-title">YEAR</span>
+                          <span className="readmore-subtitle">2023</span>
+                        </span>
+                      </div>
+                    )}
+
+                    {/* <div id="readmore-details">
                       <span>
                         <span className="readmore-title">TYPE</span>
                         <span className="readmore-subtitle">
@@ -787,8 +977,7 @@ export default function ProjectInt() {
                         <span className="readmore-title">YEAR</span>
                         <span className="readmore-subtitle">2023</span>
                       </span>
-                    </div>
-
+                    </div> */}
                     <div id="readmore-main">
                       <p id="readmore-title">{Project.community}</p>
                       <p id="readmore-main-p">
@@ -877,54 +1066,82 @@ export default function ProjectInt() {
                     </div>
                   </div>
                   <div id="readmore-details">
-                    <div id="readmore-details">
-                      <span>
-                        <span className="readmore-title">TYPE</span>
-                        <span
-                          style={{ marginTop: "2px" }}
-                          className="readmore-subtitle"
-                        >
-                          {Project?.type || "Unknown Type"}
+                    {Project?.showContactDetails ? (
+                      <div id="readmore-details">
+                        <span>
+                          <span className="readmore-title">
+                            {contactUsData1.title}
+                          </span>
+                          <span className="readmore-subtitle">
+                            {contactUsData1.contact}{" "}
+                          </span>
                         </span>
-                      </span>
-                      <span style={{ marginTop: "10px" }}>
-                        <span className="readmore-title">LOCATION</span>
-                        <span
-                          style={{ marginTop: "2px" }}
-                          className="readmore-subtitle"
-                        >
-                          {Project?.area || "Unknown Location"}
+                        <span>
+                          <span className="readmore-title">
+                            {contactUsData2.title}
+                          </span>
+                          <span className="readmore-subtitle">
+                            {contactUsData2.contact}
+                          </span>
                         </span>
-                      </span>
-                      <span style={{ marginTop: "5px" }}>
-                        <span className="readmore-title">YEAR</span>
-                        <span
-                          style={{ marginTop: "2px" }}
-                          className="readmore-subtitle"
-                        >
-                          2023
+                        <span>
+                          <span className="readmore-title">
+                            {contactUsData3.title}
+                          </span>
+                          <span className="readmore-subtitle">
+                            {" "}
+                            {contactUsData3.contact}
+                          </span>
+                          <span className="readmore-subtitle">
+                            {contactUsData3.phone}{" "}
+                          </span>
                         </span>
-                      </span>
-                      <div className="" style={{ marginTop: "30px" }}>
-                        <Link
-                          style={{
-                            textDecoration: "none",
-                            width: "100%",
-                            display: "block",
-                          }}
-                          to={`${pathname}/gallery`}
-                        >
-                          <CustomButton
-                            borderRadius="1.875rem"
-                            Icon={IoGrid}
-                            isIcon={true}
-                            btnTxt="Gallery"
-                            border="0.0625rem solid #1c1c1c"
-                            color="#0b1215"
-                            viewWidth={viewWidth}
-                          />
-                        </Link>
+                        <span>
+                          <span className="readmore-title">Location</span>
+                          <span className="readmore-subtitle">
+                            {Project?.area || "Unknown Type"}{" "}
+                          </span>
+                        </span>
                       </div>
+                    ) : (
+                      <div id="readmore-details">
+                        <span>
+                          <span className="readmore-title">TYPE</span>
+                          <span className="readmore-subtitle">
+                            {Project?.type || "Unknown Type"}
+                          </span>
+                        </span>
+                        <span>
+                          <span className="readmore-title">LOCATION</span>
+                          <span className="readmore-subtitle">
+                            {Project?.area || "Unknown Location"}
+                          </span>
+                        </span>
+                        <span>
+                          <span className="readmore-title">YEAR</span>
+                          <span className="readmore-subtitle">2023</span>
+                        </span>
+                      </div>
+                    )}
+                    <div className="" style={{ marginTop: "30px" }}>
+                      <Link
+                        style={{
+                          textDecoration: "none",
+                          width: "100%",
+                          display: "block",
+                        }}
+                        to={`${pathname}/gallery`}
+                      >
+                        <CustomButton
+                          borderRadius="1.875rem"
+                          Icon={IoGrid}
+                          isIcon={true}
+                          btnTxt="Gallery"
+                          border="0.0625rem solid #1c1c1c"
+                          color="#0b1215"
+                          viewWidth={viewWidth}
+                        />
+                      </Link>
                     </div>
                   </div>
                 </div>

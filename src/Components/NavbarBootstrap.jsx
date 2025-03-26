@@ -228,7 +228,7 @@ const NavbarBootstrap = ({
             display: viewWidth > 993 ? "flex" : "none",
             background: oneImageBackground,
             height: "68px",
-            width: "68px",
+            width: "69px",
             alignItems: "center",
             justifyContent: "center",
           }}

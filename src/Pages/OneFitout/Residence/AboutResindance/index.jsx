@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-
 const AboutResindance = () => {
   return (
     <div className="about_residance_container">

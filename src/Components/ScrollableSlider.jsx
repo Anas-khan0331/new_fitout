@@ -40,9 +40,10 @@ const ScrollableSlider = ({
   objectFit,
   borderTop = true,
   showCustomTitles = false,
+  enableNavigation = false,
 }) => {
   const [content, setContent] = useState([]);
-  const [selectedSlide, setSelectedSlide] = useState(null); // State to store selected slide
+  const [selectedSlide, setSelectedSlide] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -57,15 +58,21 @@ const ScrollableSlider = ({
     navigate("/residential");
   };
 
-  // Function to update selected slide when clicked
   const handleSlideClick = (item) => {
-    setSelectedSlide(item); // Set selected slide data
-    setShowSliderDetails(true); // Open SliderDetailComponent
+    if (enableNavigation && item.path) {
+      console.log(`Navigating to: /${item.path}`);
+      navigate(`/${item.path}`);
+    } else {
+      setSelectedSlide(item);
+      setShowSliderDetails && setShowSliderDetails(true);
+    }
   };
+
   const closeSliderDetail = () => {
-    setShowSliderDetails(false); // Close detail view
-    setSelectedSlide(null); // Clear selected slide
+    setShowSliderDetails(false);
+    setSelectedSlide(null);
   };
+
   return (
     <div
       style={{
@@ -251,8 +258,8 @@ const ScrollableSlider = ({
                   </SwiperSlide>
                 ))}
               </Swiper>
-              {/* Show `SliderDetailComponent` only when a slide is selected */}
-              {showSliderDetails && selectedSlide && (
+              {/* Show SliderDetailComponent only when a slide is selected and navigation is not enabled */}
+              {!enableNavigation && showSliderDetails && selectedSlide && (
                 <SliderDetailComponent
                   closeHandler={closeSliderDetail}
                   sliderContent={[selectedSlide]}

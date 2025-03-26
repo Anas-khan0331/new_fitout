@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import savannahImg from "../../../../../../public/assets/novelia11.jpg";
+import savannahImg from "../../../../../../public/assets/about-header.png";
 import CustomButton from "../../../../../Components/CustomButton";
 
 const FeaturedKitchenDesign = () => {
@@ -32,7 +32,7 @@ const FeaturedKitchenDesign = () => {
           <Col lg={4} xs={12}>
             <div className="savanahImage_container">
               <div className="savanahImage_div renovation_text_small_hidden_class">
-                <p>FEATURED PRODUCT</p>
+                <p>FEATURED PROJECT</p>
               </div>
               <div className="renovation_text">
                 <div
@@ -40,7 +40,7 @@ const FeaturedKitchenDesign = () => {
                   style={{ marginBottom: "20px" }}
                 >
                   <p className="renovation_kitchen_text_spacing_class">
-                    RESIDENTIAL
+                  VILLA RENOVATION
                   </p>
                 </div>
                 <div className="renovation_text_large">

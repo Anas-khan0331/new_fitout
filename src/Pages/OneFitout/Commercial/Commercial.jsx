@@ -43,11 +43,7 @@ export default function Commercial() {
         NavItemcolor="#fff"
         openContact={setContactToggle}
       />
-      <Layout
-        text={"ONE FITOUT"} //todo revert change
-        sidebarBg={"#b51f29"}
-        sidebarTextColor="#FBFAF6"
-      >
+      <Layout text={"Brands"} sidebarBg={"#b51f29"} sidebarTextColor="#FBFAF6">
         <CommercialBannerSection />
         <AboutCommercial />
         <div className="residental_slider_container">

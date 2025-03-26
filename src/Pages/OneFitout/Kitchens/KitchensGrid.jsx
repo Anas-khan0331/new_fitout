@@ -5,7 +5,6 @@ import Popup from './Popup'
 import useFetch from '../../../Components/useFetch'
 
 
-
 const arrayPopups = [
     {
         image:"/assets/popup-default.png",

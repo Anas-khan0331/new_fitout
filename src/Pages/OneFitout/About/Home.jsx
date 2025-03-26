@@ -15,7 +15,6 @@ import Header from "./HeaderRes";
 export default function Home() {
   const [contactToggle, setContactToggle] = useState(false);
 
-  
   // const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
   const { pathname } = useLocation();
 
@@ -63,7 +62,7 @@ export default function Home() {
         NavItemcolor="#fff"
         openContact={setContactToggle}
       />
-      <Layout sidebarBg="#B51F29" sidebarTextColor="#FBFAF6">
+      <Layout text={"Brands"} sidebarBg="#B51F29" sidebarTextColor="#FBFAF6">
         <Header />
         <Container>
           <Row id="about-us-studio">

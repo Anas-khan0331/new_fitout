@@ -60,16 +60,17 @@ export default function Home() {
     <>
       <NavbarBootstrap
         bgColor={bgColorNav}
-        oneImageBackground={"#b51f29"}
         textColor={textColorNav}
         bOutline={bOutline}
         logo={logo}
+        oneImageProp={true}
         openContact={setContactToggle}
+        oneImageBackground="#fff"
         position={true}
         btnColor="#FBFAF6"
         btnBorder={"1px solid #FBFAF6"}
       />
-      <Layout sidebarTextColor="#b51f29">
+      <Layout text={"Brands"} sidebarBg="#b51f29" sidebarTextColor="#FBFAF6">
         <div
           style={{
             position: "relative",

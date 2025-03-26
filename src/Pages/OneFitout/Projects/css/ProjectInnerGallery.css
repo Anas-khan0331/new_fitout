@@ -1,71 +1,71 @@
 .gallery-page-wrapper {
-  display: flex !important;
-  flex-direction: column !important;
-  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 /* ----- HEADER ----- */
 .header-bar {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  height: 60px !important;
-  background-color: #fff !important;
-  flex-shrink: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: #fff;
+  flex-shrink: 0;
 }
 
 .header-left,
 .header-center,
 .header-right {
-  display: flex !important;
-  align-items: center !important;
+  display: flex;
+  align-items: center;
 }
 
 .gallery-page-wrapper .logo-img {
-  width: 60px !important;
-  height: 60px !important;
-  object-fit: contain !important;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
 .header-center h2 {
-  margin: 0 !important;
-  text-align: center !important;
-  font-family: Mandioca, sans-serif !important;
-  font-weight: 400 !important;
-  font-size: 0.875rem !important;
+  margin: 0;
+  text-align: center;
+  font-family: Mandioca, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
   /* 14px */
   /* line-height: 1.125rem; */
   /* 18px */
-  letter-spacing: 0.1em !important;
+  letter-spacing: 0.1em;
 }
 
 .close-btn {
-  font-size: 18px !important;
-  background: none !important;
-  border: none !important;
-  cursor: pointer !important;
-  padding: 5px 10px !important;
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
 }
 
 /* ----- MAIN SLIDER SECTION ----- */
 .main-slider-container {
-  flex: 1 0 auto !important;
+  flex: 1 0 auto;
   /* fill leftover vertical space */
-  display: flex !important;
-  justify-content: center !important;
+  display: flex;
+  justify-content: center;
   /* center horizontally */
-  align-items: center !important;
+  align-items: center;
   /* center vertically if needed */
-  position: relative !important;
-  width: 100% !important;
-  background: #fff !important;
-  z-index: 1 !important;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
 }
 
 .main-slider-wrapper {
   width: 80% !important;
   max-width: 1600px !important;
-  margin: 0 auto !important;
+  margin: 0 auto;
   /* ensures centering in its container */
   overflow: hidden !important;
   display: flex !important;
@@ -74,154 +74,157 @@
 }
 
 .slick-slider.slick-initialized {
-  position: static !important;
+  position: static;
 }
 
 .main-slide {
-  width: 100% !important;
-  height: calc(73vh - 66px) !important;
-  overflow: hidden !important;
-  position: relative !important;
+  width: 100%;
+  height: calc(73vh - 66px);
+  overflow: hidden;
+  position: relative;
 }
 
 .main-slide-img {
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  max-width: 100% !important;
-  max-height: 100% !important;
-  object-fit: contain !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .below-main-info {
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
-  width: 80% !important;
-  max-width: 1600px !important;
-  margin: 0 auto !important;
-  display: flex !important;
-  justify-content: space-between !important;
-  padding: 0 10px 0 0 !important;
-  color: #0b1215 !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 0;
+  color: #0b1215;
 }
 
 .info-left p,
 .info-right p {
-  margin: 0 !important;
+  margin: 0;
   /* padding: 5px 8px; */
-  border-radius: 4px !important;
-  font-family: Mandioca, sans-serif !important;
-  font-weight: 500 !important;
-  font-size: 0.775rem !important;
+  border-radius: 4px;
+  font-family: Mandioca, sans-serif;
+  font-weight: 500;
+  font-size: 0.775rem;
   /* 14px */
   /* line-height: 1.125rem; */
   /* 18px */
-  letter-spacing: 0.1em !important;
+  letter-spacing: 0.1em;
 }
 
 .info-right p {
-  color: #0b121580 !important;
+  color: #0b121580;
 }
 
 /* ----- TEXT-BASED NAV BUTTONS FOR MAIN SLIDER ----- */
 .text-nav-btn {
-  position: absolute !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  z-index: 10 !important;
-  background: none !important;
-  border: none !important;
-  cursor: pointer !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .gallery-prev {
-  left: -20px !important;
+  left: -20px;
 }
 
 .gallery-next {
-  right: -20px !important;
+  right: -20px;
 }
 
 /* ----- GALLERY SLIDER (FULL WIDTH) ----- */
 .gallery-slider-container {
-  width: 100% !important;
-  background: #f8f8f8 !important;
-  padding: 10px 0 !important;
-  flex-shrink: 0 !important;
-  position: relative !important;
+  width: 100%;
+  background: #f8f8f8;
+  padding: 10px 0;
+  flex-shrink: 0;
+  position: relative;
 }
 
 .gallery-thumb-slide {
-  width: 200px !important;
+  width: 200px;
   /* set your desired width */
-  height: 110px !important;
+  height: 110px;
   /* set your desired height */
-  padding: 0 15px !important;
-  overflow: hidden !important;
-  cursor: pointer !important;
+  padding: 0 15px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .gallery-thumb-img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  display: block !important;
-  transition: transform 0.2s !important;
-  border: 2px solid transparent !important;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s;
+  border: 2px solid transparent;
 }
 
 .gallery-thumb-img {
-  filter: brightness(0.6) !important;
-  transition: filter 0.3s !important;
+  filter: brightness(0.6);
+  transition: filter 0.3s;
 }
 
 /* Highlight the selected thumbnail */
 .gallery-thumb-slide.selected .gallery-thumb-img {
-  filter: brightness(1) !important;
+  filter: brightness(1);
 }
 
+
 .gallery-thumb-img:hover {
-  transform: scale(1.02) !important;
-  border-color: #ccc !important;
+  transform: scale(1.02);
+  border-color: #ccc;
 }
 
 /* GALLERY NAV BUTTONS */
 .gallery-prev {
-  left: 10px !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   color: #0b1215 !important;
-  font-size: 40px !important;
-  background-color: #f8f8f8 !important;
-  border-radius: 100% !important;
+  font-size: 40px;
+  background-color: #f8f8f8;
+  border-radius: 100%;
   font-weight: 400 !important;
-  width: 50px !important;
-  height: 50px !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery-next {
-  right: 10px !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   color: #0b1215 !important;
-  font-size: 40px !important;
+  font-size: 40px;
   font-weight: 400 !important;
-  background-color: #f8f8f8 !important;
-  border-radius: 100% !important;
-  width: 50px !important;
-  height: 50px !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
+  background-color: #f8f8f8;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slick-slide img {
-  padding-right: 0 !important;
+  padding-right: 0;
 }
+
+
 
 /* .cursor-left {
   cursor: url('../../../../../public/assets/arrow-left.svg') 25 25, w-resize;
@@ -233,64 +236,65 @@
 
 /* If you want the arrow icons as an <img> in the middle: */
 .slide-arrow {
-  position: absolute !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  z-index: 5 !important;
-  width: 30px !important;
-  height: auto !important;
-  pointer-events: none !important;
-  /* so clicks go "through" the arrow to the underlying slider */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  width: 30px;
+  height: auto;
+  pointer-events: none;
+  /* so clicks go “through” the arrow to the underlying slider */
 }
 
 .slide-arrow-left {
-  left: 50% !important;
-  transform: translate(-200%, -50%) !important;
+  left: 50%;
+  transform: translate(-200%, -50%);
   /* shift to left if you want it more leftward */
 }
 
 .slide-arrow-right {
-  right: 50% !important;
-  transform: translate(200%, -50%) !important;
+  right: 50%;
+  transform: translate(200%, -50%);
   /* shift to right */
 }
 
+
 .cursor-left {
-  cursor: none !important;
-  position: relative !important;
+  cursor: none;
+  position: relative;
 }
 
 .cursor-left::before {
-  content: '' !important;
-  position: fixed !important;
-  width: 28px !important;
-  height: 9px !important;
-  background: url('../../../../../public/assets/svg/arrow-left.svg') no-repeat center center !important;
-  background-size: contain !important;
-  pointer-events: none !important;
-  z-index: 1000 !important;
-  transform: translate(-50%, -50%) !important;
-  left: var(--cursor-x) !important;
-  top: var(--cursor-y) !important;
+  content: '';
+  position: fixed;
+  width: 28px;
+  height: 9px;
+  background: url('../../../../../public/assets/svg/arrow-left.svg') no-repeat center center;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+  left: var(--cursor-x);
+  top: var(--cursor-y);
 }
 
 .cursor-right {
-  cursor: none !important;
-  position: relative !important;
+  cursor: none;
+  position: relative;
 }
 
 .cursor-right::before {
-  content: '' !important;
-  position: fixed !important;
-  width: 28px !important;
-  height: 9px !important;
-  background: url('../../../../../public/assets/svg/arrow-right.svg') no-repeat center center !important;
-  background-size: contain !important;
-  pointer-events: none !important;
-  z-index: 1000 !important;
-  transform: translate(-50%, -50%) !important;
-  left: var(--cursor-x) !important;
-  top: var(--cursor-y) !important;
+  content: '';
+  position: fixed;
+  width: 28px;
+  height: 9px;
+  background: url('../../../../../public/assets/svg/arrow-right.svg') no-repeat center center;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+  left: var(--cursor-x);
+  top: var(--cursor-y);
 }
 
 /* Remove all main slider navigation arrows */
@@ -303,21 +307,22 @@
 
 /* Add cursor position tracking */
 .main-slider-container {
-  position: relative !important;
+  position: relative;
 }
 
+
 .main-slider-container {
-  position: relative !important;
+  position: relative;
 }
 
 .main-slide-img {
-  will-change: transform, opacity !important;
+  will-change: transform, opacity;
 }
 
 /* Remove only main slider nav buttons */
 .main-prev,
 .main-next {
-  display: none !important;
+  display: none;
 }
 
 /* .header-bar,
@@ -328,37 +333,38 @@
 
 @media screen and (min-width: 1920px) {
   .slick-slider.slick-initialized {
-    position: relative !important;
+    position: relative;
   }
 
   .main-prev,
   .main-next {
-    font-size: 22px !important;
+    font-size: 22px;
   }
 
   .main-next {
-    right: 10px !important;
+    right: 10px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .gallery-page-wrapper .header-bar {
-    padding-left: 0px !important;
-    padding-right: 10px !important;
+    padding-left: 0px;
+    padding-right: 10px;
   }
 
   .gallery-page-wrapper .header-bar .logo-img {
-    width: 60px !important;
-    height: 60px !important;
+    width: 60px;
+    height: 60px;
   }
 }
+
 
 /* Hide custom cursors under 992px (iPad Pro widths) */
 @media screen and (max-width: 992px) {
 
   .main-slider-container.cursor-left::before,
   .main-slider-container.cursor-right::before {
-    display: none !important;
+    display: none;
   }
 
   /* revert to default cursor so user sees the normal pointer */
@@ -372,42 +378,42 @@
 
   .info-left p,
   .info-right p {
-    font-size: 12px !important;
+    font-size: 12px;
   }
 
   .info-right p {
-    margin-right: -5px !important;
-    display: none !important;
+    margin-right: -5px;
+    display: none;
   }
 
   .below-main-info {
-    justify-content: center !important;
+    justify-content: center;
   }
 
   .info-left p {
-    text-align: center !important;
+    text-align: center;
     /* margin-left: -10px; */
   }
 
   .main-next {
-    right: 0px !important;
-    display: none !important;
+    right: 0px;
+    display: none;
   }
 
   .main-prev {
-    display: none !important;
+    display: none;
   }
 
   .slick-slide img {
-    padding-right: 0px !important;
+    padding-right: 0px;
   }
 
   .gallery-prev {
-    display: none !important;
+    display: none;
   }
 
   .gallery-next {
-    display: none !important;
+    display: none;
   }
 
   .main-slide {
@@ -422,12 +428,18 @@
   } */
 
   .gallery-page-wrapper .header-bar .logo-img {
-    width: 60px !important;
-    height: 60px !important;
+    width: 60px;
+    height: 60px;
   }
 
   .gallery-page-wrapper .header-bar {
-    padding-left: 0px !important;
-    padding-right: 10px !important;
+    padding-left: 0px;
+    padding-right: 10px;
   }
+
+  .gallery-slider-container {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 0px);
+    /* min-height: 150px;  */
+  }
+
 }

@@ -43,11 +43,7 @@ export default function Home() {
         NavItemcolor="#fff"
         openContact={setContactToggle}
       />
-      <Layout
-        text={"ONE FITOUT"}
-        sidebarBg={"#b51f29"}
-        sidebarTextColor="#FBFAF6"
-      >
+      <Layout text={"Brands"} sidebarBg={"#b51f29"} sidebarTextColor="#FBFAF6">
         <ResidanceBannerSection />
         <AboutResindance />
         <div className="residental_slider_container">

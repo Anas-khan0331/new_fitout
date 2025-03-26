@@ -1,20 +1,29 @@
 [
   {
-    "image": "/assets/project3.png",
-    "title": "Frond A,",
-    "label": "RENOVATION — KITCHENS",
-    "area": "The Palm, Dubai"
+    "image": "/assets/Cafe-1.jpg",
+    "title": "Cafe Renders",
+    "label": "DB1 — RENDERS"
+   
   },
   {
-    "image": "/assets/project4.png",
-    "label": "RENOVATION — KITCHENS",
-    "title": "Saheel,",
-    "area": "Arabian Ranches, Dubai"
+    "image": "/assets/swtz-1.jpg",
+    "label": "DB1 — RENDERS",
+    "title": "SWTZ Retail Store"
   },
   {
-    "image": "/assets/project5.png",
-    "label": "RENOVATION — Living room",
-    "title": "Savannah,",
-    "area": "Emirates Hills, Dubai"
+    "image": "/assets/WIC-1.jpg",
+    "label": "DB1 — RENDERS",
+    "title": "Walk in Closet"
+  },
+  {
+    "image": "/assets/dental-reception-1.jpg",
+    "label": "DB1 — RENDERS",
+    "title": "Dental Clinic"
+  },
+  {
+    "image": "/assets/salon-1.png",
+    "label": "DB1 — RENDERS",
+    "title": "The Retreat Salon"
   }
+  
 ]

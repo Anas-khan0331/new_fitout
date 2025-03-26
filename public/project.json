@@ -7,6 +7,7 @@
       "area": "Victory Heights",
       "community": "Novelia, Victory Heights",
       "renovate_by": "One Fitout",
+      "showContactDetails": false,
       "images": [
         "/assets/novelia2.jpg",
         "/assets/novelia3.jpg",
@@ -27,8 +28,9 @@
       "body": "This luxurious villa in Victory Heights’ Novelia community underwent a full-scale renovation, transforming it into a sophisticated and contemporary home. The project included extensive extension works to enhance space and functionality. A standout feature of this villa is the underground spiral wine cellar, a stunning addition that exudes elegance and craftsmanship. The master bathroom boasts state-of-the-art finishes, offering a spa-like retreat, while the fully customized kitchen, designed for both style and practicality, serves as the heart of the home. Every detail of this renovation reflects a seamless blend of luxury, innovation, and comfort."
     },
     {
-      "renovate_by": "Design by 1",
+      "renovate_by": "One Fitout",
       "id": 2,
+      "showContactDetails": false,
       "image": "/assets/mirodor2.jpg",
       "type": "Residential",
       "area": "Arabian Ranches",
@@ -48,8 +50,9 @@
       "body": "Situated in the prestigious Esmeralda community of Victory Heights, this villa underwent a full-scale renovation, blending modern sophistication with timeless elegance. The transformation introduced a refined yet welcoming atmosphere, with beautifully curated interiors and bespoke detailing. The kitchen stands out as a true masterpiece, combining style and functionality with premium finishes and meticulous craftsmanship. Another highlight of this home is the seamlessly designed living spaces, where every element is thoughtfully selected to enhance both comfort and luxury. This renovation perfectly balances contemporary design with warmth, creating a home that is as visually stunning as it is practical."
     },
     {
-      "renovate_by": "1Kitchen",
+      "renovate_by": "One Fitout",
       "id": 3,
+      "showContactDetails": false,
       "image": "/assets/esmerelda1.jpg",
       "type": "Residential",
       "area": "Victory Heights",
@@ -73,8 +76,9 @@
       "body": "Situated in the prestigious Esmeralda community of Victory Heights, this villa underwent a full-scale renovation, blending modern sophistication with timeless elegance. The transformation introduced a refined yet welcoming atmosphere, with beautifully curated interiors and bespoke detailing. The kitchen stands out as a true masterpiece, combining style and functionality with premium finishes and meticulous craftsmanship. Another highlight of this home is the seamlessly designed living spaces, where every element is thoughtfully selected to enhance both comfort and luxury. This renovation perfectly balances contemporary design with warmth, creating a home that is as visually stunning as it is practical."
     },
     {
-      "renovate_by": "Design by 1",
+      "renovate_by": "One Fitout",
       "id": 4,
+      "showContactDetails": false,
       "image": "/assets/rosa1.jpg",
       "type": "Residential",
       "area": "Arabian Ranches",
@@ -104,8 +108,9 @@
       "body": "Nestled in the serene Rosa community of Arabian Ranches, this villa underwent a complete transformation, redefining luxury and comfort. The full home renovation introduced a breathtaking new aesthetic, with a carefully curated color palette that enhances the villa's elegance. The heart of the home is its beautifully designed kitchen, where style meets functionality in perfect harmony. Every detail, from the refined finishes to the thoughtfully selected materials, contributes to a space that feels both sophisticated and inviting. This renovation seamlessly blends modern design with timeless charm, creating a home that is as stunning as it is functional."
     },
     {
-      "renovate_by": "1Kitchen",
+      "renovate_by": "One Fitout",
       "id": 5,
+      "showContactDetails": false,
       "image": "/assets/savannah1.jpg",
       "type": "Residential",
       "area": "Arabian Ranches",
@@ -130,32 +135,196 @@
       "body": "Located in the charming Savannah community of Arabian Ranches, this villa embodies the elegance of a British country home with a refined, timeless appeal. The full home renovation introduced warm, classic elements that blend sophistication with comfort. The heart of the villa is its breathtaking kitchen, featuring exquisite craftsmanship and a design that feels both luxurious and inviting. Another standout feature is the custom-made TV unit, a beautifully designed focal point that enhances the living space with understated elegance. This renovation captures the essence of British-inspired charm while delivering modern functionality, creating a home that feels effortlessly graceful and welcoming."
     },
     {
-      "renovate_by": "Design by 1",
+      "renovate_by": "1Kitchen",
       "id": 6,
-      "image": "/assets/savannah1.jpg",
-      "type": "Residential",
-      "area": "Jumeirah Golf Estate",
-      "community": "Savannah, Arabian Ranches",
+      "showContactDetails": true,
+      "image": "/assets/country-and-farmhouse-1.jpg",
+      "type": "Kitchens",
+      "area": "Al Quoz Industrial Area 4",
+      "community": "Country And Farmhouse",
       "images": [
-        "/assets/savannah1.jpg",
-        "/assets/savannah2.jpg",
-        "/assets/savannah3.jpg"
+        "/assets/country-and-farmhouse-1.jpg",
+        "/assets/country-and-farmhouse-2.jpg",
+        "/assets/country-and-farmhouse-3.jpg",
+        "/assets/country-and-farmhouse-4.jpg",
+        "/assets/country-and-farmhouse-5.jpg"
       ],
-      "body": "Located in the charming Savannah community of Arabian Ranches, this villa embodies the elegance of a British country home with a refined, timeless appeal. The full home renovation introduced warm, classic elements that blend sophistication with comfort. The heart of the villa is its breathtaking kitchen, featuring exquisite craftsmanship and a design that feels both luxurious and inviting. Another standout feature is the custom-made TV unit, a beautifully designed focal point that enhances the living space with understated elegance. This renovation captures the essence of British-inspired charm while delivering modern functionality, creating a home that feels effortlessly graceful and welcoming."
+      "body": "This classic country kitchen exudes warmth and charm, blending rustic details with timeless elegance. Soft, muted hues on shaker-style cabinetry pair beautifully with natural wood accents, creating a welcoming and relaxed atmosphere. Vintage-inspired hardware add a touch of nostalgia, while a farmhouse sinks and sturdy butcher-block countertops enhance the kitchen’s authentic appeal. Natural light pours in, illuminating every detail and inviting family gatherings, making this kitchen a true heart of the home where tradition meets comfort."
     },
     {
-      "renovate_by": "One Fitout",
-      "id": 5,
-      "image": "/assets/savannah1.jpg",
-      "type": "Residential",
-      "area": "Arabian Ranches",
-      "community": "Testing Project 111, Sharjah",
+      "renovate_by": "1Kitchen",
+      "id": 7,
+      "showContactDetails": true,
+      "image": "/assets/industrial-1.jpg",
+      "type": "Kitchens",
+      "area": "Al Quoz Industrial Area 4",
+      "community": "Industrial Design",
       "images": [
-        "/assets/savannah1.jpg",
-        "/assets/savannah2.jpg",
-        "/assets/savannah3.jpg"
+        "/assets/industrial-1.jpg",
+        "/assets/industrial-2.jpg",
+        "/assets/industrial-3.jpg",
+        "/assets/industrial-4.jpg",
+        "/assets/industrial-5.jpg",
+        "/assets/industrial-6.jpg",
+        "/assets/industrial-7.jpg",
+        "/assets/industrial-8.jpg"
       ],
-      "body": "Located in the charming Savannah community of Arabian Ranches, this villa embodies the elegance of a British country home with a refined, timeless appeal. The full home renovation introduced warm, classic elements that blend sophistication with comfort. The heart of the villa is its breathtaking kitchen, featuring exquisite craftsmanship and a design that feels both luxurious and inviting. Another standout feature is the custom-made TV unit, a beautifully designed focal point that enhances the living space with understated elegance. This renovation captures the essence of British-inspired charm while delivering modern functionality, creating a home that feels effortlessly graceful and welcoming."
+      "body": "This industrial-style kitchen captures the raw beauty of urban design, blending rugged materials with modern functionality. Exposed brick walls, weathered wood accents, open shelving and metal fixtures add an edgy, utilitarian feel. Concrete or reclaimed wood countertops introduce a textured contrast, enhancing the kitchen’s gritty charm. Overhead pendant lights with warm, exposed bulbs cast a welcoming glow, illuminating each detail and evoking a loft-like ambiance. It’s a space that balances strength with style, perfect for those who appreciate a modern twist on rustic, industrial character."
+    },
+    {
+      "renovate_by": "1Kitchen",
+      "id": 8,
+      "showContactDetails": true,
+      "image": "/assets/modern-minimalist-1.jpg",
+      "type": "Kitchens",
+      "area": "Al Quoz Industrial Area 4",
+      "community": "Modern Minimalist",
+      "images": [
+        "/assets/modern-minimalist-1.jpg",
+        "/assets/modern-minimalist-2.jpg",
+        "/assets/modern-minimalist-3.jpg",
+        "/assets/modern-minimalist-4.jpg",
+        "/assets/modern-minimalist-5.jpg",
+        "/assets/modern-minimalist-6.jpg"
+      ],
+      "body": "In this modern kitchen design, clean lines and minimalistic elegance create a space that feels both timeless and innovative. The palette, anchored by deep tones and soft neutrals, brings a calming sophistication, while high-quality finishes like matte cabinetry and thoughtfully integrated storage solutions maintain the kitchen’s seamless look, making it as functional as it is beautiful. Warm under-cabinet lighting and refined porcelain stone countertop complete the aesthetic, inviting a perfect blend of style and practicality into the heart of the home."
+    },
+    {
+      "renovate_by": "1Kitchen",
+      "id": 9,
+      "showContactDetails": true,
+      "image": "/assets/modern-contemporary-1.jpg",
+      "type": "Kitchens",
+      "area": "Al Quoz Industrial Area 4",
+      "community": "Modern Contemporary",
+      "images": [
+        "/assets/modern-contemporary-1.jpg",
+        "/assets/modern-contemporary-2.jpg",
+        "/assets/modern-contemporary-3.jpg",
+        "/assets/modern-contemporary-4.jpg",
+        "/assets/modern-contemporary-5.jpg"
+      ],
+      "body": "In this contemporary kitchen, sleek sophistication meets effortless functionality. Smooth, handle-free cabinets in bold, matte finishes create a streamlined aesthetic, while subtle textures in stone or quartz countertops add depth and elegance. A restrained color palette—think monochromatic tones with pops of accent color—gives the space a refined, cohesive look. State-of-the-art appliances blend seamlessly into the design, and carefully placed LED lighting enhances both functionality and ambiance. This is a kitchen designed for modern living, where style and efficiency come together in perfect harmony."
+    },
+    {
+      "renovate_by": "1Kitchen",
+      "id": 10,
+      "showContactDetails": true,
+      "image": "/assets/scandinavian-1.jpg",
+      "type": "Kitchens",
+      "area": "Al Quoz Industrial Area 4",
+      "community": "Scandinavian",
+      "images": [
+        "/assets/scandinavian-1.jpg",
+        "/assets/scandinavian-2.jpg",
+        "/assets/scandinavian-3.jpg",
+        "/assets/scandinavian-4.jpg",
+        "/assets/scandinavian-5.jpg"
+      ],
+      "body": "A Scandinavian kitchen embraces simplicity, light, and functionality, creating a serene and inviting space. The design is marked by clean lines, natural materials, and a neutral color palette, often centered around whites, soft grays, and warm wood tones. Minimalist cabinetry and open shelving maintain a sense of spaciousness, while touches like matte finishes and subtle textures add warmth and depth. Large windows invite natural light, enhancing the airy feel, while practical elements—such as well-organized storage and energy efficient appliances—reflect the Scandinavian emphasis on functionality. This style embodies understated elegance, creating a cozy, clutter-free environment that feels effortlessly welcoming."
+    },
+    {
+      "renovate_by": "Design by 1",
+      "id": 11,
+      "showContactDetails": false,
+      "image": "/assets/Cafe-1.jpg",
+      "type": "DB1",
+      "area": "area goes here",
+      "community": "Cafe Renders",
+      "images": [
+        "/assets/Cafe-1.jpg",
+        "/assets/Cafe-2.jpg",
+        "/assets/Cafe-3.jpg",
+        "/assets/Cafe-4.jpg",
+        "/assets/Cafe-5.jpg",
+        "/assets/Cafe-6.jpg",
+        "/assets/Cafe-7.jpg",
+        "/assets/Cafe-8.jpg",
+        "/assets/Cafe-9.jpg",
+        "/assets/Cafe-10.jpg"
+      ],
+      "body": "Designed to be an inviting and stylish retreat, this café blends natural elements with contemporary aesthetics. Soft neutral tones, textured walls, and warm wooden accents create a cozy yet sophisticated atmosphere. Custom lighting installations add a unique, sculptural touch, while lush greenery enhances the organic feel. The layout is thoughtfully planned to maximize comfort and functionality, from intimate seating nooks to a sleek central bar. A perfect fusion of modern minimalism and natural charm, this space redefines the café experience with effortless elegance."
+    },
+    {
+      "renovate_by": "Design by 1",
+      "id": 12,
+      "showContactDetails": false,
+      "image": "/assets/swtz-1.jpg",
+      "type": "DB1",
+      "area": "area goes here",
+      "community": "SWTZ Retail Store",
+      "images": [
+        "/assets/swtz-1.jpg",
+        "/assets/swtz-2.jpg",
+        "/assets/swtz-3.jpg",
+        "/assets/swtz-4.jpg",
+        "/assets/swtz-5.jpg",
+        "/assets/swtz-6.jpg",
+        "/assets/swtz-7.jpg",
+        "/assets/swtz-8.jpg"
+      ],
+      "body": "SWTZ redefines the modern athletic retail experience with a sleek, minimalist design. The monochromatic palette creates a clean and sophisticated backdrop, allowing the brand’s products to take center stage. Custom black metal display racks contrast against crisp white walls, enhancing product visibility and organization. Soft LED strip lighting outlines the space, adding a futuristic touch while guiding customers through the store. Thoughtfully placed mannequins and interactive elements bring the activewear collections to life, making SWTZ not just a retail store but a dynamic shopping experience."
+    },
+    {
+      "renovate_by": "Design by 1",
+      "id": 13,
+      "showContactDetails": false,
+      "image": "/assets/WIC-1.jpg",
+      "type": "DB1",
+      "area": "area goes here",
+      "community": "Walk in Closet",
+      "images": [
+        "/assets/WIC-1.jpg",
+        "/assets/WIC-2.jpg",
+        "/assets/WIC-3.jpg",
+        "/assets/WIC-4.jpg",
+        "/assets/WIC-5.jpg"
+      ],
+      "body": "This custom walk-in closet redefines luxury living with a seamless blend of sophistication and practicality. Featuring sleek glass-fronted wardrobes, ambient lighting, and a central island with integrated storage, the space is both stylish and highly functional. A neutral color palette enhances the sense of openness, while carefully curated materials bring warmth and refinement. Thoughtfully designed shelving, dedicated compartments, and a cozy seating nook create an organized yet inviting retreat, ensuring every detail is tailored for effortless elegance and daily convenience."
+    },
+    {
+      "renovate_by": "Design by 1",
+      "id": 14,
+      "showContactDetails": false,
+      "image": "/assets/dental-reception-1.jpg",
+      "type": "DB1",
+      "area": "area goes here",
+      "community": "Dental Clinic",
+      "images": [
+        "/assets/dental-reception-1.jpg",
+        "/assets/dental-reception-2.jpg",
+        "/assets/dental-reception-3.jpg",
+        "/assets/dental-reception-4.jpg",
+        "/assets/dental-room-1.jpg",
+        "/assets/dental-room-2.jpg"
+      ],
+      "body": "This dental clinic design reimagines healthcare spaces with a soothing and elegant approach. A soft, neutral palette of warm wood tones, pastel seating, and natural stone textures creates a calming environment for patients. The reception area features a sleek, modern desk with terrazzo and glass accents, offering a welcoming first impression. Carefully curated lighting enhances the ambiance, while subtle design details, such as the wooden grid wall and green stone feature, add depth and sophistication. Merging functionality with aesthetics, this space ensures a serene and comforting experience."
+    },
+    {
+      "renovate_by": "Design by 1",
+      "id": 15,
+      "showContactDetails": false,
+      "image": "/assets/salon-1.png",
+      "type": "DB1",
+      "area": "area goes here",
+      "community": "The Retreat Salon",
+      "images": [
+        "/assets/salon-1.png",
+        "/assets/salon-2.png",
+        "/assets/salon-3.png",
+        "/assets/salon-4.png",
+        "/assets/salon-5.png",
+        "/assets/salon-6.png",
+        "/assets/salon-7.png",
+        "/assets/salon-8.png",
+        "/assets/salon-9.png",
+        "/assets/salon-10.png",
+        "/assets/salon-11.png",
+        "/assets/salon-12.png",
+        "/assets/salon-13.png",
+        "/assets/salon-14.png"
+      ],
+      "body": "The Retreat embodies modern tranquility through a seamless blend of organic textures, soft lighting, and elegant detailing. The space balances functionality with an inviting ambiance, creating a luxurious escape for beauty and wellness. A neutral color palette, bespoke furnishings, and subtle greenery evoke a sense of serenity, while carefully curated display shelves enhance the retail experience. From the sculpted reception desk to the intimate lounge area, every element reflects a refined aesthetic, ensuring guests feel relaxed and rejuvenated the moment they step inside."
     }
   ]
 }

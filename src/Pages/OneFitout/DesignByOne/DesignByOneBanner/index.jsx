@@ -27,7 +27,7 @@ let barColor = "#b51f29";
 let textColorNav = "#fbfaf6";
 let textColorMenu = "#fbfaf6";
 let bOutline = "#fbfaf6";
-let residentialDataSet = "/residental.json";
+let residentialDataSet = "/db1featuredservices.json";
 let residentialTitle = "  FEATURED SERVICES";
 const icon = "/assets/logo-red-white.png";
 const DesignByOne = () => {
@@ -86,11 +86,7 @@ const DesignByOne = () => {
         NavItemcolor="#fff"
         openContact={setContactToggle}
       />
-      <Layout
-        text={"Desgin by 1"}
-        sidebarBg={"#0B1215"}
-        sidebarTextColor="#b51f29"
-      >
+      <Layout text={"Brands"} sidebarBg={"#b51f29"} sidebarTextColor="#fff">
         <DesignHomeBanner />
         <DesignResindance />
         <div className="residental_slider_container">
@@ -104,6 +100,7 @@ const DesignByOne = () => {
             btnText={"Explore All"}
             showBtnMobile={false}
             resource={residentialDataSet}
+            objectFit={"cover"}
           />
         </div>
         <DesignByOneSlider />
@@ -117,8 +114,6 @@ const DesignByOne = () => {
         )}
       </Layout>
       <AboutSection />
-      {/* <Footer id="residential-footer" />
-      <Copyright id="residential-copyright" /> */}
       <FooterBootstrap />
     </div>
   );

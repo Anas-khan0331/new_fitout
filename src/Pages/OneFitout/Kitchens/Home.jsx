@@ -82,7 +82,7 @@ export default function Home() {
         btnColor="#B51F29"
         btnBorder="1px solid #B51F29"
       />
-      <Layout sidebarBg="#FBFAF6">
+      <Layout text={"Brands"} sidebarBg="#FBFAF6">
         <div>
           <div
             style={{

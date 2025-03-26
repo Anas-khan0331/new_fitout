@@ -1,0 +1,128 @@
+.projectDescription {
+    position: absolute;
+    max-width: 340px;
+    text-align: center;
+    bottom: 30px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.left-side-content,
+.right-side-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.left-side-content:hover .project-overlay,
+.right-side-content:hover .project-overlay {
+    opacity: 1;
+}
+
+.left-side-content:hover .projectDescription,
+.right-side-content:hover .projectDescription {
+    opacity: 1;
+}
+
+body.sliding-page-open {
+    overflow: hidden;
+}
+
+@media (max-width: 992px) {
+    .sliding-modal-wrapper {
+        width: 100% !important;
+        right: 0 !important;
+    }
+}
+
+.projectLogo {
+    width: 464px;
+    height: 64px;
+}
+
+.sliding-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    opacity: 0;
+}
+
+.sliding-modal-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    /* Change to your desired background color */
+    z-index: 1001;
+    will-change: transform;
+    backface-visibility: hidden;
+    height: 100vh;
+}
+
+.sliding-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+body.sliding-page-open {
+    overflow: hidden;
+}
+
+.left-side-content {
+    background-image: url("../../../assets/images/db1-banner.png");
+    /* Ensure the path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.right-side-content {
+    background-image: url("../../../assets/images/projectkitchen.png");
+    /* Ensure the path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .sliding-modal-wrapper {
+        width: 100% !important;
+        right: 0 !important;
+    }
+}
+
+
+
+/* Side Component hover Class Styling*/
+
+.sideComponent_class:hover {
+    background: #0B1215 !important;
+}
+
+.sideComponent_class:hover p {
+    color: #fff !important;
+}
