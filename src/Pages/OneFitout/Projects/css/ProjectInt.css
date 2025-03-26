@@ -216,7 +216,7 @@
 #readmore-details>span {
   display: flex;
   flex-direction: column;
-  gap: 0.3125rem;
+  margin: 5px 0px;
   /* 5px / 16 */
 }
 
