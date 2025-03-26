@@ -130,8 +130,8 @@ const ProjectInnerGallery = () => {
     arrows: false,
     dots: false,
     fade: false,
-    speed: viewWidth <= 992 ? 0 : 500,
-    cssEase: "linear",
+    speed: viewWidth <= 992 ? 0 : 800,
+    cssEase: "cubic-bezier(1, 0, 0.29, 1)",
     lazyLoad: null, // Disable lazy loading
     initialSlide: 0,
     adaptiveHeight: true,

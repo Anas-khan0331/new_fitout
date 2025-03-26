@@ -1087,7 +1087,7 @@ export default function ProjectInt() {
                           {contactUsData1.contact}{" "}
                         </span>
                       </span>
-                      <span>
+                      <span style={{ marginTop: "5px" }}>
                         <span className="readmore-title">
                           {contactUsData2.title}
                         </span>
@@ -1095,7 +1095,7 @@ export default function ProjectInt() {
                           {contactUsData2.contact}
                         </span>
                       </span>
-                      <span>
+                      <span style={{ marginTop: "5px" }}>
                         <span className="readmore-title">
                           {contactUsData3.title}
                         </span>
@@ -1107,7 +1107,7 @@ export default function ProjectInt() {
                           {contactUsData3.phone}{" "}
                         </span>
                       </span>
-                      <span>
+                      <span style={{ marginTop: "5px" }}>
                         <span className="readmore-title">Location</span>
                         <span className="readmore-subtitle">
                           {Project?.area || "Unknown Type"}{" "}

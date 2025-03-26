@@ -1,7 +1,7 @@
 .gallery-page-wrapper {
   display: flex;
   flex-direction: column;
-  height: 90vh !important;
+  height: 100vh !important;
 }
 
 /* ----- HEADER ----- */
@@ -361,6 +361,9 @@
 
 /* Hide custom cursors under 992px (iPad Pro widths) */
 @media screen and (max-width: 992px) {
+  .gallery-page-wrapper {
+    height: 90vh !important;
+  }
 
   .main-slider-container.cursor-left::before,
   .main-slider-container.cursor-right::before {
