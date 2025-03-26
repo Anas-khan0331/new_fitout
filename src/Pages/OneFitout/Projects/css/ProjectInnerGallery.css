@@ -1,7 +1,7 @@
 .gallery-page-wrapper {
   display: flex;
   flex-direction: column;
-  height: 95vh !important;
+  height: 90vh !important;
 }
 
 /* ----- HEADER ----- */
