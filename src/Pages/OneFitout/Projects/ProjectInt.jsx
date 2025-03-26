@@ -1066,54 +1066,52 @@ export default function ProjectInt() {
                     </div>
                   </div>
                   <div id="readmore-details">
-                    <div id="readmore-details">
-                      <span>
-                        <span className="readmore-title">TYPE</span>
-                        <span
-                          style={{ marginTop: "2px" }}
-                          className="readmore-subtitle"
-                        >
-                          {Project?.type || "Unknown Type"}
-                        </span>
+                    <span>
+                      <span className="readmore-title">TYPE</span>
+                      <span
+                        style={{ marginTop: "2px" }}
+                        className="readmore-subtitle"
+                      >
+                        {Project?.type || "Unknown Type"}
                       </span>
-                      <span style={{ marginTop: "10px" }}>
-                        <span className="readmore-title">LOCATION</span>
-                        <span
-                          style={{ marginTop: "2px" }}
-                          className="readmore-subtitle"
-                        >
-                          {Project?.area || "Unknown Location"}
-                        </span>
+                    </span>
+                    <span style={{ marginTop: "10px" }}>
+                      <span className="readmore-title">LOCATION</span>
+                      <span
+                        style={{ marginTop: "2px" }}
+                        className="readmore-subtitle"
+                      >
+                        {Project?.area || "Unknown Location"}
                       </span>
-                      <span style={{ marginTop: "5px" }}>
-                        <span className="readmore-title">YEAR</span>
-                        <span
-                          style={{ marginTop: "2px" }}
-                          className="readmore-subtitle"
-                        >
-                          2023
-                        </span>
+                    </span>
+                    <span style={{ marginTop: "5px" }}>
+                      <span className="readmore-title">YEAR</span>
+                      <span
+                        style={{ marginTop: "2px" }}
+                        className="readmore-subtitle"
+                      >
+                        2023
                       </span>
-                      <div className="" style={{ marginTop: "30px" }}>
-                        <Link
-                          style={{
-                            textDecoration: "none",
-                            width: "100%",
-                            display: "block",
-                          }}
-                          to={`${pathname}/gallery`}
-                        >
-                          <CustomButton
-                            borderRadius="1.875rem"
-                            Icon={IoGrid}
-                            isIcon={true}
-                            btnTxt="Gallery"
-                            border="0.0625rem solid #1c1c1c"
-                            color="#0b1215"
-                            viewWidth={viewWidth}
-                          />
-                        </Link>
-                      </div>
+                    </span>
+                    <div className="" style={{ marginTop: "30px" }}>
+                      <Link
+                        style={{
+                          textDecoration: "none",
+                          width: "100%",
+                          display: "block",
+                        }}
+                        to={`${pathname}/gallery`}
+                      >
+                        <CustomButton
+                          borderRadius="1.875rem"
+                          Icon={IoGrid}
+                          isIcon={true}
+                          btnTxt="Gallery"
+                          border="0.0625rem solid #1c1c1c"
+                          color="#0b1215"
+                          viewWidth={viewWidth}
+                        />
+                      </Link>
                     </div>
                   </div>
                 </div>
