@@ -1065,84 +1065,82 @@ export default function ProjectInt() {
                       </p>
                     </div>
                   </div>
-                  <div id="readmore-details">
-                    {Project?.showContactDetails ? (
-                      <div id="readmore-details">
-                        <span>
-                          <span className="readmore-title">
-                            {contactUsData1.title}
-                          </span>
-                          <span className="readmore-subtitle">
-                            {contactUsData1.contact}{" "}
-                          </span>
+                  {Project?.showContactDetails ? (
+                    <div id="readmore-details">
+                      <span>
+                        <span className="readmore-title">
+                          {contactUsData1.title}
                         </span>
-                        <span>
-                          <span className="readmore-title">
-                            {contactUsData2.title}
-                          </span>
-                          <span className="readmore-subtitle">
-                            {contactUsData2.contact}
-                          </span>
+                        <span className="readmore-subtitle">
+                          {contactUsData1.contact}{" "}
                         </span>
-                        <span>
-                          <span className="readmore-title">
-                            {contactUsData3.title}
-                          </span>
-                          <span className="readmore-subtitle">
-                            {" "}
-                            {contactUsData3.contact}
-                          </span>
-                          <span className="readmore-subtitle">
-                            {contactUsData3.phone}{" "}
-                          </span>
+                      </span>
+                      <span>
+                        <span className="readmore-title">
+                          {contactUsData2.title}
                         </span>
-                        <span>
-                          <span className="readmore-title">Location</span>
-                          <span className="readmore-subtitle">
-                            {Project?.area || "Unknown Type"}{" "}
-                          </span>
+                        <span className="readmore-subtitle">
+                          {contactUsData2.contact}
                         </span>
-                      </div>
-                    ) : (
-                      <div id="readmore-details">
-                        <span>
-                          <span className="readmore-title">TYPE</span>
-                          <span className="readmore-subtitle">
-                            {Project?.type || "Unknown Type"}
-                          </span>
+                      </span>
+                      <span>
+                        <span className="readmore-title">
+                          {contactUsData3.title}
                         </span>
-                        <span>
-                          <span className="readmore-title">LOCATION</span>
-                          <span className="readmore-subtitle">
-                            {Project?.area || "Unknown Location"}
-                          </span>
+                        <span className="readmore-subtitle">
+                          {" "}
+                          {contactUsData3.contact}
                         </span>
-                        <span>
-                          <span className="readmore-title">YEAR</span>
-                          <span className="readmore-subtitle">2023</span>
+                        <span className="readmore-subtitle">
+                          {contactUsData3.phone}{" "}
                         </span>
-                      </div>
-                    )}
-                    <div className="" style={{ marginTop: "30px" }}>
-                      <Link
-                        style={{
-                          textDecoration: "none",
-                          width: "100%",
-                          display: "block",
-                        }}
-                        to={`${pathname}/gallery`}
-                      >
-                        <CustomButton
-                          borderRadius="1.875rem"
-                          Icon={IoGrid}
-                          isIcon={true}
-                          btnTxt="Gallery"
-                          border="0.0625rem solid #1c1c1c"
-                          color="#0b1215"
-                          viewWidth={viewWidth}
-                        />
-                      </Link>
+                      </span>
+                      <span>
+                        <span className="readmore-title">Location</span>
+                        <span className="readmore-subtitle">
+                          {Project?.area || "Unknown Type"}{" "}
+                        </span>
+                      </span>
                     </div>
+                  ) : (
+                    <div id="readmore-details">
+                      <span>
+                        <span className="readmore-title">TYPE</span>
+                        <span className="readmore-subtitle">
+                          {Project?.type || "Unknown Type"}
+                        </span>
+                      </span>
+                      <span>
+                        <span className="readmore-title">LOCATION</span>
+                        <span className="readmore-subtitle">
+                          {Project?.area || "Unknown Location"}
+                        </span>
+                      </span>
+                      <span>
+                        <span className="readmore-title">YEAR</span>
+                        <span className="readmore-subtitle">2023</span>
+                      </span>
+                    </div>
+                  )}
+                  <div className="" style={{ marginTop: "30px" }}>
+                    <Link
+                      style={{
+                        textDecoration: "none",
+                        width: "100%",
+                        display: "block",
+                      }}
+                      to={`${pathname}/gallery`}
+                    >
+                      <CustomButton
+                        borderRadius="1.875rem"
+                        Icon={IoGrid}
+                        isIcon={true}
+                        btnTxt="Gallery"
+                        border="0.0625rem solid #1c1c1c"
+                        color="#0b1215"
+                        viewWidth={viewWidth}
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
