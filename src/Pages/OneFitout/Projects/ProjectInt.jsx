@@ -1134,7 +1134,10 @@ export default function ProjectInt() {
                       </span>
                     </div>
                   )}
-                  <div className="" style={{ marginTop: "30px" }}>
+                  <div
+                    className=""
+                    style={{ marginTop: "20px", padding: "0px 20px" }}
+                  >
                     <Link
                       style={{
                         textDecoration: "none",
