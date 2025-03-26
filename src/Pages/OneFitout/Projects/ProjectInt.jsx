@@ -1029,7 +1029,7 @@ export default function ProjectInt() {
                 style={{
                   // display: "flex",
                   // flexDirection: "column",
-                  height: "70vh", // Full height of the viewport
+                  height: "81vh", // Full height of the viewport
                   // justifyContent: "space-between", // Space between content and button
                   backgroundColor: "#fbfaf6",
                 }}
@@ -1065,82 +1065,56 @@ export default function ProjectInt() {
                       </p>
                     </div>
                   </div>
-                  {Project?.showContactDetails ? (
-                    <div id="readmore-details">
-                      <span>
-                        <span className="readmore-title">
-                          {contactUsData1.title}
-                        </span>
-                        <span className="readmore-subtitle">
-                          {contactUsData1.contact}{" "}
-                        </span>
-                      </span>
-                      <span>
-                        <span className="readmore-title">
-                          {contactUsData2.title}
-                        </span>
-                        <span className="readmore-subtitle">
-                          {contactUsData2.contact}
-                        </span>
-                      </span>
-                      <span>
-                        <span className="readmore-title">
-                          {contactUsData3.title}
-                        </span>
-                        <span className="readmore-subtitle">
-                          {" "}
-                          {contactUsData3.contact}
-                        </span>
-                        <span className="readmore-subtitle">
-                          {contactUsData3.phone}{" "}
-                        </span>
-                      </span>
-                      <span>
-                        <span className="readmore-title">Location</span>
-                        <span className="readmore-subtitle">
-                          {Project?.area || "Unknown Type"}{" "}
-                        </span>
-                      </span>
-                    </div>
-                  ) : (
+                  <div id="readmore-details">
                     <div id="readmore-details">
                       <span>
                         <span className="readmore-title">TYPE</span>
-                        <span className="readmore-subtitle">
+                        <span
+                          style={{ marginTop: "2px" }}
+                          className="readmore-subtitle"
+                        >
                           {Project?.type || "Unknown Type"}
                         </span>
                       </span>
-                      <span>
+                      <span style={{ marginTop: "10px" }}>
                         <span className="readmore-title">LOCATION</span>
-                        <span className="readmore-subtitle">
+                        <span
+                          style={{ marginTop: "2px" }}
+                          className="readmore-subtitle"
+                        >
                           {Project?.area || "Unknown Location"}
                         </span>
                       </span>
-                      <span>
+                      <span style={{ marginTop: "5px" }}>
                         <span className="readmore-title">YEAR</span>
-                        <span className="readmore-subtitle">2023</span>
+                        <span
+                          style={{ marginTop: "2px" }}
+                          className="readmore-subtitle"
+                        >
+                          2023
+                        </span>
                       </span>
+                      <div className="" style={{ marginTop: "30px" }}>
+                        <Link
+                          style={{
+                            textDecoration: "none",
+                            width: "100%",
+                            display: "block",
+                          }}
+                          to={`${pathname}/gallery`}
+                        >
+                          <CustomButton
+                            borderRadius="1.875rem"
+                            Icon={IoGrid}
+                            isIcon={true}
+                            btnTxt="Gallery"
+                            border="0.0625rem solid #1c1c1c"
+                            color="#0b1215"
+                            viewWidth={viewWidth}
+                          />
+                        </Link>
+                      </div>
                     </div>
-                  )}
-                  <div className="" style={{ marginTop: "30px" }}>
-                    <Link
-                      style={{
-                        textDecoration: "none",
-                        width: "100%",
-                        display: "block",
-                      }}
-                      to={`${pathname}/gallery`}
-                    >
-                      <CustomButton
-                        borderRadius="1.875rem"
-                        Icon={IoGrid}
-                        isIcon={true}
-                        btnTxt="Gallery"
-                        border="0.0625rem solid #1c1c1c"
-                        color="#0b1215"
-                        viewWidth={viewWidth}
-                      />
-                    </Link>
                   </div>
                 </div>
               </div>
