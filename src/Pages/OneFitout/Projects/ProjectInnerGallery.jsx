@@ -28,6 +28,7 @@ const ProjectInnerGallery = () => {
   const location = useLocation();
   const { community } = useParams();
   const [projectData, setProjectData] = useState(null);
+  const [viewWidth, setViewWidth] = useState(window.innerWidth);
 
   // Fetch project data
   useEffect(() => {
@@ -74,42 +75,73 @@ const ProjectInnerGallery = () => {
   const mainSliderRef = useRef(null);
   const [cursorPosition, setCursorPosition] = useState("default");
   const [insideMainSlider, setInsideMainSlider] = useState(false);
+  const [isInitialized, setIsInitialized] = useState(false);
 
-  // Inside your component:
+  // Add resize listener
+  useEffect(() => {
+    const handleResize = () => {
+      setViewWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Add console logs to debug initialization
+  useEffect(() => {
+    console.log("Slider mounted, nav1:", nav1);
+    console.log("Images:", images);
+
+    if (nav1 && images.length > 0 && !isInitialized) {
+      console.log("Initializing slider...");
+
+      // Force immediate update
+      nav1.slickGoTo(0, true);
+
+      // Additional initialization after a short delay
+      setTimeout(() => {
+        if (nav1) {
+          nav1.slickGoTo(0, true);
+          nav1.slickSetOption("initialSlide", 0, true);
+          setIsInitialized(true);
+          console.log("Slider initialization complete");
+        }
+      }, 300);
+    }
+  }, [nav1, images, isInitialized]);
+
+  // Add window resize handler
+  useEffect(() => {
+    const handleResize = () => {
+      if (nav1) {
+        nav1.slickGoTo(currentSlide, true);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [nav1, currentSlide]);
+
+  // Update mainSliderSettings
   const mainSliderSettings = {
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: false,
     arrows: false,
     dots: false,
-    fade: false, // ensure horizontal slide
-    speed: 0, // how fast Slick slides
-    cssEase: "cubic-bezier(1, 0, 0.29, 1)", // nice easing
+    fade: false,
+    speed: viewWidth <= 992 ? 0 : 500,
+    cssEase: "linear",
+    lazyLoad: null, // Disable lazy loading
+    initialSlide: 0,
+    adaptiveHeight: true,
+    swipe: true,
+    touchThreshold: 10,
+    waitForAnimate: false,
+    centerMode: true, // Add center mode
+    centerPadding: "0px",
     beforeChange: (oldIndex, newIndex) => {
-      // If you track the current slide in state:
       setCurrentSlide(newIndex);
-      // We do *no* GSAP here so the slide starts immediately.
-    },
-    afterChange: (currentIndex) => {
-      // Once the slide has finished moving horizontally,
-      // do a subtle scale effect on the *new* slide:
-      const slides = document.querySelectorAll(".main-slide");
-      const newSlide = slides[currentIndex];
-      if (!newSlide) return;
-
-      const imgEl = newSlide.querySelector(".main-slide-img");
-      if (!imgEl) return;
-
-      gsap.fromTo(
-        imgEl,
-        { scale: 1, opacity: 1 }, // start slightly bigger & a bit faded
-        {
-          duration: 0.4,
-          scale: 1,
-          opacity: 1,
-          ease: "power2.out",
-        }
-      );
     },
   };
 
@@ -232,6 +264,25 @@ const ProjectInnerGallery = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const checkSliderState = () => {
+      if (nav1) {
+        // Force the slider to start at slide index 1 (second slide)
+        nav1.slickGoTo(1);
+
+        // Or directly set the transform
+        const track = document.querySelector(".slick-track");
+        if (track) {
+          track.style.transform = "translate3d(-340px, 0px, 0px)";
+        }
+      }
+    };
+
+    checkSliderState();
+    // Check again after a short delay
+    // setTimeout(checkSliderState, 500);
+  }, [nav1, currentSlide]);
+
   return (
     <div
       ref={containerRef}
@@ -285,16 +336,23 @@ const ProjectInnerGallery = () => {
         <div className="main-slider-wrapper">
           <Slider
             asNavFor={nav2}
-            ref={(slider) => setNav1(slider)}
+            ref={(slider) => {
+              setNav1(slider);
+              console.log("Slider ref set:", slider); // Debug log
+            }}
             {...mainSliderSettings}
           >
             {images.map((imgSrc, idx) => (
               <div key={idx} className="main-slide">
-                <img
-                  src={imgSrc}
-                  alt={`Slide ${idx}`}
-                  className="main-slide-img"
-                />
+                <div className="slide-image-container">
+                  <img
+                    src={imgSrc}
+                    alt={`Slide ${idx}`}
+                    className="main-slide-img"
+                    loading="eager"
+                    onLoad={() => console.log(`Image ${idx} loaded`)} // Debug log
+                  />
+                </div>
               </div>
             ))}
           </Slider>

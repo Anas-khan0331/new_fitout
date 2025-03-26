@@ -453,7 +453,7 @@ export default function ProjectGrid({
                           style={{ objectFit: "cover" }}
                           alt="project"
                           width="100%"
-                          height={index % itemsPerPage < 2 ? "530px" : "320px"}
+                          height={index < 2 ? "530px" : "320px"} // Changed this line
                         />
                         <p id="projectgrid-section">
                           <span
